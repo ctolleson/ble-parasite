@@ -1,6 +1,6 @@
 # Bare nRF52840 b-parasite revision — design brief
 
-**Status: design specification only.** `parasite.kicad_sch` and `parasite.kicad_pcb` in this directory are an unchanged copy of the upstream module-based hardware. They are not a bare-MCU implementation and must not be fabricated as such.
+**Status: schematic captured; PCB layout in progress.** The schematic now uses the bare nRF52840-QIAA and its external support circuits. The PCB is being transferred and rerouted. This is a prototype design, not a fabrication release.
 
 ## Goal and baseline
 
