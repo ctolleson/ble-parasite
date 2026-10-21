@@ -13972,11 +13972,11 @@
 		(dnp no)
 		(uuid "e600f867-1483-4148-ae10-c1882242cb85")
 		(property "Reference" "J1"
-			(at 375.92 241.3 0)
+			(at 377.19 237.617 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Value" "TC2030-SWD"
-			(at 375.92 248.92 0)
+			(at 377.19 239.395 0)
 			(effects (font (size 1.27 1.27)))
 		)
 		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
@@ -15656,6 +15656,156 @@
 	
 	
 	(no_connect (at 383.54 247.65) (uuid "29b10060-e977-41ef-8536-a0a626f1c578"))
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	(wire
 		(pts (xy 26.67 139.7) (xy 31.75 139.7))
 		(stroke (width 0) (type solid))
