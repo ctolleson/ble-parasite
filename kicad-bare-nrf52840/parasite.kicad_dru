@@ -1,8 +1,3 @@
 (version 1)
-
-# 0.25 mm circular aQFN pads on 0.5 mm pitch require a local escape rule.
-# 0.10 mm traces between adjacent outer-row pads leave 0.075 mm clearance.
-(rule "AQFN inner-row escape"
-  (condition "A.memberOfFootprint('U1') || B.memberOfFootprint('U1')")
-  (constraint clearance (min 0.075mm))
-)
+# Prototype rules are defined by Board Setup constraints and netclasses.
+# MCU signal vias: 0.35 mm copper / 0.15 mm finished hole, filled and capped.
