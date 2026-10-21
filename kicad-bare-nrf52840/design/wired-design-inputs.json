@@ -1,0 +1,2089 @@
+{
+  "symbols": [
+    {
+      "reference": "BT1",
+      "library": "Device",
+      "symbol_name": "Battery_Cell",
+      "value": "Battery_Cell",
+      "footprint": "kicad:BatteryHolder_Keystone_3002_1x2032",
+      "x_mm": 180.34,
+      "y_mm": 240.03,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C1",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "1n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 309.88,
+      "y_mm": 149.86,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C1523"
+      }
+    },
+    {
+      "reference": "C2",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 364.49,
+      "y_mm": 209.55,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C1525"
+      }
+    },
+    {
+      "reference": "C3",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "12p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 199.39000000000001,
+      "y_mm": 198.12,
+      "rotation": 180,
+      "properties": {
+        "LCSC": "C1547"
+      }
+    },
+    {
+      "reference": "C4",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "12p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 165.1,
+      "y_mm": 198.12,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C1547"
+      }
+    },
+    {
+      "reference": "D1",
+      "library": "Diode",
+      "symbol_name": "LL4148",
+      "value": "LL4148",
+      "footprint": "Diode_SMD:D_MiniMELF",
+      "x_mm": 284.48,
+      "y_mm": 134.62,
+      "rotation": 180,
+      "properties": {
+        "LCSC": "C9808"
+      }
+    },
+    {
+      "reference": "D2",
+      "library": "Device",
+      "symbol_name": "LED",
+      "value": "LED",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "x_mm": 234.95000000000002,
+      "y_mm": 245.11,
+      "rotation": 90,
+      "properties": {
+        "LCSC": "C2286"
+      }
+    },
+    {
+      "reference": "Q1",
+      "library": "Transistor_BJT",
+      "symbol_name": "MMBT3906",
+      "value": "MMBT3906",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "x_mm": 275.59000000000003,
+      "y_mm": 175.26,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C2910191"
+      }
+    },
+    {
+      "reference": "Q4",
+      "library": "Device",
+      "symbol_name": "Q_Photo_NPN",
+      "value": "Q_Photo_NPN",
+      "footprint": "snapeda:TR8",
+      "x_mm": 364.49,
+      "y_mm": 139.7,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C146233"
+      }
+    },
+    {
+      "reference": "R1",
+      "library": "Device",
+      "symbol_name": "R_Small_US",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "x_mm": 250.19,
+      "y_mm": 134.62,
+      "rotation": 90,
+      "properties": {
+        "LCSC": "C25744"
+      }
+    },
+    {
+      "reference": "R2",
+      "library": "Device",
+      "symbol_name": "R_Small_US",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "x_mm": 234.95000000000002,
+      "y_mm": 224.79,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C11702"
+      }
+    },
+    {
+      "reference": "R4",
+      "library": "Device",
+      "symbol_name": "R_Small_US",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "x_mm": 250.19,
+      "y_mm": 175.26,
+      "rotation": 270,
+      "properties": {
+        "LCSC": "C25744"
+      }
+    },
+    {
+      "reference": "R6",
+      "library": "Device",
+      "symbol_name": "R_Small_US",
+      "value": "1M",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "x_mm": 330.2,
+      "y_mm": 149.86,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C26083"
+      }
+    },
+    {
+      "reference": "R7",
+      "library": "Device",
+      "symbol_name": "R_Small_US",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "x_mm": 299.72,
+      "y_mm": 185.42000000000002,
+      "rotation": 180,
+      "properties": {
+        "LCSC": "C25744"
+      }
+    },
+    {
+      "reference": "R8",
+      "library": "Device",
+      "symbol_name": "R_Small_US",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "x_mm": 320.04,
+      "y_mm": 185.42000000000002,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C25744"
+      }
+    },
+    {
+      "reference": "R10",
+      "library": "Device",
+      "symbol_name": "R_Small_US",
+      "value": "470",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "x_mm": 384.81,
+      "y_mm": 160.02,
+      "rotation": 180,
+      "properties": {
+        "LCSC": "C25117"
+      }
+    },
+    {
+      "reference": "RST1",
+      "library": "Switch",
+      "symbol_name": "SW_Push",
+      "value": "B3U-1000P",
+      "footprint": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "x_mm": 284.48,
+      "y_mm": 240.03,
+      "rotation": 0,
+      "properties": {
+        "AVAILABILITY": "Unavailable",
+        "DESCRIPTION": "Tactile Switch SPST-NO Top Actuated Surface Mount",
+        "LCSC": "C231329",
+        "MF": "Omron",
+        "MP": "B3U-1000P",
+        "PACKAGE": "None",
+        "PRICE": "None"
+      }
+    },
+    {
+      "reference": "SW1",
+      "library": "Switch",
+      "symbol_name": "SW_Push",
+      "value": "B3U-1000P",
+      "footprint": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "x_mm": 330.2,
+      "y_mm": 240.03,
+      "rotation": 0,
+      "properties": {
+        "AVAILABILITY": "Unavailable",
+        "DESCRIPTION": "Tactile Switch SPST-NO Top Actuated Surface Mount",
+        "LCSC": "C231329",
+        "MF": "Omron",
+        "MP": "B3U-1000P",
+        "PACKAGE": "None",
+        "PRICE": "None"
+      }
+    },
+    {
+      "reference": "U2",
+      "library": "Sensor_Humidity",
+      "symbol_name": "SHTC3",
+      "value": "SHTC3",
+      "footprint": "kicad:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm",
+      "x_mm": 340.36,
+      "y_mm": 214.63,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C194656"
+      }
+    },
+    {
+      "reference": "Y1",
+      "library": "Device",
+      "symbol_name": "Crystal",
+      "value": "32.768kHz",
+      "footprint": "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm",
+      "x_mm": 180.34,
+      "y_mm": 185.42000000000002,
+      "rotation": 0,
+      "properties": {
+        "LCSC": "C32346",
+        "MPN": "NX3215SA-32.768K-STD-MUA-9",
+        "Source": "PCA10056 3.0.3 BOM"
+      }
+    },
+    {
+      "reference": "U1",
+      "library": "MCU_Nordic",
+      "symbol_name": "nRF52840",
+      "value": "nRF52840-QIAA",
+      "footprint": "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm",
+      "x_mm": 64.77,
+      "y_mm": 134.62,
+      "rotation": 0,
+      "properties": {
+        "MPN": "nRF52840-QIAA",
+        "Manufacturer": "Nordic Semiconductor"
+      }
+    },
+    {
+      "reference": "C5",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 270.51,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C6",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "4.7u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 154.94,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C7",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 175.26,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C8",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 195.58,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C9",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 214.63,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C10",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 234.95000000000002,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C11",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 214.63,
+      "y_mm": 95.25,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C12",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "47n",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 234.95000000000002,
+      "y_mm": 95.25,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C13",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "100p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 294.64,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "C14",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "12p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 165.1,
+      "y_mm": 148.59,
+      "rotation": 0,
+      "properties": {
+        "Dielectric": "C0G/NP0"
+      }
+    },
+    {
+      "reference": "C15",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "12p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 199.39000000000001,
+      "y_mm": 148.59,
+      "rotation": 0,
+      "properties": {
+        "Dielectric": "C0G/NP0"
+      }
+    },
+    {
+      "reference": "C16",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "820p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 320.04,
+      "y_mm": 39.37,
+      "rotation": 0,
+      "properties": {
+        "Assembly_note": "Optional for Fxx and later; fit for earlier builds"
+      }
+    },
+    {
+      "reference": "C17",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "0.8p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 276.86,
+      "y_mm": 97.79,
+      "rotation": 0,
+      "properties": {
+        "Dielectric": "C0G/NP0"
+      }
+    },
+    {
+      "reference": "C18",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "0.5p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 312.42,
+      "y_mm": 97.79,
+      "rotation": 0,
+      "properties": {
+        "Dielectric": "C0G/NP0"
+      }
+    },
+    {
+      "reference": "L1",
+      "library": "Device",
+      "symbol_name": "L",
+      "value": "10u",
+      "footprint": "Inductor_SMD:L_0603_1608Metric",
+      "x_mm": 154.94,
+      "y_mm": 85.09,
+      "rotation": 90,
+      "properties": {
+        "MPN": "MLZ1608M100WTD25",
+        "Source": "PCA10056 3.0.3 BOM"
+      }
+    },
+    {
+      "reference": "L2",
+      "library": "Device",
+      "symbol_name": "L",
+      "value": "15n",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "x_mm": 185.42000000000002,
+      "y_mm": 85.09,
+      "rotation": 90,
+      "properties": {
+        "MPN": "LQG15HS15NJ02D",
+        "Source": "PCA10056 3.0.3 BOM"
+      }
+    },
+    {
+      "reference": "L3",
+      "library": "Device",
+      "symbol_name": "L",
+      "value": "4.7n",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "x_mm": 294.64,
+      "y_mm": 85.09,
+      "rotation": 90,
+      "properties": {
+        "MPN": "LQG15HS4N7B02D",
+        "Source": "PCA10056 3.0.3 BOM"
+      }
+    },
+    {
+      "reference": "L4",
+      "library": "Device",
+      "symbol_name": "L",
+      "value": "2.7n",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "x_mm": 347.98,
+      "y_mm": 97.79,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "L5",
+      "library": "Device",
+      "symbol_name": "L",
+      "value": "3.3n",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "x_mm": 364.49,
+      "y_mm": 85.09,
+      "rotation": 90,
+      "properties": {}
+    },
+    {
+      "reference": "C19",
+      "library": "Device",
+      "symbol_name": "C_Small",
+      "value": "1.2p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "x_mm": 330.2,
+      "y_mm": 85.09,
+      "rotation": 90,
+      "properties": {
+        "Dielectric": "C0G/NP0"
+      }
+    },
+    {
+      "reference": "Y2",
+      "library": "Device",
+      "symbol_name": "Crystal_GND24",
+      "value": "32MHz",
+      "footprint": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+      "x_mm": 180.34,
+      "y_mm": 134.62,
+      "rotation": 0,
+      "properties": {
+        "MPN": "MP12308",
+        "Manufacturer": "Golledge",
+        "Load_capacitance": "8pF",
+        "Source": "PCA10056 3.0.3 X1"
+      }
+    },
+    {
+      "reference": "AE1",
+      "library": "Device",
+      "symbol_name": "Antenna_Chip",
+      "value": "2450AT18B0100001E",
+      "footprint": "RF_Antenna:Johanson_2450AT18x100",
+      "x_mm": 394.97,
+      "y_mm": 74.93,
+      "rotation": 0,
+      "properties": {
+        "MPN": "2450AT18B0100001E",
+        "Manufacturer": "Johanson Technology",
+        "Assembly_note": "Tuning network starts at evaluation-board values; VNA tuning required"
+      }
+    },
+    {
+      "reference": "TP1",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "SWDIO",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 35.56,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "TP2",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "SWDCLK",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 59.69,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "TP3",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "GND",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 85.09,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "TP4",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "RST",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 110.49,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "TP5",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "CPARA",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 134.62,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "TP6",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "PWM",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 160.02,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "TP7",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "+3V0",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 185.42000000000002,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "TP8",
+      "library": "Connector",
+      "symbol_name": "TestPoint",
+      "value": "0.10",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "x_mm": 209.55,
+      "y_mm": 265.43,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "#FLG01",
+      "library": "power",
+      "symbol_name": "PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "x_mm": 160.02,
+      "y_mm": 234.95000000000002,
+      "rotation": 0,
+      "properties": {}
+    },
+    {
+      "reference": "#FLG02",
+      "library": "power",
+      "symbol_name": "PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "x_mm": 160.02,
+      "y_mm": 250.19,
+      "rotation": 0,
+      "properties": {}
+    }
+  ],
+  "wires": [
+    {
+      "x1_mm": 154.94,
+      "y1_mm": 36.83,
+      "x2_mm": 154.94,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 175.26,
+      "y1_mm": 36.83,
+      "x2_mm": 175.26,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 195.58,
+      "y1_mm": 36.83,
+      "x2_mm": 195.58,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 36.83,
+      "x2_mm": 214.63,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 234.95,
+      "y1_mm": 36.83,
+      "x2_mm": 234.95,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 154.94,
+      "y1_mm": 31.75,
+      "x2_mm": 175.26,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 175.26,
+      "y1_mm": 31.75,
+      "x2_mm": 195.58,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 195.58,
+      "y1_mm": 31.75,
+      "x2_mm": 214.63,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 31.75,
+      "x2_mm": 234.95,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 154.94,
+      "y1_mm": 41.91,
+      "x2_mm": 154.94,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 175.26,
+      "y1_mm": 41.91,
+      "x2_mm": 175.26,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 195.58,
+      "y1_mm": 41.91,
+      "x2_mm": 195.58,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 41.91,
+      "x2_mm": 214.63,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 234.95,
+      "y1_mm": 41.91,
+      "x2_mm": 234.95,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 154.94,
+      "y1_mm": 48.26,
+      "x2_mm": 175.26,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 175.26,
+      "y1_mm": 48.26,
+      "x2_mm": 195.58,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 195.58,
+      "y1_mm": 48.26,
+      "x2_mm": 214.63,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 48.26,
+      "x2_mm": 234.95,
+      "y2_mm": 48.26
+    },
+    {
+      "x1_mm": 158.75,
+      "y1_mm": 85.09,
+      "x2_mm": 181.61,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 92.71,
+      "x2_mm": 214.63,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 234.95,
+      "y1_mm": 92.71,
+      "x2_mm": 234.95,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 189.23,
+      "y1_mm": 85.09,
+      "x2_mm": 214.63,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 85.09,
+      "x2_mm": 234.95,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 97.79,
+      "x2_mm": 214.63,
+      "y2_mm": 107.95
+    },
+    {
+      "x1_mm": 234.95,
+      "y1_mm": 97.79,
+      "x2_mm": 234.95,
+      "y2_mm": 107.95
+    },
+    {
+      "x1_mm": 214.63,
+      "y1_mm": 107.95,
+      "x2_mm": 234.95,
+      "y2_mm": 107.95
+    },
+    {
+      "x1_mm": 276.86,
+      "y1_mm": 95.25,
+      "x2_mm": 276.86,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 276.86,
+      "y1_mm": 85.09,
+      "x2_mm": 290.83,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 312.42,
+      "y1_mm": 95.25,
+      "x2_mm": 312.42,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 298.45,
+      "y1_mm": 85.09,
+      "x2_mm": 312.42,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 312.42,
+      "y1_mm": 85.09,
+      "x2_mm": 327.66,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 347.98,
+      "y1_mm": 93.98,
+      "x2_mm": 347.98,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 332.74,
+      "y1_mm": 85.09,
+      "x2_mm": 347.98,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 347.98,
+      "y1_mm": 85.09,
+      "x2_mm": 360.68,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 392.43,
+      "y1_mm": 77.47,
+      "x2_mm": 392.43,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 368.3,
+      "y1_mm": 85.09,
+      "x2_mm": 392.43,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 276.86,
+      "y1_mm": 100.33,
+      "x2_mm": 276.86,
+      "y2_mm": 110.49
+    },
+    {
+      "x1_mm": 312.42,
+      "y1_mm": 100.33,
+      "x2_mm": 312.42,
+      "y2_mm": 110.49
+    },
+    {
+      "x1_mm": 347.98,
+      "y1_mm": 101.6,
+      "x2_mm": 347.98,
+      "y2_mm": 110.49
+    },
+    {
+      "x1_mm": 276.86,
+      "y1_mm": 110.49,
+      "x2_mm": 312.42,
+      "y2_mm": 110.49
+    },
+    {
+      "x1_mm": 312.42,
+      "y1_mm": 110.49,
+      "x2_mm": 347.98,
+      "y2_mm": 110.49
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 146.05,
+      "x2_mm": 165.1,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 134.62,
+      "x2_mm": 176.53,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 199.39,
+      "y1_mm": 146.05,
+      "x2_mm": 199.39,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 184.15,
+      "y1_mm": 134.62,
+      "x2_mm": 199.39,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 180.34,
+      "y1_mm": 139.7,
+      "x2_mm": 180.34,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 151.13,
+      "x2_mm": 165.1,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 199.39,
+      "y1_mm": 151.13,
+      "x2_mm": 199.39,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 160.02,
+      "x2_mm": 180.34,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 180.34,
+      "y1_mm": 160.02,
+      "x2_mm": 199.39,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 195.58,
+      "x2_mm": 165.1,
+      "y2_mm": 185.42
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 185.42,
+      "x2_mm": 176.53,
+      "y2_mm": 185.42
+    },
+    {
+      "x1_mm": 199.39,
+      "y1_mm": 195.58,
+      "x2_mm": 199.39,
+      "y2_mm": 185.42
+    },
+    {
+      "x1_mm": 184.15,
+      "y1_mm": 185.42,
+      "x2_mm": 199.39,
+      "y2_mm": 185.42
+    },
+    {
+      "x1_mm": 199.39,
+      "y1_mm": 200.66,
+      "x2_mm": 199.39,
+      "y2_mm": 209.55
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 200.66,
+      "x2_mm": 165.1,
+      "y2_mm": 209.55
+    },
+    {
+      "x1_mm": 165.1,
+      "y1_mm": 209.55,
+      "x2_mm": 199.39,
+      "y2_mm": 209.55
+    },
+    {
+      "x1_mm": 252.73,
+      "y1_mm": 134.62,
+      "x2_mm": 280.67,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 309.88,
+      "y1_mm": 147.32,
+      "x2_mm": 309.88,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 330.2,
+      "y1_mm": 147.32,
+      "x2_mm": 330.2,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 288.29,
+      "y1_mm": 134.62,
+      "x2_mm": 309.88,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 309.88,
+      "y1_mm": 134.62,
+      "x2_mm": 330.2,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 309.88,
+      "y1_mm": 152.4,
+      "x2_mm": 309.88,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 330.2,
+      "y1_mm": 152.4,
+      "x2_mm": 330.2,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 309.88,
+      "y1_mm": 160.02,
+      "x2_mm": 330.2,
+      "y2_mm": 160.02
+    },
+    {
+      "x1_mm": 252.73,
+      "y1_mm": 175.26,
+      "x2_mm": 270.51,
+      "y2_mm": 175.26
+    },
+    {
+      "x1_mm": 367.03,
+      "y1_mm": 144.78,
+      "x2_mm": 384.81,
+      "y2_mm": 144.78
+    },
+    {
+      "x1_mm": 384.81,
+      "y1_mm": 144.78,
+      "x2_mm": 384.81,
+      "y2_mm": 157.48
+    },
+    {
+      "x1_mm": 299.72,
+      "y1_mm": 182.88,
+      "x2_mm": 299.72,
+      "y2_mm": 176.53
+    },
+    {
+      "x1_mm": 320.04,
+      "y1_mm": 182.88,
+      "x2_mm": 320.04,
+      "y2_mm": 176.53
+    },
+    {
+      "x1_mm": 299.72,
+      "y1_mm": 176.53,
+      "x2_mm": 320.04,
+      "y2_mm": 176.53
+    },
+    {
+      "x1_mm": 299.72,
+      "y1_mm": 187.96,
+      "x2_mm": 299.72,
+      "y2_mm": 217.17
+    },
+    {
+      "x1_mm": 299.72,
+      "y1_mm": 217.17,
+      "x2_mm": 332.74,
+      "y2_mm": 217.17
+    },
+    {
+      "x1_mm": 320.04,
+      "y1_mm": 187.96,
+      "x2_mm": 320.04,
+      "y2_mm": 212.09
+    },
+    {
+      "x1_mm": 320.04,
+      "y1_mm": 212.09,
+      "x2_mm": 332.74,
+      "y2_mm": 212.09
+    },
+    {
+      "x1_mm": 342.9,
+      "y1_mm": 207.01,
+      "x2_mm": 342.9,
+      "y2_mm": 201.93
+    },
+    {
+      "x1_mm": 364.49,
+      "y1_mm": 207.01,
+      "x2_mm": 364.49,
+      "y2_mm": 201.93
+    },
+    {
+      "x1_mm": 342.9,
+      "y1_mm": 201.93,
+      "x2_mm": 364.49,
+      "y2_mm": 201.93
+    },
+    {
+      "x1_mm": 342.9,
+      "y1_mm": 222.25,
+      "x2_mm": 342.9,
+      "y2_mm": 228.6
+    },
+    {
+      "x1_mm": 364.49,
+      "y1_mm": 212.09,
+      "x2_mm": 364.49,
+      "y2_mm": 228.6
+    },
+    {
+      "x1_mm": 342.9,
+      "y1_mm": 228.6,
+      "x2_mm": 364.49,
+      "y2_mm": 228.6
+    },
+    {
+      "x1_mm": 234.95,
+      "y1_mm": 222.25,
+      "x2_mm": 219.71,
+      "y2_mm": 222.25
+    },
+    {
+      "x1_mm": 219.71,
+      "y1_mm": 222.25,
+      "x2_mm": 219.71,
+      "y2_mm": 241.3
+    },
+    {
+      "x1_mm": 219.71,
+      "y1_mm": 241.3,
+      "x2_mm": 234.95,
+      "y2_mm": 241.3
+    },
+    {
+      "x1_mm": 64.77,
+      "y1_mm": 63.5,
+      "x2_mm": 64.77,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 67.31,
+      "y1_mm": 63.5,
+      "x2_mm": 67.31,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 64.77,
+      "y1_mm": 58.42,
+      "x2_mm": 67.31,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 64.77,
+      "y1_mm": 205.74,
+      "x2_mm": 64.77,
+      "y2_mm": 214.63
+    },
+    {
+      "x1_mm": 67.31,
+      "y1_mm": 205.74,
+      "x2_mm": 67.31,
+      "y2_mm": 214.63
+    },
+    {
+      "x1_mm": 64.77,
+      "y1_mm": 214.63,
+      "x2_mm": 67.31,
+      "y2_mm": 214.63
+    },
+    {
+      "x1_mm": 180.34,
+      "y1_mm": 234.95,
+      "x2_mm": 180.34,
+      "y2_mm": 229.87
+    },
+    {
+      "x1_mm": 185.42,
+      "y1_mm": 265.43,
+      "x2_mm": 185.42,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 160.02,
+      "y1_mm": 234.95,
+      "x2_mm": 160.02,
+      "y2_mm": 229.87
+    },
+    {
+      "x1_mm": 325.12,
+      "y1_mm": 240.03,
+      "x2_mm": 320.04,
+      "y2_mm": 240.03
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 144.78,
+      "x2_mm": 102.87,
+      "y2_mm": 144.78
+    },
+    {
+      "x1_mm": 278.13,
+      "y1_mm": 180.34,
+      "x2_mm": 283.21,
+      "y2_mm": 180.34
+    },
+    {
+      "x1_mm": 134.62,
+      "y1_mm": 265.43,
+      "x2_mm": 134.62,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 180.34,
+      "y1_mm": 242.57,
+      "x2_mm": 180.34,
+      "y2_mm": 247.65
+    },
+    {
+      "x1_mm": 234.95,
+      "y1_mm": 248.92,
+      "x2_mm": 234.95,
+      "y2_mm": 254.0
+    },
+    {
+      "x1_mm": 278.13,
+      "y1_mm": 170.18,
+      "x2_mm": 283.21,
+      "y2_mm": 170.18
+    },
+    {
+      "x1_mm": 384.81,
+      "y1_mm": 162.56,
+      "x2_mm": 384.81,
+      "y2_mm": 167.64
+    },
+    {
+      "x1_mm": 289.56,
+      "y1_mm": 240.03,
+      "x2_mm": 294.64,
+      "y2_mm": 240.03
+    },
+    {
+      "x1_mm": 335.28,
+      "y1_mm": 240.03,
+      "x2_mm": 340.36,
+      "y2_mm": 240.03
+    },
+    {
+      "x1_mm": 69.85,
+      "y1_mm": 63.5,
+      "x2_mm": 69.85,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 270.51,
+      "y1_mm": 41.91,
+      "x2_mm": 270.51,
+      "y2_mm": 46.99
+    },
+    {
+      "x1_mm": 294.64,
+      "y1_mm": 41.91,
+      "x2_mm": 294.64,
+      "y2_mm": 46.99
+    },
+    {
+      "x1_mm": 320.04,
+      "y1_mm": 41.91,
+      "x2_mm": 320.04,
+      "y2_mm": 46.99
+    },
+    {
+      "x1_mm": 85.09,
+      "y1_mm": 265.43,
+      "x2_mm": 85.09,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 160.02,
+      "y1_mm": 250.19,
+      "x2_mm": 160.02,
+      "y2_mm": 245.11
+    },
+    {
+      "x1_mm": 234.95,
+      "y1_mm": 227.33,
+      "x2_mm": 234.95,
+      "y2_mm": 232.41
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 139.7,
+      "x2_mm": 102.87,
+      "y2_mm": 139.7
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 71.12,
+      "x2_mm": 102.87,
+      "y2_mm": 71.12
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 73.66,
+      "x2_mm": 102.87,
+      "y2_mm": 73.66
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 76.2,
+      "x2_mm": 102.87,
+      "y2_mm": 76.2
+    },
+    {
+      "x1_mm": 367.03,
+      "y1_mm": 134.62,
+      "x2_mm": 367.03,
+      "y2_mm": 129.54
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 142.24,
+      "x2_mm": 102.87,
+      "y2_mm": 142.24
+    },
+    {
+      "x1_mm": 247.65,
+      "y1_mm": 134.62,
+      "x2_mm": 242.57,
+      "y2_mm": 134.62
+    },
+    {
+      "x1_mm": 247.65,
+      "y1_mm": 175.26,
+      "x2_mm": 242.57,
+      "y2_mm": 175.26
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 83.82,
+      "x2_mm": 102.87,
+      "y2_mm": 83.82
+    },
+    {
+      "x1_mm": 160.02,
+      "y1_mm": 265.43,
+      "x2_mm": 160.02,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 279.4,
+      "y1_mm": 240.03,
+      "x2_mm": 274.32,
+      "y2_mm": 240.03
+    },
+    {
+      "x1_mm": 31.75,
+      "y1_mm": 177.8,
+      "x2_mm": 26.67,
+      "y2_mm": 177.8
+    },
+    {
+      "x1_mm": 110.49,
+      "y1_mm": 265.43,
+      "x2_mm": 110.49,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 104.14,
+      "x2_mm": 102.87,
+      "y2_mm": 104.14
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 129.54,
+      "x2_mm": 102.87,
+      "y2_mm": 129.54
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 78.74,
+      "x2_mm": 102.87,
+      "y2_mm": 78.74
+    },
+    {
+      "x1_mm": 31.75,
+      "y1_mm": 180.34,
+      "x2_mm": 26.67,
+      "y2_mm": 180.34
+    },
+    {
+      "x1_mm": 59.69,
+      "y1_mm": 265.43,
+      "x2_mm": 59.69,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 31.75,
+      "y1_mm": 182.88,
+      "x2_mm": 26.67,
+      "y2_mm": 182.88
+    },
+    {
+      "x1_mm": 35.56,
+      "y1_mm": 265.43,
+      "x2_mm": 35.56,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 97.79,
+      "y1_mm": 96.52,
+      "x2_mm": 102.87,
+      "y2_mm": 96.52
+    },
+    {
+      "x1_mm": 209.55,
+      "y1_mm": 265.43,
+      "x2_mm": 209.55,
+      "y2_mm": 260.35
+    },
+    {
+      "x1_mm": 44.45,
+      "y1_mm": 63.5,
+      "x2_mm": 44.45,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 270.51,
+      "y1_mm": 36.83,
+      "x2_mm": 270.51,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 49.53,
+      "y1_mm": 63.5,
+      "x2_mm": 49.53,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 294.64,
+      "y1_mm": 36.83,
+      "x2_mm": 294.64,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 52.07,
+      "y1_mm": 63.5,
+      "x2_mm": 52.07,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 57.15,
+      "y1_mm": 63.5,
+      "x2_mm": 57.15,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 74.93,
+      "y1_mm": 63.5,
+      "x2_mm": 74.93,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 151.13,
+      "y1_mm": 85.09,
+      "x2_mm": 146.05,
+      "y2_mm": 85.09
+    },
+    {
+      "x1_mm": 54.61,
+      "y1_mm": 63.5,
+      "x2_mm": 54.61,
+      "y2_mm": 58.42
+    },
+    {
+      "x1_mm": 320.04,
+      "y1_mm": 36.83,
+      "x2_mm": 320.04,
+      "y2_mm": 31.75
+    },
+    {
+      "x1_mm": 31.75,
+      "y1_mm": 129.54,
+      "x2_mm": 26.67,
+      "y2_mm": 129.54
+    },
+    {
+      "x1_mm": 31.75,
+      "y1_mm": 139.7,
+      "x2_mm": 26.67,
+      "y2_mm": 139.7
+    },
+    {
+      "x1_mm": 31.75,
+      "y1_mm": 88.9,
+      "x2_mm": 26.67,
+      "y2_mm": 88.9
+    }
+  ],
+  "labels": [
+    {
+      "name": "DEC4_6",
+      "x_mm": 189.23,
+      "y_mm": 85.09,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "RF_SOC",
+      "x_mm": 276.86,
+      "y_mm": 85.09,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "RF_50",
+      "x_mm": 298.45,
+      "y_mm": 85.09,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "ANT_TUNE",
+      "x_mm": 332.74,
+      "y_mm": 85.09,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "ANT_FEED",
+      "x_mm": 368.3,
+      "y_mm": 85.09,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "XC1",
+      "x_mm": 165.1,
+      "y_mm": 134.62,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "XC2",
+      "x_mm": 184.15,
+      "y_mm": 134.62,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "XL2",
+      "x_mm": 165.1,
+      "y_mm": 185.42000000000002,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "XL1",
+      "x_mm": 184.15,
+      "y_mm": 185.42000000000002,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "CPARA",
+      "x_mm": 252.73,
+      "y_mm": 134.62,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SENS_OUT",
+      "x_mm": 288.29,
+      "y_mm": 134.62,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "PHOTO_OUT",
+      "x_mm": 367.03,
+      "y_mm": 144.78,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SDA",
+      "x_mm": 299.72,
+      "y_mm": 187.96,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SCL",
+      "x_mm": 320.04,
+      "y_mm": 187.96,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "BTN1",
+      "x_mm": 320.04,
+      "y_mm": 240.03,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "BTN1",
+      "x_mm": 102.87,
+      "y_mm": 144.78,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "CPARA",
+      "x_mm": 283.21,
+      "y_mm": 180.34,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "CPARA",
+      "x_mm": 134.62,
+      "y_mm": 260.35,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "LED",
+      "x_mm": 234.95,
+      "y_mm": 232.41,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "LED",
+      "x_mm": 102.87,
+      "y_mm": 139.7,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "XL1",
+      "x_mm": 102.87,
+      "y_mm": 71.12,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "XL2",
+      "x_mm": 102.87,
+      "y_mm": 73.66,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "PHOTO_OUT",
+      "x_mm": 102.87,
+      "y_mm": 76.2,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "PHOTO_V",
+      "x_mm": 367.03,
+      "y_mm": 129.54,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "PHOTO_V",
+      "x_mm": 102.87,
+      "y_mm": 142.24,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "PWM",
+      "x_mm": 242.57,
+      "y_mm": 134.62,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "PWM",
+      "x_mm": 242.57,
+      "y_mm": 175.26,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "PWM",
+      "x_mm": 102.87,
+      "y_mm": 83.82,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "PWM",
+      "x_mm": 160.02,
+      "y_mm": 260.35,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "RST",
+      "x_mm": 274.32,
+      "y_mm": 240.03,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "RST",
+      "x_mm": 26.67,
+      "y_mm": 177.8,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "RST",
+      "x_mm": 110.49,
+      "y_mm": 260.35,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "SCL",
+      "x_mm": 102.87,
+      "y_mm": 104.14,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SDA",
+      "x_mm": 102.87,
+      "y_mm": 129.54,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SENS_OUT",
+      "x_mm": 102.87,
+      "y_mm": 78.74,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SWDCLK",
+      "x_mm": 26.67,
+      "y_mm": 180.34,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SWDCLK",
+      "x_mm": 59.69,
+      "y_mm": 260.35,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "SWDIO",
+      "x_mm": 26.67,
+      "y_mm": 182.88,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "SWDIO",
+      "x_mm": 35.56,
+      "y_mm": 260.35,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "0.10",
+      "x_mm": 102.87,
+      "y_mm": 96.52,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "0.10",
+      "x_mm": 209.55,
+      "y_mm": 260.35,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DEC1",
+      "x_mm": 44.45,
+      "y_mm": 58.42,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DEC1",
+      "x_mm": 270.51,
+      "y_mm": 31.75,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DEC3",
+      "x_mm": 49.53,
+      "y_mm": 58.42,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DEC3",
+      "x_mm": 294.64,
+      "y_mm": 31.75,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DEC4_6",
+      "x_mm": 52.07,
+      "y_mm": 58.42,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DEC4_6",
+      "x_mm": 57.15,
+      "y_mm": 58.42,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DCC",
+      "x_mm": 74.93,
+      "y_mm": 58.42,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DCC",
+      "x_mm": 146.05,
+      "y_mm": 85.09,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "DEC5",
+      "x_mm": 54.61,
+      "y_mm": 58.42,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "DEC5",
+      "x_mm": 320.04,
+      "y_mm": 31.75,
+      "rotation": 90,
+      "global_label": true
+    },
+    {
+      "name": "XC1",
+      "x_mm": 26.67,
+      "y_mm": 129.54,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "XC2",
+      "x_mm": 26.67,
+      "y_mm": 139.7,
+      "rotation": 0,
+      "global_label": true
+    },
+    {
+      "name": "RF_SOC",
+      "x_mm": 26.67,
+      "y_mm": 88.9,
+      "rotation": 0,
+      "global_label": true
+    }
+  ],
+  "power_symbols": [
+    {
+      "name": "+3V0",
+      "x_mm": 154.94,
+      "y_mm": 31.75,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 154.94,
+      "y_mm": 48.26,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 214.63,
+      "y_mm": 107.95,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 276.86,
+      "y_mm": 110.49,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 165.1,
+      "y_mm": 160.02,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 165.1,
+      "y_mm": 209.55,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 309.88,
+      "y_mm": 160.02,
+      "rotation": 0
+    },
+    {
+      "name": "+3V0",
+      "x_mm": 299.72,
+      "y_mm": 176.53,
+      "rotation": 0
+    },
+    {
+      "name": "+3V0",
+      "x_mm": 342.9,
+      "y_mm": 201.93,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 342.9,
+      "y_mm": 228.6,
+      "rotation": 0
+    },
+    {
+      "name": "+3V0",
+      "x_mm": 64.77,
+      "y_mm": 58.42,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 64.77,
+      "y_mm": 214.63,
+      "rotation": 0
+    },
+    {
+      "name": "+3V0",
+      "x_mm": 180.34,
+      "y_mm": 229.87,
+      "rotation": 0
+    },
+    {
+      "name": "+3V0",
+      "x_mm": 185.42,
+      "y_mm": 260.35,
+      "rotation": 0
+    },
+    {
+      "name": "+3V0",
+      "x_mm": 160.02,
+      "y_mm": 229.87,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 180.34,
+      "y_mm": 247.65,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 234.95,
+      "y_mm": 254.0,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 283.21,
+      "y_mm": 170.18,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 384.81,
+      "y_mm": 167.64,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 294.64,
+      "y_mm": 240.03,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 340.36,
+      "y_mm": 240.03,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 69.85,
+      "y_mm": 58.42,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 270.51,
+      "y_mm": 46.99,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 294.64,
+      "y_mm": 46.99,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 320.04,
+      "y_mm": 46.99,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 85.09,
+      "y_mm": 260.35,
+      "rotation": 0
+    },
+    {
+      "name": "GND",
+      "x_mm": 160.02,
+      "y_mm": 245.11,
+      "rotation": 0
+    }
+  ],
+  "auto_layout": false
+}
