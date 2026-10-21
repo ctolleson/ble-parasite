@@ -1,0 +1,73 @@
+{
+  "native_erc_violations": 0,
+  "native_drc": {
+    "schematic_parity": 0,
+    "unconnected_items": 0,
+    "violations": 0
+  },
+  "assembly_parts": 43,
+  "top_parts": 42,
+  "bottom_parts": 1,
+  "bom_cpl_reference_sets_match": true,
+  "placements_match_board": true,
+  "dnp_components": [],
+  "missing_supplier_mapping": [
+    "Y2"
+  ],
+  "copper_layers": 4,
+  "segment_count": 360,
+  "through_vias": 73,
+  "via_drill_counts_mm": {
+    "0.2": 50,
+    "0.15": 6,
+    "0.3": 17
+  },
+  "blind_buried_microvias": 0,
+  "min_track_mm": 0.1,
+  "min_via_diameter_mm": 0.35,
+  "min_via_drill_mm": 0.15,
+  "min_via_annulus_mm": 0.09999999999999999,
+  "npth_guide_holes": 3,
+  "routed_circular_cutouts": [
+    {
+      "center": [
+        61,
+        68
+      ],
+      "radius": 1.4142135623730951
+    },
+    {
+      "center": [
+        75,
+        68
+      ],
+      "radius": 1.4142135623730951
+    }
+  ],
+  "stackup_total_mm": [
+    1.54868
+  ],
+  "gerber_job": {
+    "ProjectId": {
+      "Name": "parasite",
+      "GUID": "70617261-7369-4746-952e-6b696361645f",
+      "Revision": "3.0-prototype"
+    },
+    "Size": {
+      "X": 22.05,
+      "Y": 126.4642
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.5487,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
+  },
+  "soil_endpoint_mask_and_paste_closed": true,
+  "bom_cpl_rotation_convention": "Native KiCad rotations normalized modulo 360; no vendor-specific offsets applied; verify assembly preview",
+  "source_sha256": {
+    "parasite.kicad_dru": "f43476fec877a3cd90fb11d0f2171903d80945428b13e1057dfb1e787915359f",
+    "parasite.kicad_pcb": "0cfbd10c6ce7471d7c8147017ec1fc0d4db908196b50a305bfd0995dcb3afe28",
+    "parasite.kicad_sch": "4887fa0a01540f43dfc85cb4e1c8f8721ee6f70110bf527fca158d36b00992c4",
+    "parasite.kicad_pro": "5356ff706abe5a1fafaea1316d427b79104e954a33752ca7adb6a442f3ce8b9b"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source_commit": "718ed3d4d988043dcc342c980fd19083ba71830b",
+  "branch": "feature-nrf52840-bare-mcu-plant-monitor",
+  "repository": "https://github.com/ctolleson/ble-parasite",
+  "upstream": "https://github.com/rbaron/b-parasite",
+  "status": "draft package; release blocked",
+  "source_hashes": {
+    "parasite.kicad_dru": "f43476fec877a3cd90fb11d0f2171903d80945428b13e1057dfb1e787915359f",
+    "parasite.kicad_pcb": "0cfbd10c6ce7471d7c8147017ec1fc0d4db908196b50a305bfd0995dcb3afe28",
+    "parasite.kicad_sch": "4887fa0a01540f43dfc85cb4e1c8f8721ee6f70110bf527fca158d36b00992c4",
+    "parasite.kicad_pro": "5356ff706abe5a1fafaea1316d427b79104e954a33752ca7adb6a442f3ce8b9b"
+  }
+}

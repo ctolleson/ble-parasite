@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-21T17:07:35",
+    "date": "2026-10-21T17:47:36",
     "ignored_checks": [
         {
             "description": "Global label only appears once in the schematic",
@@ -25,23 +25,7 @@
         {
             "path": "/",
             "uuid_path": "/cfc3669b-133b-4df2-9732-7acc04e190be",
-            "violations": [
-                {
-                    "description": "Symbol 'SHTC3' doesn't match copy in library 'Sensor_Humidity'",
-                    "items": [
-                        {
-                            "description": "Symbol U2 [SHTC3]",
-                            "pos": {
-                                "x": 3.4036,
-                                "y": 2.1463
-                            },
-                            "uuid": "f29a21b0-90d3-4e35-ac96-7b2aec38f688"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_mismatch"
-                }
-            ]
+            "violations": []
         }
     ],
     "source": "parasite.kicad_sch"
