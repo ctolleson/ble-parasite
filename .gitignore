@@ -15,3 +15,9 @@
 
 # west build output dirs
 **/build_*/
+
+# KiCad editor and MCP generated state
+**/*.kicad_prl
+**/~*.lck
+**/.kicad-mcp/
+**/output/
