@@ -1,0 +1,41 @@
+{
+  "protected_geometry": {
+    "RF_SOC": {
+      "protected_segments": 5,
+      "unmatched_segments": 0
+    },
+    "RF_50": {
+      "protected_segments": 4,
+      "unmatched_segments": 0
+    },
+    "ANT_TUNE": {
+      "protected_segments": 3,
+      "unmatched_segments": 0
+    },
+    "ANT_FEED": {
+      "protected_segments": 1,
+      "unmatched_segments": 0
+    },
+    "XC1": {
+      "protected_segments": 5,
+      "unmatched_segments": 0
+    },
+    "XC2": {
+      "protected_segments": 10,
+      "unmatched_segments": 0
+    },
+    "XL1": {
+      "protected_segments": 6,
+      "unmatched_segments": 0
+    },
+    "XL2": {
+      "protected_segments": 6,
+      "unmatched_segments": 0
+    },
+    "CPARA": {
+      "protected_segments": 13,
+      "unmatched_segments": 0
+    }
+  },
+  "inner_tracks_in_probe": []
+}

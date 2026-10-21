@@ -23,3 +23,10 @@
 **/output/
 
 **/*.bak
+
+# Derived autorouter interchange files
+**/*.dsn
+**/*.ses
+
+**/_autosave-*.kicad_pcb
+**/_autosave-*.kicad_sch

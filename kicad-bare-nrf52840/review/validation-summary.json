@@ -1,0 +1,37 @@
+{
+  "status": "routed prototype / engineering review",
+  "kicad_version": "10.0.6",
+  "check_date": "2026-10-21T17:07:34",
+  "drc_errors": 0,
+  "drc_warnings": {
+    "track_dangling": 1,
+    "silk_edge_clearance": 2,
+    "lib_footprint_mismatch": 19
+  },
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "erc_errors": 0,
+  "erc_warnings": {
+    "lib_symbol_mismatch": 1
+  },
+  "schematic_cosmetic_score": 84,
+  "pcb_stats": {
+    "footprints": 54,
+    "physical_components_and_test_features": 52,
+    "track_segments": 360,
+    "vias": 73,
+    "copper_layers": 4
+  },
+  "source_sha256": {
+    "parasite.kicad_pcb": "aca89ebde2fd2eb4521f0ccaeb3e99d6d233512dd36eccdd7b896448a3ef7c99",
+    "parasite.kicad_sch": "a96179cec1eaf69d9af806f4acbfa6cd3bbcfeecd37938e42094b475cd3f1174",
+    "parasite.kicad_pro": "d79ce9368e8df6dd5623752d9e18e7409a4cbb96922bc763f91390c3540c8bac",
+    "parasite.kicad_dru": "f43476fec877a3cd90fb11d0f2171903d80945428b13e1057dfb1e787915359f"
+  },
+  "not_performed": [
+    "Physical assembly or bench tests",
+    "Firmware build and flash",
+    "RF matching and emissions tests",
+    "Fabricator approval of stackup and via fill/cap"
+  ]
+}
