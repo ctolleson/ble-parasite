@@ -542,7 +542,7 @@
       "idf": "",
       "netlist": "parasite.net",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "parasite.dsn",
       "step": "",
       "vrml": ""
     },
