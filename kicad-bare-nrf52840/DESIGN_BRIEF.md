@@ -2,7 +2,7 @@
 
 Revision 3.0-prototype • 2026-10-21 • KiCad 10.0.6
 
-**Routed engineering prototype; not a manufacturing release.** Open `parasite.kicad_pro` in this directory. The original module-based design remains in `../kicad`.
+**Routed engineering prototype; JLCPCB draft files are in `manufacturing/jlcpcb/`. Release holds are listed in that package’s README.** Open `parasite.kicad_pro` in this directory. The original module-based design remains in `../kicad`.
 
 ## Implemented
 
@@ -42,16 +42,16 @@ The completed routing uses **ordinary through-vias, with via-in-pad filling and 
 | Typical routing via | 0.45 mm copper diameter / 0.20 mm hole |
 | Via treatment | Epoxy Filled & Capped, especially all vias in SMT pads |
 | Surface finish | ENIG for the fine-pitch MCU and exposed programming contacts |
-| Copper | 35 µm per layer as currently modeled; confirm inner-layer copper in quote |
+| Copper | Outer 35 µm / inner 15.2 µm; JLC04161H-1080 stack intent |
 | Mask | Green suggested; 0 expansion, 0.10 mm minimum web, 0.09 mm opening-to-other-net copper clearance |
 | Outline | Approximately 22 × 126.4 mm; retain the actual Edge.Cuts outline |
 | Controlled impedance | RF feed targeted at 50 Ω; vendor stackup/solver approval required |
 
-The KiCad physical stack is mask 0.025 / Cu 0.035 / FR4 0.075 / Cu 0.035 / FR4 1.2 / Cu 0.035 / FR4 0.075 / Cu 0.035 / mask 0.025 mm, totaling **1.54 mm**. Treat this as a nominal 1.6 mm-class design assumption, not a selected JLCPCB production stack. Changing the outer dielectric or copper requires recalculating the RF feed width and reviewing the matching layout.
+The KiCad physical stack now models JLC04161H-1080: mask 0.01524 / Cu 0.035 / 1080 prepreg 0.0764 / Cu 0.0152 / FR4 core 1.265 / Cu 0.0152 / 1080 prepreg 0.0764 / Cu 0.035 / mask 0.01524 mm, totaling **1.54868 mm**. Order nominal 1.6 mm and confirm the listed stack with JLCPCB. Outer dielectric Dk=3.91, core Dk=4.6; loss tangent remains an unverified 0.02 model assumption. ENIG is set in the PCB. Changing the outer dielectric/copper requires reviewing RF impedance.
 
 JLCPCB's published capabilities list 0.15 mm through-vias, 0.10/0.10 mm trace/space and filled/capped via-in-pad processing. Its documents say resin filling is included for six layers and above; they do not guarantee this exact four-layer stack and via combination. Obtain DFM confirmation of four-layer epoxy fill/cap, drill aspect ratio, mask registration and stackup before ordering. If that combination is unavailable, a six-layer stack may be the simpler purchasing option; HDI is a separate alternative that requires a new fanout and stackup review.
 
-For an eventual quote select the actual smallest 0.15 mm via-hole option and **Epoxy Filled & Capped**, not ordinary solder-mask plugging. Include an instruction to fill/cap all via holes up to 0.30 mm, which covers the signal escapes, EP grounding vias and the via in TP8. Do not fill Tag-Connect guide holes or mechanical holes. Confirm the manufacturer's production files before release. No order has been placed and no design files have been uploaded to JLCPCB.
+For an eventual quote select the actual smallest 0.15 mm via-hole option and **Epoxy Filled & Capped**, not ordinary solder-mask plugging. Include an instruction to fill/cap all via holes up to 0.30 mm, which covers the signal escapes and EP grounding vias. Do not fill Tag-Connect guide holes or mechanical holes. Confirm the manufacturer's production files before release. No order has been placed and no design files have been uploaded to JLCPCB.
 
 Critical via-in-pad locations, in PCB coordinates (mm):
 
@@ -63,7 +63,6 @@ Critical via-in-pad locations, in PCB coordinates (mm):
 | PWM | 64.25,41.50 | 0.35 / 0.15 |
 | RST | 67.00,44.75 | 0.35 / 0.15 |
 | EP ground | 65.80,42.30; 68.20,42.30; 65.80,43.20; 68.20,43.20 | 0.45 / 0.20 |
-| TP8/P0.10 | 58.50,57.50 | 0.45 / 0.20 |
 
 ## GPIO and net mapping from upstream schematic/netlist
 
@@ -100,11 +99,11 @@ The probe's CPARA copper geometry is retained; inner copper planes and signal ro
 
 See `review/` for the native KiCad reports and route-preservation check. Final checks include ERC, DRC with schematic parity, net assignment consistency, absence of DNP flags on physical components, and preservation of the hand-routed RF/crystal/probe traces. The route comparison samples protected segments to 2 µm tolerance; it is a geometry regression check, not an RF simulation.
 
-Remaining warnings are reported rather than suppressed: the intentionally open-ended CPARA sensing electrode; legacy/library footprint differences; two battery-holder outline silkscreen clips at the original mechanical holes; and the inherited SHTC3 symbol-library difference. The holder outline clips are cosmetic. Confirm physical holder seating, cell removal and guide-hole access in mechanical review. Reference/value fields are hidden on crowded silkscreen; use the BOM and CAD for assembly identification.
+All original enabled-rule warnings are resolved: **ERC 0, DRC 0, airwires 0, schematic parity 0**. Library footprints and SHTC3 were refreshed; project SMD attributes corrected; the battery-holder body outline moved to Fab; and a covered copper-only TP9 endpoint terminates the soil electrode within its existing copper. No warning was waived. See the package README for inherited ignored-rule scope. Native validation and final package checks are in `manufacturing/jlcpcb/review/`. Confirm physical holder seating and cell removal in mechanical review.
 
-Before manufacturing release: approve the exact stack/fill/cap process with the fabricator; review aQFN exposed-pad paste and filled-via finish; reconcile retained legacy library differences; review solder-mask and assembly spacing; check the battery contact polarity and mechanics. Then assemble prototypes and verify SWD, both crystals, BLE, all sensors, button/reset operation, sleep current, radio current transients and battery life. Firmware compilation, flashing and bench/RF measurements have not been performed in this task.
+Before manufacturing release: approve the exact stack/fill/cap process with the fabricator; review aQFN exposed-pad paste and filled-via finish; review solder-mask and assembly spacing; check the battery contact polarity and mechanics. Then assemble prototypes and verify SWD, both crystals, BLE, all sensors, button/reset operation, sleep current, radio current transients and battery life. Firmware compilation, flashing and bench/RF measurements have not been performed in this task.
 
-`design/*.json` records construction inputs used during development; it is not a complete generator for the final routed PCB. The native `.kicad_sch`, `.kicad_pcb` and `.kicad_pro` files are authoritative. `prototype-bom.csv` is an engineering BOM; passive part procurement, supplier stock and assembly substitutions require review. Test pads and Tag-Connect pads are PCB features, not fitted connectors.
+`design/*.json` records construction inputs used during development; it is not a complete generator for the final routed PCB. The native `.kicad_sch`, `.kicad_pcb` and `.kicad_pro` files are authoritative. `manufacturing/jlcpcb/assembly/JLCPCB-BOM.csv` and `JLCPCB-CPL.csv` contain the same 43 fitted references. Exact MPNs are recorded and supplier mappings exist for 42 parts; Y2 Golledge MP12308 still requires sourcing/consignment or a qualified replacement. Y1 now correctly uses C519280 (9 pF), not C32346 (12.5 pF). Supplier availability and assembly orientations require review. Test pads and Tag-Connect pads are PCB features, not fitted connectors.
 
 ## References and licensing
 
