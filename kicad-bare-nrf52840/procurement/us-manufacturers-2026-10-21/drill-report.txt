@@ -1,0 +1,27 @@
+Drill report for parasite.kicad_pcb
+Created on 2026-10-21T21:32:02
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'parasite-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.150mm  0.0059"  (6 holes))
+    T2  0.200mm  0.0079"  (50 holes))
+    T3  0.300mm  0.0118"  (17 holes))
+
+    Total plated holes count 73
+
+
+Drill file 'parasite-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.991mm  0.0390"  (3 holes))
+
+    Total unplated holes count 3

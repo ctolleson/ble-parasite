@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "request": "Find a U.S. fabricator and assembler for five boards; $500 budget remains unconfirmed",
+  "candidates": [
+    {
+      "name": "AdvancedPCB",
+      "recommendation": "First domestic quote candidate; request Aurora CO turnkey program with U.S. fabrication routing appropriate to fine vias. Exact DFM and price require review.",
+      "sources": [
+        "https://www.advancedpcb.com/en-us/solutions/assembly-services/",
+        "https://www.advancedpcb.com/en-us/contact-us/facilities/",
+        "https://www.advancedpcb.com/en-us/resources/manufacturing-capabilities/?location=AuroraCO"
+      ],
+      "evidence": "Full-turnkey sourcing/fab/assembly, no minimum quantity; US facilities and Aurora turnkey offerings. Published drill capability varies by facility; do not infer all parameters can be combined."
+    },
+    {
+      "name": "Sierra Circuits",
+      "recommendation": "Strong technical custom-quote candidate. Avoid assuming standard Turnkey PRO accepts this design.",
+      "sources": [
+        "https://www.protoexpress.com/products/rigid-pcb/",
+        "https://www.protoexpress.com/products/turnkey-pro/",
+        "https://www.protoexpress.com/faq/turnkey-pro-pcbs/"
+      ],
+      "evidence": "Explicit American fabrication/assembly. Advanced rigid capabilities list 0.150 mm mechanical drill, nonconductive fill, up to 20:1 aspect ratio. Standard online Turnkey PRO lists 0.004 in trace/spacing and 0.006 in finished holes, slightly above 0.10 mm/0.15 mm. Exact copper weight/annular ring/stackup require custom review."
+    },
+    {
+      "name": "MacroFab",
+      "recommendation": "Alternative quote candidate with U.S. manufacturing selection and explicit U.S. bare-board source confirmation.",
+      "sources": [
+        "https://www.macrofab.com/capabilities",
+        "https://www.macrofab.com/"
+      ],
+      "evidence": "North American turnkey network; US factories, double-sided fine-pitch/QFN assembly, component sourcing and no minimums. Public statements alone do not confirm US origin for every bare board."
+    }
+  ],
+  "quote_status": "No RFQ submitted and no domestic price obtained; no basis to promise less than $500. JLCPCB cart remains unpaid."
+}

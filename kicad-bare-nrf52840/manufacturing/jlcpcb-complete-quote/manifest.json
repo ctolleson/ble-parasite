@@ -43,6 +43,10 @@
       "sha256": "e75a11896d7391a8f4297841850353cbdb831958dddce0fcf681d9e304164ecd"
     },
     {
+      "path": "review/saved-cart.png",
+      "sha256": "2cb5b911fa1be304703e5a648dd9324d75bec8edaab89637df3b7e7f51092bfb"
+    },
+    {
       "path": "source/DESIGN_BRIEF.md",
       "sha256": "f824740b763e9d07263e32201f1b5232993487fbadce397e089491574a44e9df"
     },
