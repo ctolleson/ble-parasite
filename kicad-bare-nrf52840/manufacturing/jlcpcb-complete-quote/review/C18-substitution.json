@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-21",
+  "reference": "C18",
+  "old_mpn": "GRM1555C1HR50WA01D",
+  "new_mpn": "GJM1555C1HR50WB01D",
+  "lcsc": "C76912",
+  "live_stock": 152098,
+  "purchase_quantity_including_attrition": 20,
+  "purchase_cost_usd": 0.802,
+  "specification": {
+    "capacitance_pf": 0.5,
+    "tolerance_pf": 0.05,
+    "rated_voltage_v": 50,
+    "dielectric": "C0G",
+    "temperature_c": [
+      -55,
+      125
+    ],
+    "package": "0402 / 1005 metric",
+    "body_mm": [
+      1.0,
+      0.5,
+      0.5
+    ],
+    "body_tolerance_mm": 0.05,
+    "series": "GJM high-Q RF"
+  },
+  "manufacturer_url": "https://pim.murata.com/en-us/pim/details/?partNum=GJM1555C1HR50WB01%23",
+  "vendor_url": "https://jlcpcb.com/partdetail/MurataElectronics-GJM1555C1HR50WB01D/C76912",
+  "fit": "Same existing 0402 footprint and electrical rating. No copper, pad, net, position or rotation change. RF tuning remains a prototype validation requirement.",
+  "bom_variant_notes": {
+    "C6": "JLC assembly uses GRM188R61C475KE11D, C77045: reel packaging variant of schematic J suffix; same component electrical/mechanical specifications.",
+    "C12": "JLC uses Samsung CL05B473KA5NNNC C318631, the original 47nF 25V X7R 10% 0402 design part, equivalent to schematic Yageo part.",
+    "D1": "onsemi LL4148 C84135 selected, as previously reviewed; avoids ambiguous automatic Semtech match.",
+    "Y1": "NX3215SA-32.768K-STD-MUA-9 is supplier ordering expansion of STDMUA9-32.768K."
+  },
+  "validation": {
+    "erc": 0,
+    "drc": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  }
+}
