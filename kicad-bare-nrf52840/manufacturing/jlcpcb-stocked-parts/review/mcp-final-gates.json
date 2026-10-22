@@ -1,0 +1,761 @@
+[
+  {
+    "name": "kicad_set_project",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Current project configuration:\n- Project directory: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840\n- Project file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pro\n- Resolved project: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pro\n- PCB file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb\n- Schematic file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_sch\n- Output directory: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\n- Server profile: full\n- Experimental tools: True"
+        }
+      ],
+      "structuredContent": {
+        "result": "Current project configuration:\n- Project directory: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840\n- Project file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pro\n- Resolved project: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pro\n- PCB file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb\n- Schematic file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_sch\n- Output directory: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\n- Server profile: full\n- Experimental tools: True"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "run_drc",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"DRC summary:\\n- Violations: 0\\n- Unconnected items: 0\\n- Courtyard issues: 0\",\n  \"summary\": \"DRC is clean.\",\n  \"verdict\": \"PASS\",\n  \"severity\": \"info\",\n  \"failure_mode\": \"none\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"report_path\": \"/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/drc_report.json\",\n      \"violations\": {\n        \"$schema\": \"https://schemas.kicad.org/drc.v1.json\",\n        \"coordinate_units\": \"mm\",\n        \"date\": \"2026-10-21T21:32:25\",\n        \"ignored_checks\": [\n          {\n            \"description\": \"Footprint has no courtyard defined\",\n            \"key\": \"missing_courtyard\"\n          },\n          {\n            \"description\": \"Track endpoint not centered on via\",\n            \"key\": \"track_not_centered_on_via\"\n          },\n          {\n            \"description\": \"Tuning profile track geometries\",\n            \"key\": \"tuning_profile_track_geometries\"\n          },\n          {\n            \"description\": \"Footprint doesn't match symbol's footprint filters\",\n            \"key\": \"footprint_filters_mismatch\"\n          },\n          {\n            \"description\": \"PTH inside courtyard\",\n            \"key\": \"pth_inside_courtyard\"\n          },\n          {\n            \"description\": \"NPTH inside courtyard\",\n            \"key\": \"npth_inside_courtyard\"\n          }\n        ],\n        \"included_severities\": [\n          \"error\",\n          \"warning\",\n          \"exclusion\"\n        ],\n        \"kicad_version\": \"10.0.6\",\n        \"schematic_parity\": [],\n        \"source\": \"parasite.kicad_pcb\",\n        \"unconnected_items\": [],\n        \"violations\": []\n      }\n    }\n  ],\n  \"remediation\": \"\",\n  \"findings\": [],\n  \"next_action\": \"No DRC action required.\",\n  \"metadata\": {\n    \"report_path\": \"/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/drc_report.json\",\n    \"available\": true,\n    \"violations\": 0,\n    \"unconnected_items\": 0,\n    \"courtyard_issues\": 0,\n    \"report_status\": \"clean\"\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "DRC summary:\n- Violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0",
+        "summary": "DRC is clean.",
+        "verdict": "PASS",
+        "severity": "info",
+        "failure_mode": "none",
+        "retryable": false,
+        "evidence": [
+          {
+            "report_path": "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/drc_report.json",
+            "violations": {
+              "$schema": "https://schemas.kicad.org/drc.v1.json",
+              "coordinate_units": "mm",
+              "date": "2026-10-21T21:32:25",
+              "ignored_checks": [
+                {
+                  "description": "Footprint has no courtyard defined",
+                  "key": "missing_courtyard"
+                },
+                {
+                  "description": "Track endpoint not centered on via",
+                  "key": "track_not_centered_on_via"
+                },
+                {
+                  "description": "Tuning profile track geometries",
+                  "key": "tuning_profile_track_geometries"
+                },
+                {
+                  "description": "Footprint doesn't match symbol's footprint filters",
+                  "key": "footprint_filters_mismatch"
+                },
+                {
+                  "description": "PTH inside courtyard",
+                  "key": "pth_inside_courtyard"
+                },
+                {
+                  "description": "NPTH inside courtyard",
+                  "key": "npth_inside_courtyard"
+                }
+              ],
+              "included_severities": [
+                "error",
+                "warning",
+                "exclusion"
+              ],
+              "kicad_version": "10.0.6",
+              "schematic_parity": [],
+              "source": "parasite.kicad_pcb",
+              "unconnected_items": [],
+              "violations": []
+            }
+          }
+        ],
+        "remediation": "",
+        "findings": [],
+        "next_action": "No DRC action required.",
+        "metadata": {
+          "report_path": "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/drc_report.json",
+          "available": true,
+          "violations": 0,
+          "unconnected_items": 0,
+          "courtyard_issues": 0,
+          "report_status": "clean"
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "run_erc",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"ERC summary:\\n- Violations: 0\",\n  \"summary\": \"ERC is clean.\",\n  \"verdict\": \"PASS\",\n  \"severity\": \"info\",\n  \"failure_mode\": \"none\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"report_path\": \"/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/erc_report.json\",\n      \"violations\": {\n        \"$schema\": \"https://schemas.kicad.org/erc.v1.json\",\n        \"coordinate_units\": \"mm\",\n        \"date\": \"2026-10-21T21:32:26\",\n        \"ignored_checks\": [\n          {\n            \"description\": \"Global label only appears once in the schematic\",\n            \"key\": \"single_global_label\"\n          },\n          {\n            \"description\": \"Four connection points are joined together\",\n            \"key\": \"four_way_junction\"\n          },\n          {\n            \"description\": \"Assigned footprint doesn't match footprint filters\",\n            \"key\": \"footprint_filter\"\n          }\n        ],\n        \"included_severities\": [\n          \"error\",\n          \"warning\",\n          \"exclusion\"\n        ],\n        \"kicad_version\": \"10.0.6\",\n        \"sheets\": [\n          {\n            \"path\": \"/\",\n            \"uuid_path\": \"/cfc3669b-133b-4df2-9732-7acc04e190be\",\n            \"violations\": []\n          }\n        ],\n        \"source\": \"parasite.kicad_sch\"\n      }\n    }\n  ],\n  \"remediation\": \"\",\n  \"findings\": [],\n  \"next_action\": \"No ERC action required.\",\n  \"metadata\": {\n    \"report_path\": \"/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/erc_report.json\",\n    \"available\": true,\n    \"violation_count\": 0,\n    \"violations\": [],\n    \"summary\": {}\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "ERC summary:\n- Violations: 0",
+        "summary": "ERC is clean.",
+        "verdict": "PASS",
+        "severity": "info",
+        "failure_mode": "none",
+        "retryable": false,
+        "evidence": [
+          {
+            "report_path": "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/erc_report.json",
+            "violations": {
+              "$schema": "https://schemas.kicad.org/erc.v1.json",
+              "coordinate_units": "mm",
+              "date": "2026-10-21T21:32:26",
+              "ignored_checks": [
+                {
+                  "description": "Global label only appears once in the schematic",
+                  "key": "single_global_label"
+                },
+                {
+                  "description": "Four connection points are joined together",
+                  "key": "four_way_junction"
+                },
+                {
+                  "description": "Assigned footprint doesn't match footprint filters",
+                  "key": "footprint_filter"
+                }
+              ],
+              "included_severities": [
+                "error",
+                "warning",
+                "exclusion"
+              ],
+              "kicad_version": "10.0.6",
+              "sheets": [
+                {
+                  "path": "/",
+                  "uuid_path": "/cfc3669b-133b-4df2-9732-7acc04e190be",
+                  "violations": []
+                }
+              ],
+              "source": "parasite.kicad_sch"
+            }
+          }
+        ],
+        "remediation": "",
+        "findings": [],
+        "next_action": "No ERC action required.",
+        "metadata": {
+          "report_path": "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/erc_report.json",
+          "available": true,
+          "violation_count": 0,
+          "violations": [],
+          "summary": {}
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "pcb_quality_gate",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"PCB quality gate: PASS\\n- PCB passes DRC, unconnected, and courtyard checks.\\n- DRC violations: 0\\n- Unconnected items: 0\\n- Courtyard issues: 0\",\n  \"summary\": \"PCB passes DRC, unconnected, and courtyard checks.\",\n  \"verdict\": \"PASS\",\n  \"severity\": \"info\",\n  \"failure_mode\": \"none\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"gate\": \"PCB\",\n      \"status\": \"PASS\",\n      \"details\": [\n        \"DRC violations: 0\",\n        \"Unconnected items: 0\",\n        \"Courtyard issues: 0\"\n      ]\n    }\n  ],\n  \"remediation\": \"\",\n  \"findings\": [],\n  \"next_action\": \"Proceed to the next gate.\",\n  \"metadata\": {\n    \"gate\": \"PCB\",\n    \"status\": \"PASS\",\n    \"details\": [\n      \"DRC violations: 0\",\n      \"Unconnected items: 0\",\n      \"Courtyard issues: 0\"\n    ]\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "PCB quality gate: PASS\n- PCB passes DRC, unconnected, and courtyard checks.\n- DRC violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0",
+        "summary": "PCB passes DRC, unconnected, and courtyard checks.",
+        "verdict": "PASS",
+        "severity": "info",
+        "failure_mode": "none",
+        "retryable": false,
+        "evidence": [
+          {
+            "gate": "PCB",
+            "status": "PASS",
+            "details": [
+              "DRC violations: 0",
+              "Unconnected items: 0",
+              "Courtyard issues: 0"
+            ]
+          }
+        ],
+        "remediation": "",
+        "findings": [],
+        "next_action": "Proceed to the next gate.",
+        "metadata": {
+          "gate": "PCB",
+          "status": "PASS",
+          "details": [
+            "DRC violations: 0",
+            "Unconnected items: 0",
+            "Courtyard issues: 0"
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "pcb_transfer_quality_gate",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"PCB transfer quality gate: FAIL\\n- Named schematic pad nets did not transfer cleanly to the PCB.\\n- Expected named pad nets: 179\\n- Matched pad nets on PCB: 135\\n- Transfer coverage: 75.4%\\n- Missing footprint refs on PCB: 0\\n- Pad-net mismatches: 44\\n- FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\\n- FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\\n- FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\\n- FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\\n- FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\\n- FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\\n- FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\\n- FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\\n- FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\\n- FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\\n- FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\\n- FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.\",\n  \"summary\": \"Named schematic pad nets did not transfer cleanly to the PCB.\",\n  \"verdict\": \"FAIL\",\n  \"severity\": \"error\",\n  \"failure_mode\": \"design\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"gate\": \"PCB transfer\",\n      \"status\": \"FAIL\",\n      \"details\": [\n        \"Expected named pad nets: 179\",\n        \"Matched pad nets on PCB: 135\",\n        \"Transfer coverage: 75.4%\",\n        \"Missing footprint refs on PCB: 0\",\n        \"Pad-net mismatches: 44\",\n        \"FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\",\n        \"FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\",\n        \"FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\",\n        \"FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\",\n        \"FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\",\n        \"FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\",\n        \"FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\",\n        \"FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\",\n        \"FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\",\n        \"FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\",\n        \"FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\",\n        \"FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.\"\n      ]\n    }\n  ],\n  \"remediation\": \"Call pcb_sync_from_schematic and re-run this gate.\",\n  \"findings\": [\n    {\n      \"id\": \"a7b585c8e31b\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"343a3e42ac80\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"60d09147a57a\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"5a147cb1ae5d\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"b8962b04942b\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"c16e5f8d86c8\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"d69ec438aa45\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"86bb449950f7\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"b4375d4967bb\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"861c30f74ce0\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"a0580c128902\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"6bb89746c851\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    }\n  ],\n  \"next_action\": \"Call pcb_sync_from_schematic and re-run this gate.\",\n  \"metadata\": {\n    \"gate\": \"PCB transfer\",\n    \"status\": \"FAIL\",\n    \"details\": [\n      \"Expected named pad nets: 179\",\n      \"Matched pad nets on PCB: 135\",\n      \"Transfer coverage: 75.4%\",\n      \"Missing footprint refs on PCB: 0\",\n      \"Pad-net mismatches: 44\",\n      \"FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\",\n      \"FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\",\n      \"FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\",\n      \"FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\",\n      \"FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\",\n      \"FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\",\n      \"FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\",\n      \"FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\",\n      \"FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\",\n      \"FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\",\n      \"FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\",\n      \"FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.\"\n    ]\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "PCB transfer quality gate: FAIL\n- Named schematic pad nets did not transfer cleanly to the PCB.\n- Expected named pad nets: 179\n- Matched pad nets on PCB: 135\n- Transfer coverage: 75.4%\n- Missing footprint refs on PCB: 0\n- Pad-net mismatches: 44\n- FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\n- FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\n- FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\n- FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\n- FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\n- FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\n- FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\n- FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\n- FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\n- FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\n- FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\n- FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.",
+        "summary": "Named schematic pad nets did not transfer cleanly to the PCB.",
+        "verdict": "FAIL",
+        "severity": "error",
+        "failure_mode": "design",
+        "retryable": false,
+        "evidence": [
+          {
+            "gate": "PCB transfer",
+            "status": "FAIL",
+            "details": [
+              "Expected named pad nets: 179",
+              "Matched pad nets on PCB: 135",
+              "Transfer coverage: 75.4%",
+              "Missing footprint refs on PCB: 0",
+              "Pad-net mismatches: 44",
+              "FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.",
+              "FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.",
+              "FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.",
+              "FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.",
+              "FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.",
+              "FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.",
+              "FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.",
+              "FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.",
+              "FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.",
+              "FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.",
+              "FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.",
+              "FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net."
+            ]
+          }
+        ],
+        "remediation": "Call pcb_sync_from_schematic and re-run this gate.",
+        "findings": [
+          {
+            "id": "a7b585c8e31b",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "343a3e42ac80",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "60d09147a57a",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "5a147cb1ae5d",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "b8962b04942b",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "c16e5f8d86c8",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "d69ec438aa45",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "86bb449950f7",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "b4375d4967bb",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "861c30f74ce0",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "a0580c128902",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "6bb89746c851",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          }
+        ],
+        "next_action": "Call pcb_sync_from_schematic and re-run this gate.",
+        "metadata": {
+          "gate": "PCB transfer",
+          "status": "FAIL",
+          "details": [
+            "Expected named pad nets: 179",
+            "Matched pad nets on PCB: 135",
+            "Transfer coverage: 75.4%",
+            "Missing footprint refs on PCB: 0",
+            "Pad-net mismatches: 44",
+            "FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.",
+            "FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.",
+            "FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.",
+            "FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.",
+            "FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.",
+            "FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.",
+            "FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.",
+            "FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.",
+            "FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.",
+            "FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.",
+            "FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.",
+            "FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net."
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "check_design_for_manufacture",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "DFM check (JLCPCB profile):\n- Profile: JLCPCB / standard\n- Checks run: 7\n- PASS: Copper layers 5 <= max 32\n- FAIL: Minimum track width 0.100 mm >= 0.127 mm\n- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\n- PASS: DRC violations: 0\n- PASS: Unconnected items: 0\n- PASS: Courtyard issues: 0\n- PASS: Silk overlap hints: 0\n- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+        }
+      ],
+      "structuredContent": {
+        "result": "DFM check (JLCPCB profile):\n- Profile: JLCPCB / standard\n- Checks run: 7\n- PASS: Copper layers 5 <= max 32\n- FAIL: Minimum track width 0.100 mm >= 0.127 mm\n- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\n- PASS: DRC violations: 0\n- PASS: Unconnected items: 0\n- PASS: Courtyard issues: 0\n- PASS: Silk overlap hints: 0\n- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "dfm_load_manufacturer_profile",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "DFM profile loaded.\n- Active profile: JLCPCB / standard\n- State file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/active_dfm_profile.json"
+        }
+      ],
+      "structuredContent": {
+        "result": "DFM profile loaded.\n- Active profile: JLCPCB / standard\n- State file: /Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/output/active_dfm_profile.json"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "dfm_run_manufacturer_check",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"DFM profile check:\\n- Profile: JLCPCB / standard\\n- Checks run: 7\\n- PASS: Copper layers 5 <= max 32\\n- FAIL: Minimum track width 0.100 mm >= 0.127 mm\\n- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\\n- PASS: DRC violations: 0\\n- PASS: Unconnected items: 0\\n- PASS: Courtyard issues: 0\\n- PASS: Silk overlap hints: 0\\n- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\",\n  \"summary\": \"DFM profile check has actionable manufacturing findings.\",\n  \"verdict\": \"FAIL\",\n  \"severity\": \"error\",\n  \"failure_mode\": \"design\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"lines\": [\n        \"DFM profile check:\",\n        \"- Profile: JLCPCB / standard\",\n        \"- Checks run: 7\",\n        \"- PASS: Copper layers 5 <= max 32\",\n        \"- FAIL: Minimum track width 0.100 mm >= 0.127 mm\",\n        \"- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\",\n        \"- PASS: DRC violations: 0\",\n        \"- PASS: Unconnected items: 0\",\n        \"- PASS: Courtyard issues: 0\",\n        \"- PASS: Silk overlap hints: 0\",\n        \"- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\"\n      ]\n    }\n  ],\n  \"remediation\": \"Resolve FAIL/WARN DFM profile lines, then rerun dfm_run_manufacturer_check().\",\n  \"findings\": [\n    {\n      \"id\": \"0adc3170c2fa\",\n      \"severity\": \"error\",\n      \"location\": \"dfm_run_manufacturer_check\",\n      \"description\": \"DFM profile check has actionable manufacturing findings.\",\n      \"evidence\": [\n        {\n          \"lines\": [\n            \"DFM profile check:\",\n            \"- Profile: JLCPCB / standard\",\n            \"- Checks run: 7\",\n            \"- PASS: Copper layers 5 <= max 32\",\n            \"- FAIL: Minimum track width 0.100 mm >= 0.127 mm\",\n            \"- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\",\n            \"- PASS: DRC violations: 0\",\n            \"- PASS: Unconnected items: 0\",\n            \"- PASS: Courtyard issues: 0\",\n            \"- PASS: Silk overlap hints: 0\",\n            \"- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\"\n          ]\n        }\n      ],\n      \"remediation\": \"Resolve FAIL/WARN DFM profile lines, then rerun dfm_run_manufacturer_check().\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": null,\n      \"metadata\": {}\n    }\n  ],\n  \"next_action\": \"Resolve DFM profile findings before manufacturing handoff.\",\n  \"metadata\": {\n    \"profile_check\": true\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "DFM profile check:\n- Profile: JLCPCB / standard\n- Checks run: 7\n- PASS: Copper layers 5 <= max 32\n- FAIL: Minimum track width 0.100 mm >= 0.127 mm\n- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\n- PASS: DRC violations: 0\n- PASS: Unconnected items: 0\n- PASS: Courtyard issues: 0\n- PASS: Silk overlap hints: 0\n- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.",
+        "summary": "DFM profile check has actionable manufacturing findings.",
+        "verdict": "FAIL",
+        "severity": "error",
+        "failure_mode": "design",
+        "retryable": false,
+        "evidence": [
+          {
+            "lines": [
+              "DFM profile check:",
+              "- Profile: JLCPCB / standard",
+              "- Checks run: 7",
+              "- PASS: Copper layers 5 <= max 32",
+              "- FAIL: Minimum track width 0.100 mm >= 0.127 mm",
+              "- FAIL: Minimum via drill 0.150 mm >= 0.300 mm",
+              "- PASS: DRC violations: 0",
+              "- PASS: Unconnected items: 0",
+              "- PASS: Courtyard issues: 0",
+              "- PASS: Silk overlap hints: 0",
+              "- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+            ]
+          }
+        ],
+        "remediation": "Resolve FAIL/WARN DFM profile lines, then rerun dfm_run_manufacturer_check().",
+        "findings": [
+          {
+            "id": "0adc3170c2fa",
+            "severity": "error",
+            "location": "dfm_run_manufacturer_check",
+            "description": "DFM profile check has actionable manufacturing findings.",
+            "evidence": [
+              {
+                "lines": [
+                  "DFM profile check:",
+                  "- Profile: JLCPCB / standard",
+                  "- Checks run: 7",
+                  "- PASS: Copper layers 5 <= max 32",
+                  "- FAIL: Minimum track width 0.100 mm >= 0.127 mm",
+                  "- FAIL: Minimum via drill 0.150 mm >= 0.300 mm",
+                  "- PASS: DRC violations: 0",
+                  "- PASS: Unconnected items: 0",
+                  "- PASS: Courtyard issues: 0",
+                  "- PASS: Silk overlap hints: 0",
+                  "- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+                ]
+              }
+            ],
+            "remediation": "Resolve FAIL/WARN DFM profile lines, then rerun dfm_run_manufacturer_check().",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": null,
+            "metadata": {}
+          }
+        ],
+        "next_action": "Resolve DFM profile findings before manufacturing handoff.",
+        "metadata": {
+          "profile_check": true
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "manufacturing_quality_gate",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"Manufacturing quality gate: FAIL\\n- DFM reported 2 failing checks.\\n- Profile: JLCPCB / standard\\n- FAIL: Minimum track width 0.100 mm >= 0.127 mm\\n- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\\n- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\",\n  \"summary\": \"DFM reported 2 failing checks.\",\n  \"verdict\": \"FAIL\",\n  \"severity\": \"error\",\n  \"failure_mode\": \"design\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"gate\": \"Manufacturing\",\n      \"status\": \"FAIL\",\n      \"details\": [\n        \"Profile: JLCPCB / standard\",\n        \"FAIL: Minimum track width 0.100 mm >= 0.127 mm\",\n        \"FAIL: Minimum via drill 0.150 mm >= 0.300 mm\",\n        \"WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\"\n      ]\n    }\n  ],\n  \"remediation\": \"Call dfm_run_manufacturer_check and re-run this gate.\",\n  \"findings\": [\n    {\n      \"id\": \"5cf42f4b35aa\",\n      \"severity\": \"error\",\n      \"location\": \"Manufacturing\",\n      \"description\": \"Minimum track width 0.100 mm >= 0.127 mm\",\n      \"evidence\": [\n        {\n          \"gate\": \"Manufacturing\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: Minimum track width 0.100 mm >= 0.127 mm\"\n        }\n      ],\n      \"remediation\": \"Run dfm_run_manufacturer_check and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"dfm_run_manufacturer_check\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"8f89b2402bb7\",\n      \"severity\": \"error\",\n      \"location\": \"Manufacturing\",\n      \"description\": \"Minimum via drill 0.150 mm >= 0.300 mm\",\n      \"evidence\": [\n        {\n          \"gate\": \"Manufacturing\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: Minimum via drill 0.150 mm >= 0.300 mm\"\n        }\n      ],\n      \"remediation\": \"Run dfm_run_manufacturer_check and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"dfm_run_manufacturer_check\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"f35764fe4e37\",\n      \"severity\": \"warning\",\n      \"location\": \"Manufacturing\",\n      \"description\": \"Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\",\n      \"evidence\": [\n        {\n          \"gate\": \"Manufacturing\",\n          \"status\": \"FAIL\",\n          \"detail\": \"WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\"\n        }\n      ],\n      \"remediation\": \"Run dfm_run_manufacturer_check and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"dfm_run_manufacturer_check\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    }\n  ],\n  \"next_action\": \"Call dfm_run_manufacturer_check and re-run this gate.\",\n  \"metadata\": {\n    \"gate\": \"Manufacturing\",\n    \"status\": \"FAIL\",\n    \"details\": [\n      \"Profile: JLCPCB / standard\",\n      \"FAIL: Minimum track width 0.100 mm >= 0.127 mm\",\n      \"FAIL: Minimum via drill 0.150 mm >= 0.300 mm\",\n      \"WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.\"\n    ]\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "Manufacturing quality gate: FAIL\n- DFM reported 2 failing checks.\n- Profile: JLCPCB / standard\n- FAIL: Minimum track width 0.100 mm >= 0.127 mm\n- FAIL: Minimum via drill 0.150 mm >= 0.300 mm\n- WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.",
+        "summary": "DFM reported 2 failing checks.",
+        "verdict": "FAIL",
+        "severity": "error",
+        "failure_mode": "design",
+        "retryable": false,
+        "evidence": [
+          {
+            "gate": "Manufacturing",
+            "status": "FAIL",
+            "details": [
+              "Profile: JLCPCB / standard",
+              "FAIL: Minimum track width 0.100 mm >= 0.127 mm",
+              "FAIL: Minimum via drill 0.150 mm >= 0.300 mm",
+              "WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+            ]
+          }
+        ],
+        "remediation": "Call dfm_run_manufacturer_check and re-run this gate.",
+        "findings": [
+          {
+            "id": "5cf42f4b35aa",
+            "severity": "error",
+            "location": "Manufacturing",
+            "description": "Minimum track width 0.100 mm >= 0.127 mm",
+            "evidence": [
+              {
+                "gate": "Manufacturing",
+                "status": "FAIL",
+                "detail": "FAIL: Minimum track width 0.100 mm >= 0.127 mm"
+              }
+            ],
+            "remediation": "Run dfm_run_manufacturer_check and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "dfm_run_manufacturer_check",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "8f89b2402bb7",
+            "severity": "error",
+            "location": "Manufacturing",
+            "description": "Minimum via drill 0.150 mm >= 0.300 mm",
+            "evidence": [
+              {
+                "gate": "Manufacturing",
+                "status": "FAIL",
+                "detail": "FAIL: Minimum via drill 0.150 mm >= 0.300 mm"
+              }
+            ],
+            "remediation": "Run dfm_run_manufacturer_check and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "dfm_run_manufacturer_check",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "f35764fe4e37",
+            "severity": "warning",
+            "location": "Manufacturing",
+            "description": "Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes.",
+            "evidence": [
+              {
+                "gate": "Manufacturing",
+                "status": "FAIL",
+                "detail": "WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+              }
+            ],
+            "remediation": "Run dfm_run_manufacturer_check and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "dfm_run_manufacturer_check",
+              "args": {}
+            },
+            "metadata": {}
+          }
+        ],
+        "next_action": "Call dfm_run_manufacturer_check and re-run this gate.",
+        "metadata": {
+          "gate": "Manufacturing",
+          "status": "FAIL",
+          "details": [
+            "Profile: JLCPCB / standard",
+            "FAIL: Minimum track width 0.100 mm >= 0.127 mm",
+            "FAIL: Minimum via drill 0.150 mm >= 0.300 mm",
+            "WARN: Manual review: annular ring, copper-to-edge, and silkscreen text size against JLCPCB standard fab notes."
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "project_revalidate_after_edit",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Selective re-validation after edit: 8 change(s) impact 4 gate(s); 5 gate(s) preserved (no re-run needed).\n\nRe-ran impacted project gates (connectivity, pcb): FAIL\nSchematic connectivity quality gate: PASS\n- Connectivity structure looks consistent across the active schematic set.\n- Pages analysed: 1\n- Top level: 82 symbol(s), 60 label(s), 158 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 0\n- Isolated footprint symbols: 0\n- Hierarchy contract mismatches: 0\n- Matched component contracts: 0\n- Component contract violations: 0\nPre-sync quality gate: PASS\n- Schematic is ready for PCB sync.\n- ERC/connectivity blockers: 0\nPCB quality gate: PASS\n- PCB passes DRC, unconnected, and courtyard checks.\n- DRC violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0\nPlacement quality gate: FAIL\n- Footprint placement still violates hard physical or intent-aware checks.\n- Footprints analysed: 55\n- Board frame: 22.00 x 126.00 mm\n- Density: 37.16%\n- Connector checks: 1\n- Decoupling pair checks: 2\n- RF keepout checks: 0\n- Power-tree refs checked: 1\n- Analog refs checked: 0\n- Digital refs checked: 0\n- Sensor-cluster refs checked: 0\n- Critical-net Manhattan proxy: 51.66 mm\n- Critical-net proxy density: 18.64 mm per 1000 mm^2\n- Thermal hotspot refs checked: 0\n- Thermal hotspot proximity: 0.0000\n- Placement score: 15/100\n- FAIL: Overlap refs: BT1/C1, BT1/C2, BT1/D1, BT1/Q1, BT1/R1, BT1/R4, BT1/R6, BT1/TP5, BT1/TP6, BT1/TP8, BT1/U2, C1/R6, C1/TP5, C14/U1, C17/L3, C17/U1, C18/L3, C5/Y1, C6/U1, L1/L2\n- FAIL: Outside-board refs: AE1, BT1, Q4\n- WARN: Placement spans most of the board; clustering looks weak.\nPCB transfer quality gate: FAIL\n- Named schematic pad nets did not transfer cleanly to the PCB.\n- Expected named pad nets: 179\n- Matched pad nets on PCB: 135\n- Transfer coverage: 75.4%\n- Missing footprint refs on PCB: 0\n- Pad-net mismatches: 44\n- FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\n- FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\n- FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\n- FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\n- FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\n- FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\n- FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\n- FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\n- FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\n- FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\n- FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\n- FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.\n\nImpacted analysis categories to re-run with their own tools:\n- power: check_power_integrity / pdn_calculate_voltage_drop\n- signal_integrity: si_calculate_trace_impedance / si_analyze_high_speed_channel\n\nPreserved project gates (not re-run): dfm, manufacturing, schematic"
+        }
+      ],
+      "structuredContent": {
+        "result": "Selective re-validation after edit: 8 change(s) impact 4 gate(s); 5 gate(s) preserved (no re-run needed).\n\nRe-ran impacted project gates (connectivity, pcb): FAIL\nSchematic connectivity quality gate: PASS\n- Connectivity structure looks consistent across the active schematic set.\n- Pages analysed: 1\n- Top level: 82 symbol(s), 60 label(s), 158 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 0\n- Isolated footprint symbols: 0\n- Hierarchy contract mismatches: 0\n- Matched component contracts: 0\n- Component contract violations: 0\nPre-sync quality gate: PASS\n- Schematic is ready for PCB sync.\n- ERC/connectivity blockers: 0\nPCB quality gate: PASS\n- PCB passes DRC, unconnected, and courtyard checks.\n- DRC violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0\nPlacement quality gate: FAIL\n- Footprint placement still violates hard physical or intent-aware checks.\n- Footprints analysed: 55\n- Board frame: 22.00 x 126.00 mm\n- Density: 37.16%\n- Connector checks: 1\n- Decoupling pair checks: 2\n- RF keepout checks: 0\n- Power-tree refs checked: 1\n- Analog refs checked: 0\n- Digital refs checked: 0\n- Sensor-cluster refs checked: 0\n- Critical-net Manhattan proxy: 51.66 mm\n- Critical-net proxy density: 18.64 mm per 1000 mm^2\n- Thermal hotspot refs checked: 0\n- Thermal hotspot proximity: 0.0000\n- Placement score: 15/100\n- FAIL: Overlap refs: BT1/C1, BT1/C2, BT1/D1, BT1/Q1, BT1/R1, BT1/R4, BT1/R6, BT1/TP5, BT1/TP6, BT1/TP8, BT1/U2, C1/R6, C1/TP5, C14/U1, C17/L3, C17/U1, C18/L3, C5/Y1, C6/U1, L1/L2\n- FAIL: Outside-board refs: AE1, BT1, Q4\n- WARN: Placement spans most of the board; clustering looks weak.\nPCB transfer quality gate: FAIL\n- Named schematic pad nets did not transfer cleanly to the PCB.\n- Expected named pad nets: 179\n- Matched pad nets on PCB: 135\n- Transfer coverage: 75.4%\n- Missing footprint refs on PCB: 0\n- Pad-net mismatches: 44\n- FAIL: AE1.2: PCB has 'unconnected-(AE1-PCB_Trace-Pad2)', expected no net.\n- FAIL: J1.6: PCB has 'unconnected-(J1-Pin_6-Pad6)', expected no net.\n- FAIL: U1.A14: PCB has 'unconnected-(U1-P1.15-PadA14)', expected no net.\n- FAIL: U1.A16: PCB has 'unconnected-(U1-P1.13-PadA16)', expected no net.\n- FAIL: U1.A18: PCB has 'unconnected-(U1-DEC2-PadA18)', expected no net.\n- FAIL: U1.A20: PCB has 'unconnected-(U1-P1.10-PadA20)', expected no net.\n- FAIL: U1.A8: PCB has 'unconnected-(U1-AIN7{slash}P0.31-PadA8)', expected no net.\n- FAIL: U1.AB2: PCB has 'unconnected-(U1-DCCH-PadAB2)', expected no net.\n- FAIL: U1.AC11: PCB has 'unconnected-(U1-P0.16-PadAC11)', expected no net.\n- FAIL: U1.AC15: PCB has 'unconnected-(U1-P0.19-PadAC15)', expected no net.\n- FAIL: U1.AC17: PCB has 'unconnected-(U1-P0.21-PadAC17)', expected no net.\n- FAIL: U1.AC19: PCB has 'unconnected-(U1-P0.23-PadAC19)', expected no net.\n\nImpacted analysis categories to re-run with their own tools:\n- power: check_power_integrity / pdn_calculate_voltage_drop\n- signal_integrity: si_calculate_trace_impedance / si_analyze_high_speed_channel\n\nPreserved project gates (not re-run): dfm, manufacturing, schematic"
+      },
+      "isError": false
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "native_drc": "0 violations, 0 unconnected, 0 schematic parity issues",
+  "native_erc": "0 violations",
+  "footprint_references_unchanged": 55,
+  "pad_nets_preserved": true,
+  "schematic_wires_labels_junctions_nc_preserved": true,
+  "only_moved_component": [
+    "C6"
+  ],
+  "soldermask_graphics_preserved": true,
+  "four_layer_stackup_preserved": true,
+  "schematic_pcb_purchasing_fields_match": true,
+  "C6": {
+    "position": [
+      61.4,
+      45.4,
+      -90
+    ],
+    "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "prototype_hold": "Antenna A network requires VNA matching and BLE range verification."
+}

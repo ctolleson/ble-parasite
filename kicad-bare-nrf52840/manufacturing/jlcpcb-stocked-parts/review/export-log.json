@@ -1,0 +1,199 @@
+[
+  {
+    "args": [
+      "pcb",
+      "drc",
+      "--schematic-parity",
+      "--format",
+      "json",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/drc-parity.json",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/drc-parity.json\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/erc.json",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_sch"
+    ],
+    "exit": 0,
+    "stdout": "Found 0 violations\nSaved ERC Report to /Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/erc.json\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "pdf",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/schematic.pdf",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_sch"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/schematic.pdf'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "bom",
+      "--fields",
+      "Reference,Value,Footprint,MPN,Manufacturer,LCSC,Dielectric,Assembly_note,Source,Datasheet,QUANTITY",
+      "--labels",
+      "Reference,Value,Footprint,MPN,Manufacturer,LCSC,Dielectric,Assembly_note,Source,Datasheet,Qty",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/assembly/engineering-bom.csv",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_sch"
+    ],
+    "exit": 0,
+    "stdout": "Wrote bill of materials to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/assembly/engineering-bom.csv'.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts,F.Paste,B.Paste",
+      "--subtract-soldermask",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-F_Cu.gtl'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-In1_Cu.g1'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-In2_Cu.g2'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-B_Cu.gbl'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-F_Paste.gtp'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-B_Paste.gbp'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-F_Silkscreen.gto'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-B_Silkscreen.gbo'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-F_Mask.gts'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-B_Mask.gbs'.\nPlotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-Edge_Cuts.gm1'.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "drill",
+      "--format",
+      "excellon",
+      "--excellon-units",
+      "mm",
+      "--drill-origin",
+      "absolute",
+      "--excellon-separate-th",
+      "--generate-map",
+      "--map-format",
+      "pdf",
+      "--generate-report",
+      "--report-path",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/drill-report.txt",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Created file '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-PTH.drl'\nCreated file '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-NPTH.drl'\nCreated file '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-PTH-drl_map.pdf'.\nCreated file '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/gerber/parasite-NPTH-drl_map.pdf'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "pos",
+      "--format",
+      "csv",
+      "--units",
+      "mm",
+      "--side",
+      "both",
+      "--exclude-dnp",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/assembly/kicad-pos.csv",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Wrote position data to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/assembly/kicad-pos.csv'.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "pdf",
+      "--layers",
+      "F.Fab,F.Cu,F.Silkscreen,Edge.Cuts",
+      "--sketch-pads-on-fab-layers",
+      "--mode-single",
+      "--scale",
+      "0",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/assembly-front.pdf",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/assembly-front.pdf'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "pdf",
+      "--layers",
+      "B.Fab,B.Cu,B.Silkscreen,Edge.Cuts",
+      "--mirror",
+      "--sketch-pads-on-fab-layers",
+      "--mode-single",
+      "--scale",
+      "0",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/assembly-back.pdf",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/assembly-back.pdf'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "svg",
+      "--layers",
+      "F.Cu,F.Silkscreen,Edge.Cuts",
+      "--mode-single",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/pcb-front.svg",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/pcb-front.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "svg",
+      "--layers",
+      "B.Cu,B.Silkscreen,Edge.Cuts",
+      "--mirror",
+      "--mode-single",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "--output",
+      "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/pcb-back.svg",
+      "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_pcb"
+    ],
+    "exit": 0,
+    "stdout": "Plotted to '/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/review/pcb-back.svg'.\nDone.\n",
+    "stderr": ""
+  }
+]
