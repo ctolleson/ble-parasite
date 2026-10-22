@@ -87,7 +87,7 @@ The upstream v2.0.0 devicetree also assigns P1.10 to a fast-discharge control, w
 
 The power network follows Nordic QIAA VDD/DC-DC reference circuitry: VDDH is tied to VDD; DCC uses 10 µH then 15 nH into DEC4/DEC6; DEC1=100 nF, DEC3=100 pF, DEC5=820 pF, DEC4/6=1 µF plus 47 nF. Unused VBUS is grounded; DECUSB, DEC2 and DCCH are NC for this configuration. Review against Nordic QIAA reference revision 1.3 and the supplied PCA10056 DK 3.0.3 reference before assembly.
 
-HF crystal: Golledge MP12308, 32 MHz, CL=8 pF, with 12 pF loads. LF crystal: NDK NX3215SA-32.768K-STD-MUA-9 with 12 pF loads. Final oscillator loading depends on PCB stray capacitance and must be checked on hardware.
+HF crystal: KYOCERA AVX CX2016DB32000D0FLJCC, 32 MHz, CL=8 pF, with 12 pF loads. DigiKey cut tape: 478-CX2016DB32000D0FLJCCCT-ND. ESR 60 ohm maximum; initial tolerance +/-10 ppm, temperature stability +/-15 ppm over -30 to +85 C. LF crystal: NDK NX3215SA-32.768K-STD-MUA-9 with 12 pF loads. Final oscillator loading depends on PCB stray capacitance and must be checked on hardware.
 
 RF starting values: MCU shunt 0.8 pF / series 4.7 nH / shunt 0.5 pF, followed by antenna tuning series 1.2 pF / shunt 2.7 nH / series 3.3 nH. These are prototype starting values, not a measured match. Use C0G capacitors and suitable high-Q RF inductors. Keep the antenna's all-layer corner keepout clear of enclosure metal, the battery and coating.
 
@@ -103,7 +103,7 @@ All original enabled-rule warnings are resolved: **ERC 0, DRC 0, airwires 0, sch
 
 Before manufacturing release: approve the exact stack/fill/cap process with the fabricator; review aQFN exposed-pad paste and filled-via finish; review solder-mask and assembly spacing; check the battery contact polarity and mechanics. Then assemble prototypes and verify SWD, both crystals, BLE, all sensors, button/reset operation, sleep current, radio current transients and battery life. Firmware compilation, flashing and bench/RF measurements have not been performed in this task.
 
-`design/*.json` records construction inputs used during development; it is not a complete generator for the final routed PCB. The native `.kicad_sch`, `.kicad_pcb` and `.kicad_pro` files are authoritative. `../assembly/JLCPCB-BOM.csv` and `JLCPCB-CPL.csv` contain the same 43 fitted references. Exact MPNs are recorded and supplier mappings exist for 42 parts; Y2 Golledge MP12308 still requires sourcing/consignment or a qualified replacement. Y1 now correctly uses C519280 (9 pF), not C32346 (12.5 pF). Supplier availability and assembly orientations require review. Test pads and Tag-Connect pads are PCB features, not fitted connectors.
+`design/*.json` records construction inputs used during development; it is not a complete generator for the final routed PCB. The native `.kicad_sch`, `.kicad_pcb` and `.kicad_pro` files are authoritative. `../assembly/JLCPCB-BOM.csv` and `JLCPCB-CPL.csv` contain the same 43 fitted references. Exact MPNs are recorded and LCSC mappings exist for 42 parts; Y2 uses KYOCERA AVX CX2016DB32000D0FLJCC with DigiKey ordering code 478-CX2016DB32000D0FLJCCCT-ND. Its LCSC field remains blank pending confirmed JLCPCB procurement or consignment. Y1 now correctly uses C519280 (9 pF), not C32346 (12.5 pF). Supplier availability and assembly orientations require review. Test pads and Tag-Connect pads are PCB features, not fitted connectors.
 
 ## References and licensing
 

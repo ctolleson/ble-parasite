@@ -16,6 +16,10 @@ Revision **3.0-prototype**, 2026-10-21. KiCad 10.0.6.
 - `source/`: final KiCad project and project libraries. Open `parasite.kicad_pro`.
 - `SHA256SUMS.txt` and `manifest.json`: package integrity and source provenance.
 
+## Y2 update
+
+Y2 now uses KYOCERA AVX CX2016DB32000D0FLJCC. Schematic and PCB fields, construction metadata, BOMs, sourcing notes, and exports were refreshed. `review/y2-change-audit.json` confirms unchanged board geometry and connectivity. Native schematic save normalized ordering and whitespace and added one hidden standard label field.
+
 ## Validation
 
 Native KiCad: **0 ERC violations, 0 DRC violations, 0 airwires, 0 schematic parity issues** under the project’s configured checks. BOM/CPL reference sets and all exported positions/sides/rotations were checked against the PCB. No physical component is DNP. Gerber layer identities and drill totals were checked.
@@ -26,7 +30,7 @@ No DRC exclusions or rule-severity changes were added. The reports list inherite
 
 ## Release holds
 
-1. **Y2 sourcing:** Golledge MP12308, 32 MHz, CL 8 pF, from the Nordic reference. Its LCSC field is intentionally blank. Source/consign the exact part, or qualify a replacement for package/pinout, CL, ESR, tolerance, drive level, and temperature before ordering. It remains included in BOM/CPL, not silently omitted.
+1. **Y2 procurement:** KYOCERA AVX CX2016DB32000D0FLJCC, 32 MHz, CL 8 pF. DigiKey cut tape **478-CX2016DB32000D0FLJCCCT-ND**. The replacement matches the existing footprint; C14/C15 remain 12 pF. Its LCSC field is intentionally blank; confirm JLCPCB procurement or consignment before assembly. See `review/y2-replacement.md` for specifications and prototype checks.
 2. **Fabrication acceptance:** obtain JLCPCB confirmation of four-layer epoxy-filled/copper-capped 0.15 mm through vias and the specified stack. Confirm RF geometry with its impedance solver. This is not a generic low-cost four-layer order.
 3. **Assembly review:** check JLCPCB’s component preview against pad numbering and the assembly drawings, especially U1, U2, Q1, Q4, D1, D2, Y2, AE1, and bottom-side BT1. Native KiCad angles are normalized to 0–360°; vendor-specific rotation offsets have not been assumed. Confirm the 43 parts are available for the chosen assembly service. Catalog presence is not reserved stock.
 4. **Prototype qualification:** verify battery mechanics/polarity, exposed-pad stencil coverage and reflow, SWD, oscillators, sensors, BLE, current consumption, and RF matching/emissions. Firmware and bench tests have not been performed.

@@ -1,0 +1,14 @@
+{
+  "baseline_commit": "88fbaa18bc9f688a779ea629249114133b5f6eb9",
+  "files": {
+    "pcb": {
+      "only_authorized_Y2_fields_and_native_format_normalization": true,
+      "geometry_and_connectivity_unchanged": true
+    },
+    "sch": {
+      "only_authorized_Y2_fields_and_native_format_normalization": true,
+      "geometry_and_connectivity_unchanged": true
+    }
+  },
+  "allowed_native_normalization": "Schematic node ordering, whitespace, hidden CPARA Intersheetrefs property"
+}

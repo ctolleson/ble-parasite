@@ -47,9 +47,9 @@
       "export",
       "bom",
       "--fields",
-      "Reference,Value,Footprint,MPN,Manufacturer,LCSC,Dielectric,Assembly_note,QUANTITY",
+      "Reference,Value,Footprint,MPN,Manufacturer,LCSC,Dielectric,Assembly_note,Source,Datasheet,QUANTITY",
       "--labels",
-      "Reference,Value,Footprint,MPN,Manufacturer,LCSC,Dielectric,Assembly_note,Qty",
+      "Reference,Value,Footprint,MPN,Manufacturer,LCSC,Dielectric,Assembly_note,Source,Datasheet,Qty",
       "--output",
       "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb/assembly/engineering-bom.csv",
       "/Users/ctolleson/Documents/Claude/BLE_Plant_Monitor/kicad-bare-nrf52840/parasite.kicad_sch"

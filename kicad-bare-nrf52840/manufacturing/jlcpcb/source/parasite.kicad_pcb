@@ -7988,7 +7988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ele.kyocera.com/sites/default/files/assets/products/crystal-device/cx2016db_e.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8022,7 +8022,7 @@
 				)
 			)
 		)
-		(property "MPN" "MP12308"
+		(property "MPN" "CX2016DB32000D0FLJCC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8035,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Golledge"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8061,7 +8061,7 @@
 				)
 			)
 		)
-		(property "Source" "PCA10056 3.0.3 X1"
+		(property "Source" "DigiKey 478-CX2016DB32000D0FLJCCCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8074,7 +8074,7 @@
 				)
 			)
 		)
-		(property "Assembly_note" "Golledge custom MP12308 from Nordic reference; 32 MHz, CL 8 pF. Customer sourcing/consignment required; no unqualified substitute."
+		(property "Assembly_note" "32 MHz fundamental, CL 8 pF, ESR 60 ohm max; +/-10 ppm initial, +/-15 ppm temperature, -30 to +85 C. Retain C14/C15 12 pF; verify startup/frequency on prototype. DigiKey sourcing; confirm JLCPCB consignment or procurement."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

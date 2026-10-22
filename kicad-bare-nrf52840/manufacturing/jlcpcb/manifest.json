@@ -1,8 +1,8 @@
 {
   "status": "draft package",
-  "source_commit": "718ed3d4d988043dcc342c980fd19083ba71830b",
+  "source_commit": "5a1a1cd0cc9ff1aa4827daef5bfd42b6b8f7785e",
   "release_holds": [
-    "Y2 custom crystal sourcing",
+    "JLCPCB procurement/consignment of DigiKey-sourced Kyocera Y2",
     "JLCPCB four-layer fill/cap and stackup acceptance",
     "RF impedance review",
     "Vendor assembly orientation and stencil review"
@@ -10,23 +10,23 @@
   "files": [
     {
       "path": "FABRICATION-NOTES.md",
-      "size": 5111,
-      "sha256": "b8968585552f1222da1bd9531872c726d172702c3e68c94a35001e8769a37ba3"
+      "size": 5290,
+      "sha256": "1f2c34684547716e965317c87721d0ad8797cd6dae8514226af9b00bcaf0011a"
     },
     {
       "path": "JLCPCB-Gerber-Drill.zip",
       "size": 154785,
-      "sha256": "d139f5b33db4ba5dad469d18919f9057a6a6e24b59db3763640dc58b7908587e"
+      "sha256": "5dac46c2a8e8cfda6956486461396bbb5e23582acd4332ee1df230904d60632c"
     },
     {
       "path": "README.md",
-      "size": 4798,
-      "sha256": "aa1fea8426bec82b8fc33b7affebccddbf1505c6cc3d4fd8a9792c9207228944"
+      "size": 5189,
+      "sha256": "0344a8b8ee4b6a53b03080598cda2053fae9600bcb1198293f5a8def06516f5c"
     },
     {
       "path": "assembly/JLCPCB-BOM.csv",
-      "size": 2093,
-      "sha256": "d397700b3a2cebfb2ce62587a0ebe1e8ccf8f41430d06e2af69a5767653b047d"
+      "size": 2106,
+      "sha256": "01c26c632b09ee11d2ab3e26b36824e1103f5d36d43dbfc54867a0784809bd4d"
     },
     {
       "path": "assembly/JLCPCB-CPL.csv",
@@ -35,8 +35,8 @@
     },
     {
       "path": "assembly/engineering-bom.csv",
-      "size": 5075,
-      "sha256": "2adc38a0e593fe6dd3b6c9db490c23043481cb00ae5b9f7aebc6e26f184849d3"
+      "size": 5715,
+      "sha256": "5a913d8d7a87fd0241c790888844a94c1b17765b5ce585eed1a48401af906a86"
     },
     {
       "path": "assembly/kicad-pos.csv",
@@ -50,123 +50,128 @@
     },
     {
       "path": "assembly/sourcing-review.csv",
-      "size": 6003,
-      "sha256": "00432e687fab2bd1f4ce997ad31b211ddc2fe38c24373e727d8ae221296049d8"
+      "size": 6140,
+      "sha256": "18bf9151ee2a2325e1c599269e39d982cea0af8646bea66e9ced73101f283fcc"
     },
     {
       "path": "gerber/parasite-B_Cu.gbl",
       "size": 52974,
-      "sha256": "ba5ef1b47e16680e4a80b71f8d399386959ea326d8a6033f343c60247b5af224"
+      "sha256": "c29584bf7cbbcf3dbc5e24ff2774d306a47b8cdf7b271c176840aeed774c46de"
     },
     {
       "path": "gerber/parasite-B_Mask.gbs",
       "size": 2582,
-      "sha256": "5eb61e0b3dbf05e2dd8e42fc2d22927b1fe89a3d07394d315643bf032169312c"
+      "sha256": "5f49c60b6476f8368bfae439f4e2438c94b8dd243c39ba4c626124d7ad60ca2c"
     },
     {
       "path": "gerber/parasite-B_Paste.gbp",
       "size": 561,
-      "sha256": "bb1e106112745a24f3b72f5d3a7aef3689c0ea7b0ac939edc4a49019938fca22"
+      "sha256": "40a30cd00945afdcf18649bb647e5ee508633285407d65696738839e853b153a"
     },
     {
       "path": "gerber/parasite-B_Silkscreen.gbo",
       "size": 2664,
-      "sha256": "977d5266c65b376e1ef16db2da16bfe13a647015c0877e1cc933b339520200a3"
+      "sha256": "387f11f6c516300fcc20edc2776194503abd7f1de0db3adb27d007fe6037bf03"
     },
     {
       "path": "gerber/parasite-Edge_Cuts.gm1",
       "size": 1260,
-      "sha256": "ee7ed263c99bb3a29316db909ac980b50076cfece071ea33133f663f30645ea5"
+      "sha256": "6e756d5ca21373e3c06a0da4bab9e6cdde3692da4d34ee982927acfa6ed46dd6"
     },
     {
       "path": "gerber/parasite-F_Cu.gtl",
       "size": 153869,
-      "sha256": "b4099abbc226e0b0d7c78a00d976cb4b55c2da76053052678f6c89c5c64c586c"
+      "sha256": "9068656a3a0dd8bbb43ec02e8b5ac03a9a6bddf0d0f4335fc86be728b59c735b"
     },
     {
       "path": "gerber/parasite-F_Mask.gts",
       "size": 89144,
-      "sha256": "d3b43a6e525bd6c7ea610fb09f8d2eadb8f0df768c9ba3f9eb5fe675f4059d49"
+      "sha256": "9759f333c0b05a0c764c2875e3091a4ca382b56917c309d3ed2d67aceacbc975"
     },
     {
       "path": "gerber/parasite-F_Paste.gtp",
       "size": 8137,
-      "sha256": "b7e1144ff038ba261d94f74c7d67106c4b91478364b41b88017ff3e0cc4f909e"
+      "sha256": "4c6683db654b7a77720f9866e065d2ac2e8f18d1165e30653704028ae7994e11"
     },
     {
       "path": "gerber/parasite-F_Silkscreen.gto",
       "size": 216768,
-      "sha256": "7bd02854a001d7ac7d67baef7c6f1ad04ba3f2b9a6e44c185122422a0b3cd99e"
+      "sha256": "66285e047e1a9c6369b3bda71f9ece17e6d9136dc8cec708308d1d593963e211"
     },
     {
       "path": "gerber/parasite-In1_Cu.g1",
       "size": 47210,
-      "sha256": "e67ac43b9ff9764dd8998c6ef43dc7bedbecd0d1e43bee59234314c57433a8c4"
+      "sha256": "2c32cd059cae5a4963e5ada447a928a3c97d4d05e0b029c3df0969cd15e34e8c"
     },
     {
       "path": "gerber/parasite-In2_Cu.g2",
       "size": 42235,
-      "sha256": "5b3e135a46e5fb314e630167ac32b60cf57d1b83055b14496d5bf0dd33c84a59"
+      "sha256": "9a86fa37246591d1712c730d156b93225f55a59640ec5e12d0a250ff6d9b405b"
     },
     {
       "path": "gerber/parasite-NPTH.drl",
       "size": 371,
-      "sha256": "8da36de407b664f395baf153f0b8b9bf27296fdacab376b3156fb9f3eaae7088"
+      "sha256": "9ed543e21180c495b3fd0bc07e2be15de180f091c26e924f8988b85d2a2773d6"
     },
     {
       "path": "gerber/parasite-PTH.drl",
       "size": 1489,
-      "sha256": "599bb7f59edc0599df9dd23be061be7ef0c1c2c206ac56802948f407d1290cc9"
+      "sha256": "3df709d4206232ec4852bc8891ba4dc413dfd5e863a7e20964a3ffacdc09d7b6"
     },
     {
       "path": "gerber/parasite-job.gbrjob",
       "size": 3937,
-      "sha256": "53eecf5a3bb4c38f203ba161db9278669b9469da3568f42f4bb1e21c0d50d42d"
+      "sha256": "2132bb7e427ee50fdc5d0591f06bda13b22218451258af3eef4a7d609c951add"
     },
     {
       "path": "review/GATE-RECONCILIATION.md",
-      "size": 2984,
-      "sha256": "f91bc3426882ddc0062bbc877db2192d38ca10ab56711c3b161a98be886eef3d"
+      "size": 3516,
+      "sha256": "eb9cddd0e3e8c4eb1ae3aa8cfa82f4e24d329b7f6e0428c29b5d09da5cf752a8"
     },
     {
       "path": "review/assembly-back.pdf",
-      "size": 58758,
-      "sha256": "420517706d9cc23df8f6e8650183420019d1daa4c5d662ab4c4b3ed2de4d6ea1"
+      "size": 59086,
+      "sha256": "366970a67cc5a3ad07abdd6bb0aeec3762bffb3635715e1eafd6c4eb28f85b8a"
     },
     {
       "path": "review/assembly-front.pdf",
-      "size": 196388,
-      "sha256": "299bf11c0e12355764498477c441226927049f7427ae822a658065e08ee7148b"
+      "size": 196716,
+      "sha256": "ed2a4f9c5832f3a6a5cbb64cd9339817d4ffe2b4146bbf649069ea28c10217d1"
     },
     {
       "path": "review/drc-parity.json",
       "size": 1145,
-      "sha256": "4d1685962bf5b245d44e99cb772f4f84f0805366af24fde495ff2a7cfcf1dd54"
+      "sha256": "4250dc433f29bfa94e51c25f2bd0eac74cfecc60c84f5aca4af745c546843824"
     },
     {
       "path": "review/drill-report.txt",
       "size": 805,
-      "sha256": "91972b9bd60cccb37869bb4e8a4258612129a72e08cba2fcc0abcea082e1b37d"
+      "sha256": "8cb33d7cc0bda65db98af2b15d484c8fa3573f9c4fb4f3f5113e04f3e51246f6"
     },
     {
       "path": "review/erc.json",
       "size": 868,
-      "sha256": "596267ccbe621ca471026f060c2ef155fad614ed64ca9eb87167baa657b2f7a0"
+      "sha256": "d5128bb9716e24b3c9ec370f3bd11ee5537acccf5efa73e8837f0a55228b3b97"
     },
     {
       "path": "review/export-log.json",
-      "size": 7800,
-      "sha256": "b0b3e221432dfbba5ad60816b4e7d7f7b63f656e19896176ee13e0e3536e0848"
+      "size": 7834,
+      "sha256": "514834e6f281c60832f37bdbfed92704c76e082366aeb004193cd348ade6ed07"
     },
     {
       "path": "review/file-audit.json",
-      "size": 1855,
-      "sha256": "44d0b1954673714cf38651520488bfc7127e1118edf465aba4da8b5a93964f41"
+      "size": 1961,
+      "sha256": "c3c6e6956c5ebd2a981ba90033d5b9a0731835e42431649af545e2b04ba09343"
+    },
+    {
+      "path": "review/manufacturing-change-audit.json",
+      "size": 905,
+      "sha256": "7178cfd0febf7f9e7cd2467353ef7ffca21d2e12d689397ce49bea79bd60257e"
     },
     {
       "path": "review/mcp-final-gates.json",
-      "size": 75942,
-      "sha256": "8f92a73f19dcfce0fa4b00a438f8bb0dddc8ed9bb1789077616768feee757662"
+      "size": 65813,
+      "sha256": "d3862d6b69da9c9f17b3bf2af524a752531f4154873f9a1e485d2b5c1c2d5936"
     },
     {
       "path": "review/mcp-gates-and-evidence.json",
@@ -181,12 +186,12 @@
     {
       "path": "review/parasite-NPTH-drl_map.pdf",
       "size": 12169,
-      "sha256": "49689e1278fa8afc53b69d701382f305f0c9ae01380e6e56a3af5286a149653e"
+      "sha256": "d7fc29e57c44e1963b888fe1ff45993a34b262d6f9a3ac7bcaa5392e082975b2"
     },
     {
       "path": "review/parasite-PTH-drl_map.pdf",
       "size": 16799,
-      "sha256": "c76b5c5408fbcbc8585f2b45765cdd580d0cefd7d7642b6847fea2fc0587d337"
+      "sha256": "12b07e4acfc456f621e6cf8b1b4356f886cfcde76949cdc6a81511046c360eb3"
     },
     {
       "path": "review/pcb-back.png",
@@ -196,7 +201,7 @@
     {
       "path": "review/pcb-back.svg",
       "size": 42084,
-      "sha256": "b7876b9664d8ec598e316606cee07777544bc26fc1cccb428479cf7692f4d5d6"
+      "sha256": "229e0dfdc58541108d7ed4619853ed639a127485da9827f661a15d6901060ba2"
     },
     {
       "path": "review/pcb-front.png",
@@ -206,7 +211,7 @@
     {
       "path": "review/pcb-front.svg",
       "size": 240952,
-      "sha256": "c80b4144c909bced4226f270aaba6d0087b4ca7c0173366e32ac8962aad5480f"
+      "sha256": "e5560e5072333c2ba30fd18521173e885862a5fcea726cc50e589990690448ae"
     },
     {
       "path": "review/route-preservation.json",
@@ -215,13 +220,23 @@
     },
     {
       "path": "review/schematic.pdf",
-      "size": 168447,
-      "sha256": "1fe33879b5b86abd4eda5b7a89bec6d7274cce26febf4a916f97b5e70be69083"
+      "size": 168629,
+      "sha256": "55d2ec37b04d802a9e9977dd5b181ee7a6a4a331412478ac8b8fbb1929ac0116"
+    },
+    {
+      "path": "review/y2-change-audit.json",
+      "size": 482,
+      "sha256": "c9dd33c977b63dddfa0a8e53005ef5d1af48f861c3a92cdce6111a85ae81e5a2"
+    },
+    {
+      "path": "review/y2-replacement.md",
+      "size": 1762,
+      "sha256": "53de328f059ed39245f65306c0584944d8694b442d34c3a66db6901fcb3e7888"
     },
     {
       "path": "source/DESIGN_BRIEF.md",
-      "size": 11055,
-      "sha256": "1f84f77a95eb65a257501eb7668e0913e75a07ba78d2822680aa5b7ea528dcec"
+      "size": 11313,
+      "sha256": "33065b7b3c3928601ec41b34acb25a2acf5288b55fbc7e4abf193c4cf788be9d"
     },
     {
       "path": "source/fp-lib-table",
@@ -425,18 +440,18 @@
     },
     {
       "path": "source/parasite.kicad_pcb",
-      "size": 689049,
-      "sha256": "0cfbd10c6ce7471d7c8147017ec1fc0d4db908196b50a305bfd0995dcb3afe28"
+      "size": 689266,
+      "sha256": "34d789c7b549ea2b9d0224a482b1306e61170475ec22af6a109d1e1e2e84bca6"
     },
     {
       "path": "source/parasite.kicad_pro",
-      "size": 14899,
-      "sha256": "5356ff706abe5a1fafaea1316d427b79104e954a33752ca7adb6a442f3ce8b9b"
+      "size": 14877,
+      "sha256": "44dd202b09dbf6cc83b895aba6dfc3487207667466bba6b90f8b2ed90ca58183"
     },
     {
       "path": "source/parasite.kicad_sch",
-      "size": 270616,
-      "sha256": "4887fa0a01540f43dfc85cb4e1c8f8721ee6f70110bf527fca158d36b00992c4"
+      "size": 272776,
+      "sha256": "109d28810ca21db1caf062f16bb9fb5964898f6ed9c5d8c30e716bfceae15e6e"
     },
     {
       "path": "source/sym-lib-table",
@@ -446,7 +461,7 @@
     {
       "path": "source-provenance.json",
       "size": 682,
-      "sha256": "e176a3fff0ce4552263ca0612248e44ed72488f6b1223dfc125ad12280a9a437"
+      "sha256": "74be29208b84ac658fd37467237a70209e4008f762ca955ba4747f60cc569fa3"
     }
   ]
 }

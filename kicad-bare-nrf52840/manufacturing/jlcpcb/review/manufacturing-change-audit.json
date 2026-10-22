@@ -1,0 +1,18 @@
+{
+  "gerber_and_drill_comparison": {
+    "parasite-In2_Cu.g2": "identical except export timestamp",
+    "parasite-Edge_Cuts.gm1": "identical except export timestamp",
+    "parasite-F_Paste.gtp": "identical except export timestamp",
+    "parasite-F_Mask.gts": "identical except export timestamp",
+    "parasite-PTH.drl": "identical except export timestamp",
+    "parasite-F_Silkscreen.gto": "identical except export timestamp",
+    "parasite-B_Silkscreen.gbo": "identical except export timestamp",
+    "parasite-B_Paste.gbp": "identical except export timestamp",
+    "parasite-In1_Cu.g1": "identical except export timestamp",
+    "parasite-B_Cu.gbl": "identical except export timestamp",
+    "parasite-B_Mask.gbs": "identical except export timestamp",
+    "parasite-NPTH.drl": "identical except export timestamp",
+    "parasite-F_Cu.gtl": "identical except export timestamp"
+  },
+  "cpl_identical": true
+}

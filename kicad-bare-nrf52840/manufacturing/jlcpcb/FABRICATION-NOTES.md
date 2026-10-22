@@ -45,7 +45,7 @@ The sixth 0.15 mm via at (70.8,41.3) is outside its MCU pad. The file specifies 
 
 ## Assembly and coordinate conventions
 
-BOM uses exact MPN in Comment and supplier code in “LCSC Part #”. Y2 requires consignment or a qualified substitution. The former Y1 code C32346 was wrong (12.5 pF load); **C519280** matches the intended NDK 9 pF part. [NDK crystal listing](https://www.lcsc.com/product-detail/C519280.html).
+BOM uses exact MPN in Comment and supplier code in “LCSC Part #”. Y2 is KYOCERA AVX CX2016DB32000D0FLJCC, DigiKey 478-CX2016DB32000D0FLJCCCT-ND. Confirm JLCPCB procurement/consignment; no LCSC code has been assumed. Retain C14/C15 at 12 pF and verify oscillator startup/frequency on the prototype. The former Y1 code C32346 was wrong (12.5 pF load); **C519280** matches the intended NDK 9 pF part. [NDK crystal listing](https://www.lcsc.com/product-detail/C519280.html).
 
 BOM and CPL have the same 43 references. Both sides are combined; BT1 is Bottom. Coordinates are in mm from the **absolute KiCad page origin**, matching Gerber and drill exports. X is rightward; Y is upward in exports, hence negative values for this board. Do not independently translate, mirror, or negate only one file. CPL rotations are native KiCad angles modulo 360; positive is counterclockwise. Check selected vendor library orientations before release. [JLCPCB CPL requirements](https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly) and [BOM requirements](https://jlcpcb.com/help/article/bill-of-materials-for-pcb-assembly).
 

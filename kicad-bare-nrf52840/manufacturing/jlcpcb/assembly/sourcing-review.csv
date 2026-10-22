@@ -41,4 +41,4 @@ SW1,B3U-1000P,C231329,https://www.lcsc.com/product-detail/C231329.html,Catalog i
 U1,NRF52840-QIAA-R,C190794,https://www.lcsc.com/product-detail/C190794.html,Catalog identity checked; verify JLC inventory/assembly rotation
 U2,SHTC3,C194656,https://jlcpcb.com/partdetail/SHTC3/C194656,Catalog identity checked; verify JLC inventory/assembly rotation
 Y1,NX3215SA-32.768K-STD-MUA-9,C519280,https://www.lcsc.com/product-detail/C519280.html,Catalog identity checked; verify JLC inventory/assembly rotation
-Y2,MP12308,,,HOLD: custom reference-design crystal; source exact MPN or qualify replacement
+Y2,CX2016DB32000D0FLJCC,,https://www.digikey.com/en/products/detail/kyocera-avx/CX2016DB32000D0FLJCC/4453818,DigiKey 478-CX2016DB32000D0FLJCCCT-ND; confirm JLCPCB procurement/consignment; prototype oscillator validation required

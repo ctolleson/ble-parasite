@@ -23,4 +23,8 @@ RF/crystal/probe geometry was compared with the prior routed design using sample
 
 ## Human/vendor release requirements
 
-Resolve Y2 sourcing, obtain stack/fill/cap and impedance acceptance, inspect component orientation/polarity and stencil data, approve mechanical seating and sensor handling, and perform prototype tests. Do not treat this draft as production-approved.
+Confirm JLCPCB procurement/consignment of the selected Kyocera Y2, obtain stack/fill/cap and impedance acceptance, inspect component orientation/polarity and stencil data, approve mechanical seating and sensor handling, and perform prototype tests. Do not treat this draft as production-approved.
+
+## Y2 refresh
+
+The current MCP project and manufacturing gates were rerun after substitution and remain FAIL for the same documented reasons. `mcp-final-gates.json` contains the current results; other MCP evidence files are retained historical review records. Native reports and file audit were regenerated from the substituted design. The Y2 change audit compares all schematic/PCB structures to source commit 88fbaa1, allowing only Y2 field edits and native schematic normalization.
