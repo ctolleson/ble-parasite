@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "boardQuantity": 5,
+  "budgetUSD": 500,
+  "sourceCommit": "dd0f74427e0569133ebbe4d2bb6318abe8c2e551",
+  "revisedQuoteURL": "https://cart.jlcpcb.com/smt-order/?pcbFileNo=a96b6da29ce541fca190b376d1edce90",
+  "previousQuoteURL": "https://cart.jlcpcb.com/smt-order/?relevanceFileAccessId=91ef1cd68df947dd95c533a858415ddf&technologyDiscernRecordNum=e44657bed58248cfb1592bc784d94e30",
+  "uploadedFiles": [
+    {
+      "path": "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/JLCPCB-Gerber-Drill.zip",
+      "sha256": "c593af59d587da59bf79a92a2dd60699fa77043939d385e78bb010cdec0d56aa"
+    },
+    {
+      "path": "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/assembly/JLCPCB-BOM.csv",
+      "sha256": "1b8b5f530e9f15dba6413493225791823fa7968fec58266d04f35c18d8f306a5"
+    },
+    {
+      "path": "/Users/ctolleson/Documents/Codex/2026-10-21/se/outputs/jlcpcb-stocked-parts/assembly/JLCPCB-CPL.csv",
+      "sha256": "5c1dd909d7d28e316120f8758f42316598ec496d8ed31a4109e0f36811724453"
+    }
+  ],
+  "status": "HOLD: files uploaded; 42 of 43 fitted references sourced; C18 procurement unresolved; full assembled order not submitted",
+  "confirmedReferences": 42,
+  "totalFittedReferences": 43,
+  "quote": {
+    "pcbUSD": 143.06,
+    "assemblyUSD": 204.18,
+    "provisionalSubtotalUSD": 347.24,
+    "excludes": [
+      "C18 supply and assembly",
+      "shipping",
+      "tax"
+    ],
+    "couponUSD": 9,
+    "couponApplied": false,
+    "previousMatchingFeePaidUSD": 10,
+    "remainingBudgetAfterSubtotalAndPriorFeeUSD": 142.76
+  },
+  "assemblyAlternates": [
+    {
+      "ref": "C6",
+      "uploadedMPN": "GRM188R61C475KE11J",
+      "selectedMPN": "GRM188R61C475KE11D",
+      "jlc": "C77045",
+      "reason": "Identical electrical/mechanical part; reel packaging suffix only."
+    },
+    {
+      "ref": "C12",
+      "uploadedMPN": "CC0402KRX7R8BB473",
+      "selectedMPN": "CL05B473KA5NNNC",
+      "jlc": "C318631",
+      "reason": "Original design Samsung part; same 47 nF, 25 V, X7R, 10%, 0402."
+    },
+    {
+      "ref": "D1",
+      "selectedMPN": "LL4148",
+      "manufacturer": "onsemi",
+      "jlc": "C84135",
+      "reason": "Corrected ambiguous automated Semtech match to reviewed onsemi manufacturer."
+    }
+  ],
+  "unresolved": [
+    {
+      "ref": "C18",
+      "mpn": "GRM1555C1HR50WA01D",
+      "jlc": "C88941",
+      "requiredWithAttrition": 20,
+      "jlcStock": 0,
+      "preorderMinimum": 717,
+      "preorderReferencePriceUSD": 8.68,
+      "leadTime": "Not confirmed; site states final preorder price quoted within 48 hours after payment. No payment made.",
+      "restriction": "Do not substitute B/C tolerance variants without engineering review; keep original +/-0.05 pF requirement."
+    }
+  ]
+}

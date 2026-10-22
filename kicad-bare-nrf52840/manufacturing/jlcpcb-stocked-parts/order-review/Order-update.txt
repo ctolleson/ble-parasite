@@ -1,0 +1,29 @@
+JLCPCB revised design upload and cost check — 2026-10-21
+
+STATUS: HOLD — not a complete PCBA order, no purchase submitted this turn.
+
+Revised Gerber/drill ZIP, BOM and CPL uploaded to this autosaved draft:
+https://cart.jlcpcb.com/smt-order/?pcbFileNo=a96b6da29ce541fca190b376d1edce90
+This is a new revision draft generated through Re-Upload. The earlier paid $10 manual matching request XZ2026102201194 was not replaced or amended.
+
+Configuration: five boards; Standard PCBA, both sides; four layers; nominal 1.6 mm; JLC04161H-1080 stackup; ENIG; epoxy filled/capped vias; 0.15 mm drilled vias; outer 1 oz / inner 0.5 oz; production-file and placement confirmation enabled with automatic confirmation disabled; rails removed before delivery. The portal enlarges the manufacturing panel to 70 x 126.41 mm. Controlled impedance service is not selected.
+
+Files: exact uploaded paths and SHA-256 hashes are in order-update.json. The uploaded source revision is dd0f74427e0569133ebbe4d2bb6318abe8c2e551. Solder mask remains over soil electrodes.
+
+MATCHING: 42 of 43 fitted reference designators available.
+C6: JLC C77045, Murata GRM188R61C475KE11D; equivalent reel packaging to uploaded J suffix.
+C12: JLC C318631, Samsung CL05B473KA5NNNC; original-design 47 nF 25 V X7R 10% 0402 part, same footprint and requirements as uploaded Yageo.
+D1: JLC C84135, onsemi LL4148; corrected automated match to the manufacturer reviewed in the revised BOM.
+U2: exact SHTC3-TR-2.5KS is matched and available.
+C18: GRM1555C1HR50WA01D / C88941 has no public stock; 20 pieces required including attrition. Preorder minimum 717 pieces. Logged-in cart reference price for 717 is $8.68; product page initially displayed $9.03. Firm price and lead time are NOT confirmed. The portal says preorder price is finalized within 48 hours after payment. No preorder paid. Stocked Murata B/C variants have looser tolerance and were not selected. The Nordic reference specifies 0.5 pF +/-10%, supporting retention of the W +/-0.05 pF part.
+
+PROVISIONAL COST for five boards, with C18 excluded ONLY to inspect pricing:
+PCB fabrication: $143.06
+Standard assembly, currently selected parts and attrition: $204.18
+Subtotal: $347.24
+Parts included in that assembly amount: $74.77 (30 purchase lines).
+This is NOT a quote for five fully assembled boards. It excludes C18 supply/assembly, shipping and tax. A $9 PCBA coupon is available but NOT applied. Previous $10 matching fee leaves $142.76 of the $500 total budget after this provisional subtotal. Full budget compliance remains unconfirmed until C18, delivery and tax are quoted.
+
+The revised CPL loaded in JLCPCB's placement viewer. Final manufacturing polarity, rotation and vendor placement approval remain pending; no production approval was given. The draft was returned to BOM review with C18 still shown as a shortage. Do not save/pay the provisional partial assembly as the requested complete build.
+
+NEXT: secure the exact C18 through JLC global sourcing/consignment/preorder, then select it, recheck all 43 fitted references, review both-side placement, recalculate full shipping/tax, apply eligible coupon, and keep total expenditure including the prior $10 fee within $500. The existing RF prototype tuning/VNA and range verification hold remains.

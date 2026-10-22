@@ -1,0 +1,66 @@
+Charge Details
+PCB Price
+$143.06 
+Engineering fee:
+$25.00
+Via Covering:
+$17.64
+Stackup fee:
+$16.91
+Surface Finish:
+$17.60
+Board:
+$5.50
+Material Type:
+$3.53
+Via Plating Method:
+$3.42
+4-Wire Kelvin Test:
+$17.13
+Min via hole size/diameter:
+$35.28
+Confirm Production file:
+$1.05
+Standard PCBA Price
+$204.18 
+Setup Fee:
+$51.50
+Stencil:
+$16.54
+Panel:
+$0.00
+Large Size:
+$0.00
+Components(30 items):
+$74.77
+Feeders Loading fee: 
+$46.50
+SMT Assembly 
+$2.35
+Confirm Parts Placement:
+$0.45
+X-Ray Inspection 
+$8.25
+Packaging fee:
+$0.51
+Depanel boards & edge rail before delivery:
+$3.31
+Build Time: 
+PCB:
+3-4 days
+$0.00
+Assembly:
+ 3 - 4 days
+$0.00
+ 2 - 3 days
+$49.63
+Add 1 more day (extended by advanced options)
+Total Price:
+$347.24
+Weight 
+2.26kg
+Product Description 
+Remark
+SAVE TO CART
+
+By placing your order, you agree to the Terms and Conditions of JLCPCB assembly Service. .
