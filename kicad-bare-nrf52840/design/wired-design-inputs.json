@@ -5,11 +5,17 @@
       "library": "Device",
       "symbol_name": "Battery_Cell",
       "value": "Battery_Cell",
-      "footprint": "kicad:BatteryHolder_Keystone_3002_1x2032",
+      "footprint": "b-parasite:BatteryHolder_Keystone_1060_NoBodySilk",
       "x_mm": 180.34,
       "y_mm": 240.03,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "1060",
+        "LCSC": "C5370859",
+        "Manufacturer": "Keystone"
+      }
     },
     {
       "reference": "C1",
@@ -21,7 +27,12 @@
       "y_mm": 149.86,
       "rotation": 0,
       "properties": {
-        "LCSC": "C1523"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+        "Description": "",
+        "MPN": "CC0402KRX7R9BB102",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1036-1-ND"
       }
     },
     {
@@ -34,7 +45,12 @@
       "y_mm": 209.55,
       "rotation": 0,
       "properties": {
-        "LCSC": "C1525"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+        "Description": "",
+        "MPN": "CC0402KRX7R7BB104",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1338-1-ND"
       }
     },
     {
@@ -47,7 +63,12 @@
       "y_mm": 198.12,
       "rotation": 180,
       "properties": {
-        "LCSC": "C1547"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN120",
+        "Description": "",
+        "MPN": "CC0402JRNPO9BN120",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1016-1-ND"
       }
     },
     {
@@ -60,7 +81,12 @@
       "y_mm": 198.12,
       "rotation": 0,
       "properties": {
-        "LCSC": "C1547"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN120",
+        "Description": "",
+        "MPN": "CC0402JRNPO9BN120",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1016-1-ND"
       }
     },
     {
@@ -73,7 +99,11 @@
       "y_mm": 134.62,
       "rotation": 180,
       "properties": {
-        "LCSC": "C9808"
+        "LCSC": "C9808",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "LL4148",
+        "Manufacturer": "Semtech"
       }
     },
     {
@@ -86,7 +116,12 @@
       "y_mm": 245.11,
       "rotation": 90,
       "properties": {
-        "LCSC": "C2286"
+        "LCSC": "",
+        "Datasheet": "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf",
+        "Description": "",
+        "MPN": "LTST-C190KRKT",
+        "Manufacturer": "Lite-On",
+        "DigiKey": "160-1436-1-ND"
       }
     },
     {
@@ -99,7 +134,12 @@
       "y_mm": 175.26,
       "rotation": 0,
       "properties": {
-        "LCSC": "C2910191"
+        "LCSC": "",
+        "Datasheet": "https://www.onsemi.com/pdf/datasheet/mmbt3906lt1-d.pdf",
+        "Description": "",
+        "MPN": "MMBT3906LT1G",
+        "Manufacturer": "onsemi",
+        "DigiKey": "MMBT3906LT1GOSCT-ND"
       }
     },
     {
@@ -112,7 +152,10 @@
       "y_mm": 139.7,
       "rotation": 0,
       "properties": {
-        "LCSC": "C146233"
+        "LCSC": "C146233",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "ALS-PT19-315C/L177/TR8"
       }
     },
     {
@@ -125,7 +168,12 @@
       "y_mm": 134.62,
       "rotation": 90,
       "properties": {
-        "LCSC": "C25744"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+        "Description": "",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-10.0KLRCT-ND"
       }
     },
     {
@@ -138,7 +186,12 @@
       "y_mm": 224.79,
       "rotation": 0,
       "properties": {
-        "LCSC": "C11702"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+        "Description": "",
+        "MPN": "RC0402FR-071KL",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1.00KLRCT-ND"
       }
     },
     {
@@ -151,7 +204,12 @@
       "y_mm": 175.26,
       "rotation": 270,
       "properties": {
-        "LCSC": "C25744"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+        "Description": "",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-10.0KLRCT-ND"
       }
     },
     {
@@ -164,7 +222,12 @@
       "y_mm": 149.86,
       "rotation": 0,
       "properties": {
-        "LCSC": "C26083"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+        "Description": "",
+        "MPN": "RC0402FR-071ML",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1.00MLRCT-ND"
       }
     },
     {
@@ -177,7 +240,12 @@
       "y_mm": 185.42000000000002,
       "rotation": 180,
       "properties": {
-        "LCSC": "C25744"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+        "Description": "",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-10.0KLRCT-ND"
       }
     },
     {
@@ -190,7 +258,12 @@
       "y_mm": 185.42000000000002,
       "rotation": 0,
       "properties": {
-        "LCSC": "C25744"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+        "Description": "",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-10.0KLRCT-ND"
       }
     },
     {
@@ -203,7 +276,12 @@
       "y_mm": 160.02,
       "rotation": 180,
       "properties": {
-        "LCSC": "C25117"
+        "LCSC": "",
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+        "Description": "",
+        "MPN": "RC0402FR-07470RL",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-470LRCT-ND"
       }
     },
     {
@@ -211,7 +289,7 @@
       "library": "Switch",
       "symbol_name": "SW_Push",
       "value": "B3U-1000P",
-      "footprint": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "footprint": "snapeda:SW_B3U-1000P",
       "x_mm": 284.48,
       "y_mm": 240.03,
       "rotation": 0,
@@ -222,7 +300,11 @@
         "MF": "Omron",
         "MP": "B3U-1000P",
         "PACKAGE": "None",
-        "PRICE": "None"
+        "PRICE": "None",
+        "Datasheet": "",
+        "Description": "Tactile Switch SPST-NO Top Actuated Surface Mount",
+        "MPN": "B3U-1000P",
+        "Manufacturer": "Omron"
       }
     },
     {
@@ -230,7 +312,7 @@
       "library": "Switch",
       "symbol_name": "SW_Push",
       "value": "B3U-1000P",
-      "footprint": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "footprint": "snapeda:SW_B3U-1000P",
       "x_mm": 330.2,
       "y_mm": 240.03,
       "rotation": 0,
@@ -241,7 +323,11 @@
         "MF": "Omron",
         "MP": "B3U-1000P",
         "PACKAGE": "None",
-        "PRICE": "None"
+        "PRICE": "None",
+        "Datasheet": "",
+        "Description": "Tactile Switch SPST-NO Top Actuated Surface Mount",
+        "MPN": "B3U-1000P",
+        "Manufacturer": "Omron"
       }
     },
     {
@@ -254,7 +340,12 @@
       "y_mm": 214.63,
       "rotation": 0,
       "properties": {
-        "LCSC": "C194656"
+        "LCSC": "C194656",
+        "Datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/906/HT_DS_SHTC3_D1.pdf",
+        "Description": "",
+        "MPN": "SHTC3-TR-2.5KS",
+        "Manufacturer": "Sensirion",
+        "DigiKey": "1649-SHTC3-TR-2.5KSCT-ND"
       }
     },
     {
@@ -267,9 +358,14 @@
       "y_mm": 185.42000000000002,
       "rotation": 0,
       "properties": {
-        "LCSC": "C32346",
-        "MPN": "NX3215SA-32.768K-STD-MUA-9",
-        "Source": "PCA10056 3.0.3 BOM"
+        "LCSC": "C519280",
+        "MPN": "STDMUA9-32.768K",
+        "Source": "PCA10056 3.0.3 BOM",
+        "Datasheet": "https://www.ndk.com/en/products/upload/lineup/pdf/NDKX01-00001_en.pdf",
+        "Description": "",
+        "Assembly_note": "9 pF load; C519280 matches exact NDK MPN. Do not substitute C32346 (12.5 pF).",
+        "Manufacturer": "NDK",
+        "DigiKey": "644-STDMUA9-32.768KCT-ND"
       }
     },
     {
@@ -282,8 +378,11 @@
       "y_mm": 134.62,
       "rotation": 0,
       "properties": {
-        "MPN": "nRF52840-QIAA",
-        "Manufacturer": "Nordic Semiconductor"
+        "MPN": "NRF52840-QIAA-R",
+        "Manufacturer": "Nordic Semiconductor",
+        "Datasheet": "",
+        "Description": "",
+        "LCSC": "C190794"
       }
     },
     {
@@ -295,18 +394,36 @@
       "x_mm": 270.51,
       "y_mm": 39.37,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+        "Description": "",
+        "MPN": "CC0402KRX7R7BB104",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1338-1-ND"
+      }
     },
     {
       "reference": "C6",
       "library": "Device",
       "symbol_name": "C_Small",
       "value": "4.7u",
-      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
       "x_mm": 154.94,
       "y_mm": 39.37,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://pim.murata.com/en-global/pim/details/?partNum=GRM188R61C475KE11%23",
+        "Description": "",
+        "MPN": "GRM188R61C475KE11J",
+        "LCSC": "",
+        "Manufacturer": "Murata",
+        "DigiKey": "490-GRM188R61C475KE11JCT-ND",
+        "Voltage": "16V",
+        "Tolerance": "10%",
+        "Dielectric": "X5R",
+        "Assembly_note": "Larger 0603 bulk capacitor. Typical effective capacitance about 3.5uF at 3V; verify supply transients on prototype."
+      }
     },
     {
       "reference": "C7",
@@ -317,7 +434,13 @@
       "x_mm": 175.26,
       "y_mm": 39.37,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "CL05A105KA5NQNC",
+        "LCSC": "C52923",
+        "Manufacturer": "Samsung"
+      }
     },
     {
       "reference": "C8",
@@ -328,7 +451,14 @@
       "x_mm": 195.58,
       "y_mm": 39.37,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+        "Description": "",
+        "MPN": "CC0402KRX7R7BB104",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1338-1-ND"
+      }
     },
     {
       "reference": "C9",
@@ -339,7 +469,14 @@
       "x_mm": 214.63,
       "y_mm": 39.37,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+        "Description": "",
+        "MPN": "CC0402KRX7R7BB104",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1338-1-ND"
+      }
     },
     {
       "reference": "C10",
@@ -350,7 +487,14 @@
       "x_mm": 234.95000000000002,
       "y_mm": 39.37,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+        "Description": "",
+        "MPN": "CC0402KRX7R7BB104",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1338-1-ND"
+      }
     },
     {
       "reference": "C11",
@@ -361,7 +505,13 @@
       "x_mm": 214.63,
       "y_mm": 95.25,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "CL05A105KA5NQNC",
+        "LCSC": "C52923",
+        "Manufacturer": "Samsung"
+      }
     },
     {
       "reference": "C12",
@@ -372,7 +522,14 @@
       "x_mm": 234.95000000000002,
       "y_mm": 95.25,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+        "Description": "",
+        "MPN": "CC0402KRX7R8BB473",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1717-1-ND"
+      }
     },
     {
       "reference": "C13",
@@ -383,7 +540,14 @@
       "x_mm": 294.64,
       "y_mm": 39.37,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN101",
+        "Description": "",
+        "MPN": "CC0402JRNPO9BN101",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1024-1-ND"
+      }
     },
     {
       "reference": "C14",
@@ -395,7 +559,13 @@
       "y_mm": 148.59,
       "rotation": 0,
       "properties": {
-        "Dielectric": "C0G/NP0"
+        "Dielectric": "C0G/NP0",
+        "Datasheet": "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN120",
+        "Description": "",
+        "MPN": "CC0402JRNPO9BN120",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1016-1-ND"
       }
     },
     {
@@ -408,7 +578,13 @@
       "y_mm": 148.59,
       "rotation": 0,
       "properties": {
-        "Dielectric": "C0G/NP0"
+        "Dielectric": "C0G/NP0",
+        "Datasheet": "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN120",
+        "Description": "",
+        "MPN": "CC0402JRNPO9BN120",
+        "LCSC": "",
+        "Manufacturer": "YAGEO",
+        "DigiKey": "311-1016-1-ND"
       }
     },
     {
@@ -421,7 +597,12 @@
       "y_mm": 39.37,
       "rotation": 0,
       "properties": {
-        "Assembly_note": "Optional for Fxx and later; fit for earlier builds"
+        "Assembly_note": "Populate in this prototype variant, including Fxx and later MCU builds.",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "CL05C821JB5NNNC",
+        "LCSC": "C307452",
+        "Manufacturer": "Samsung"
       }
     },
     {
@@ -434,7 +615,12 @@
       "y_mm": 97.79,
       "rotation": 0,
       "properties": {
-        "Dielectric": "C0G/NP0"
+        "Dielectric": "C0G/NP0",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "GRM1555C1HR80BA01D",
+        "LCSC": "C76988",
+        "Manufacturer": "Murata"
       }
     },
     {
@@ -447,7 +633,12 @@
       "y_mm": 97.79,
       "rotation": 0,
       "properties": {
-        "Dielectric": "C0G/NP0"
+        "Dielectric": "C0G/NP0",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "GRM1555C1HR50WA01D",
+        "LCSC": "C88941",
+        "Manufacturer": "Murata"
       }
     },
     {
@@ -461,7 +652,11 @@
       "rotation": 90,
       "properties": {
         "MPN": "MLZ1608M100WTD25",
-        "Source": "PCA10056 3.0.3 BOM"
+        "Source": "PCA10056 3.0.3 BOM",
+        "Datasheet": "",
+        "Description": "",
+        "LCSC": "C2047264",
+        "Manufacturer": "TDK"
       }
     },
     {
@@ -475,7 +670,11 @@
       "rotation": 90,
       "properties": {
         "MPN": "LQG15HS15NJ02D",
-        "Source": "PCA10056 3.0.3 BOM"
+        "Source": "PCA10056 3.0.3 BOM",
+        "Datasheet": "",
+        "Description": "",
+        "LCSC": "C86059",
+        "Manufacturer": "Murata"
       }
     },
     {
@@ -489,7 +688,11 @@
       "rotation": 90,
       "properties": {
         "MPN": "LQG15HS4N7B02D",
-        "Source": "PCA10056 3.0.3 BOM"
+        "Source": "PCA10056 3.0.3 BOM",
+        "Datasheet": "",
+        "Description": "",
+        "LCSC": "C162543",
+        "Manufacturer": "Murata"
       }
     },
     {
@@ -501,30 +704,51 @@
       "x_mm": 347.98,
       "y_mm": 97.79,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "LQG15HS2N7S02D",
+        "LCSC": "C77108",
+        "Manufacturer": "Murata"
+      }
     },
     {
       "reference": "L5",
       "library": "Device",
       "symbol_name": "L",
-      "value": "3.3n",
+      "value": "3.9n",
       "footprint": "Inductor_SMD:L_0402_1005Metric",
       "x_mm": 364.49,
       "y_mm": 85.09,
       "rotation": 90,
-      "properties": {}
+      "properties": {
+        "Datasheet": "https://pim.murata.com/asset/pim4/inductor/JELF243B-0010_PDF_INDUCTOR",
+        "Description": "",
+        "MPN": "LQG15HS3N9S02D",
+        "LCSC": "",
+        "Manufacturer": "Murata",
+        "DigiKey": "490-2617-1-ND",
+        "Assembly_note": "Prototype antenna A matching value; tune with VNA."
+      }
     },
     {
       "reference": "C19",
       "library": "Device",
       "symbol_name": "C_Small",
-      "value": "1.2p",
+      "value": "1p",
       "footprint": "Capacitor_SMD:C_0402_1005Metric",
       "x_mm": 330.2,
       "y_mm": 85.09,
       "rotation": 90,
       "properties": {
-        "Dielectric": "C0G/NP0"
+        "Dielectric": "C0G/NP0",
+        "Datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+        "Description": "",
+        "MPN": "GRM1555C1H1R0BA01D",
+        "LCSC": "",
+        "Manufacturer": "Murata",
+        "DigiKey": "490-6206-1-ND",
+        "Assembly_note": "Prototype antenna A matching value; tune with VNA."
       }
     },
     {
@@ -541,22 +765,28 @@
         "Manufacturer": "KYOCERA AVX",
         "Load_capacitance": "8pF",
         "Source": "DigiKey 478-CX2016DB32000D0FLJCCCT-ND",
-        "Datasheet": "https://ele.kyocera.com/sites/default/files/assets/products/crystal-device/cx2016db_e.pdf"
+        "Datasheet": "https://ele.kyocera.com/sites/default/files/assets/products/crystal-device/cx2016db_e.pdf",
+        "Description": "",
+        "Assembly_note": "32 MHz fundamental, CL 8 pF, ESR 60 ohm max; +/-10 ppm initial, +/-15 ppm temperature, -30 to +85 C. Retain C14/C15 12 pF; verify startup/frequency on prototype. DigiKey sourcing; confirm JLCPCB consignment or procurement."
       }
     },
     {
       "reference": "AE1",
       "library": "Device",
       "symbol_name": "Antenna_Chip",
-      "value": "2450AT18B0100001E",
+      "value": "2450AT18A0100001E",
       "footprint": "RF_Antenna:Johanson_2450AT18x100",
       "x_mm": 394.97,
       "y_mm": 74.93,
       "rotation": 0,
       "properties": {
-        "MPN": "2450AT18B0100001E",
-        "Manufacturer": "Johanson Technology",
-        "Assembly_note": "Tuning network starts at evaluation-board values; VNA tuning required"
+        "MPN": "2450AT18A0100001E",
+        "Manufacturer": "Johanson",
+        "Assembly_note": "2450AT18A antenna; 1.0pF / 2.7nH / 3.9nH prototype starting network. Board-specific VNA matching required.",
+        "Datasheet": "https://www.johansontechnology.com/docs/3827/Antenna-2450AT18A0100001E-Rev4.0.pdf",
+        "Description": "",
+        "LCSC": "",
+        "DigiKey": "712-2450AT18A0100001ECT-ND"
       }
     },
     {
@@ -568,7 +798,10 @@
       "x_mm": 35.56,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "TP2",
@@ -579,7 +812,10 @@
       "x_mm": 59.69,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "TP3",
@@ -590,7 +826,10 @@
       "x_mm": 85.09,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "TP4",
@@ -601,7 +840,10 @@
       "x_mm": 110.49,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "TP5",
@@ -612,7 +854,10 @@
       "x_mm": 134.62,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "TP6",
@@ -623,7 +868,10 @@
       "x_mm": 160.02,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "TP7",
@@ -634,7 +882,10 @@
       "x_mm": 185.42000000000002,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "TP8",
@@ -645,7 +896,10 @@
       "x_mm": 209.55,
       "y_mm": 265.43,
       "rotation": 0,
-      "properties": {}
+      "properties": {
+        "Datasheet": "",
+        "Description": ""
+      }
     },
     {
       "reference": "#FLG01",

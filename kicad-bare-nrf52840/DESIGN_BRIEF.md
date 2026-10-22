@@ -8,7 +8,7 @@ Revision 3.0-prototype • 2026-10-21 • KiCad 10.0.6
 
 - Bare Nordic nRF52840-QIAA, aQFN-73, with external DC/DC, DEC/VDD capacitors, 32 MHz and 32.768 kHz crystals.
 - Original capacitive soil measurement, SHTC3 temperature/humidity, ALS-PT19 light measurement, LED, user/reset buttons, battery monitoring, and upstream BLE sensor-broadcast interface.
-- Four copper layers, corner Johanson 2450AT18B0100001E antenna and initial matching network.
+- Four copper layers, corner Johanson 2450AT18A0100001E antenna and initial matching network.
 - J1 six-contact Tag-Connect SWD programming footprint, plus the individual test points.
 - Keystone 1060 CR2032 holder on the back, moved down to clear the MCU. Holder center: (68,65.5) mm; positive contact above the cell, negative below. Keep soil below the marked y=84 mm limit and check holder/cell seating on the prototype.
 - No 0 Ω crossing jumpers were needed. Inner-layer routing and filled/capped escape vias completed the routing.
@@ -89,7 +89,7 @@ The power network follows Nordic QIAA VDD/DC-DC reference circuitry: VDDH is tie
 
 HF crystal: KYOCERA AVX CX2016DB32000D0FLJCC, 32 MHz, CL=8 pF, with 12 pF loads. DigiKey cut tape: 478-CX2016DB32000D0FLJCCCT-ND. ESR 60 ohm maximum; initial tolerance +/-10 ppm, temperature stability +/-15 ppm over -30 to +85 C. LF crystal: NDK NX3215SA-32.768K-STD-MUA-9 with 12 pF loads. Final oscillator loading depends on PCB stray capacitance and must be checked on hardware.
 
-RF starting values: MCU shunt 0.8 pF / series 4.7 nH / shunt 0.5 pF, followed by antenna tuning series 1.2 pF / shunt 2.7 nH / series 3.3 nH. These are prototype starting values, not a measured match. Use C0G capacitors and suitable high-Q RF inductors. Keep the antenna's all-layer corner keepout clear of enclosure metal, the battery and coating.
+RF starting values: MCU shunt 0.8 pF / series 4.7 nH / shunt 0.5 pF, followed by antenna tuning series 1.0 pF / shunt 2.7 nH / series 3.9 nH. These are prototype starting values, not a measured match. Use C0G capacitors and suitable high-Q RF inductors. Keep the antenna's all-layer corner keepout clear of enclosure metal, the battery and coating.
 
 **Upstream BLE firmware requests +8 dBm** (`code/samples/ble/prj.conf`). This layout has not been qualified at that setting. Start RF bring-up at reduced output power; validate matching, harmonic emissions and range before enabling the intended operating power. Nordic reference placement guidance and an electrically clean DRC do not certify RF performance.
 
@@ -103,15 +103,28 @@ All original enabled-rule warnings are resolved: **ERC 0, DRC 0, airwires 0, sch
 
 Before manufacturing release: approve the exact stack/fill/cap process with the fabricator; review aQFN exposed-pad paste and filled-via finish; review solder-mask and assembly spacing; check the battery contact polarity and mechanics. Then assemble prototypes and verify SWD, both crystals, BLE, all sensors, button/reset operation, sleep current, radio current transients and battery life. Firmware compilation, flashing and bench/RF measurements have not been performed in this task.
 
-`design/*.json` records construction inputs used during development; it is not a complete generator for the final routed PCB. The native `.kicad_sch`, `.kicad_pcb` and `.kicad_pro` files are authoritative. `manufacturing/jlcpcb/assembly/JLCPCB-BOM.csv` and `JLCPCB-CPL.csv` contain the same 43 fitted references. Exact MPNs are recorded and LCSC mappings exist for 42 parts; Y2 uses KYOCERA AVX CX2016DB32000D0FLJCC with DigiKey ordering code 478-CX2016DB32000D0FLJCCCT-ND. Its LCSC field remains blank pending confirmed JLCPCB procurement or consignment. Y1 now correctly uses C519280 (9 pF), not C32346 (12.5 pF). Supplier availability and assembly orientations require review. Test pads and Tag-Connect pads are PCB features, not fitted connectors.
+`design/*.json` records construction inputs used during development; it is not a complete generator for the final routed PCB. The native `.kicad_sch`, `.kicad_pcb` and `.kicad_pro` files are authoritative. The latest `manufacturing/jlcpcb-stocked-parts/assembly/JLCPCB-BOM.csv` and `JLCPCB-CPL.csv` contain the same 43 fitted references. Exact MPNs are recorded; LCSC mappings for substituted parts are blank pending supplier confirmation; Y2 uses KYOCERA AVX CX2016DB32000D0FLJCC with DigiKey ordering code 478-CX2016DB32000D0FLJCCCT-ND. Its LCSC field remains blank pending confirmed JLCPCB procurement or consignment. Y1 now correctly uses C519280 (9 pF), not C32346 (12.5 pF). Supplier availability and assembly orientations require review. Test pads and Tag-Connect pads are PCB features, not fitted connectors.
 
 ## References and licensing
 
 - [Upstream b-parasite](https://github.com/rbaron/b-parasite) — derived hardware remains CC BY-SA 4.0; retain upstream attribution and license.
 - [Nordic nRF52840 reference circuitry](https://docs.nordicsemi.com/r/bundle/ps_nrf52840/page/ref_circuitry.html) and [reference downloads](https://www.nordicsemi.com/products/nrf52840/compatible-downloads).
-- [Johanson antenna datasheet](https://www.johansontechnology.com/docs/3770/Antenna-2450AT18B0100001E-Rev5.0.pdf).
+- [Johanson antenna datasheet](https://www.johansontechnology.com/docs/3827/Antenna-2450AT18A0100001E-Rev4.0.pdf).
 - [Tag-Connect Cortex cable](https://www.tag-connect.com/product/tc2030-ctx-nl-6-pin-no-legs-cable-with-10-pin-micro-connector-for-cortex-processors) and [ARM20-CTX pinout](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/ARM20-CTX_19.pdf).
 - [Keystone 1060](https://www.keyelco.com/product.cfm/product_id/726).
 - [JLCPCB capabilities](https://jlcpcb.com/capabilities/pcb-capabilities), [via-covering choices](https://jlcpcb.com/help/article/pcb-via-covering) and [quote page](https://cart.jlcpcb.com/quote/), checked 2026-10-21.
 
 The user-supplied Nordic reference archive is kept locally and is not included in the repository or review package.
+
+
+## Stocked-parts prototype revision — 2026-10-21
+
+The current source uses the DigiKey-selected parts listed in `procurement/digikey-2026-10-21/`. Earlier manufacturing files under `manufacturing/jlcpcb/` and the earlier JLCPCB matching submission describe a superseded revision. The new draft is `manufacturing/jlcpcb-stocked-parts/`; do not mix its BOM, CPL, or Gerbers with the earlier revision.
+
+- U2 remains SHTC3. Its exact purchasing code is SHTC3-TR-2.5KS, DigiKey 1649-SHTC3-TR-2.5KSCT-ND. No sensor, pinout, or firmware change.
+- C6 is Murata GRM188R61C475KE11J, 4.7 uF ±10%, 16 V X5R, in a new 0603 footprint at (61.4,45.4), -90 degrees. Its VDD connection was rerouted. Typical manufacturer DC-bias graph is about 3.5 uF at 3 V, not a guaranteed minimum; validate supply droop on prototypes.
+- AE1 uses the stocked Johanson A antenna. C19=1 pF and L5=3.9 nH are evaluation-board starting values. The 6.5 mm corner copper clearance is enforced with an all-copper-layer keepout. The different PCB geometry requires VNA tuning and BLE range testing with the battery and enclosure installed.
+- Other substitutions preserve package, pinout, value and required ratings as detailed in the procurement review. Stale LCSC codes were cleared on substituted parts; DigiKey availability does not establish JLCPCB procurement or consignment acceptance.
+- Soil copper remains covered by solder mask. SWD, bare nRF52840, four-layer stackup, and battery location are preserved.
+- Native ERC and DRC with schematic parity: zero violations, zero unconnected items, zero parity issues, using the existing rule configuration. MCP transfer and generic standard-manufacturing gates retain documented limitations. Supplier approval of 0.10 mm traces, 0.15 mm drilled vias, fill/cap, assembly orientation, sensor handling and part procurement remains necessary.
+- Prototype-only status: no hardware qualification or final assembled-price approval is implied. Parts cost for five boards is USD 90.69, excluding fabrication, assembly, shipping, taxes and spares.
