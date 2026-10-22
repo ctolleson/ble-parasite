@@ -537,10 +537,11 @@
       "y_mm": 134.62,
       "rotation": 0,
       "properties": {
-        "MPN": "MP12308",
-        "Manufacturer": "Golledge",
+        "MPN": "CX2016DB32000D0FLJCC",
+        "Manufacturer": "KYOCERA AVX",
         "Load_capacitance": "8pF",
-        "Source": "PCA10056 3.0.3 X1"
+        "Source": "DigiKey 478-CX2016DB32000D0FLJCCCT-ND",
+        "Datasheet": "https://ele.kyocera.com/sites/default/files/assets/products/crystal-device/cx2016db_e.pdf"
       }
     },
     {

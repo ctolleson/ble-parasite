@@ -540,7 +540,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../Codex/2026-10-21/se/work/final-fields.net",
+      "netlist": "review/y2-checks/netlist.net",
       "plot": "",
       "specctra_dsn": "parasite.dsn",
       "step": "",
