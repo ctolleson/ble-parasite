@@ -1,0 +1,44 @@
+{
+  "date_local": "2026-10-21",
+  "timezone": "America/Denver",
+  "status": "Both RFQs sent through Apple Mail; verified in iCloud Sent Messages via IMAP. Vendor acknowledgment, job-specific U.S. manufacturing confirmation, and prices pending.",
+  "subject": "RFQ: 5 fully assembled BLE plant monitors \u2014 U.S. fabrication and assembly",
+  "requests": [
+    {
+      "vendor": "AdvancedPCB",
+      "to": "WestCoast@AdvancedPCB.com",
+      "sent_local": "2026-10-21 22:29:57 MDT",
+      "rfc_message_id": "648293BE-7E8C-45DF-8A10-8DDEBF4E150E@mac.com",
+      "recipient_source": "https://www.advancedpcb.com/en-us/contact-us/regional-sales-contacts/"
+    },
+    {
+      "vendor": "Sierra Circuits",
+      "to": "support@protoexpress.com",
+      "sent_local": "2026-10-21 22:30:49 MDT",
+      "rfc_message_id": "6512E006-6A1A-495A-BB59-F2BBE8FD65D4@mac.com",
+      "recipient_source": "https://www.protoexpress.com/terms-and-conditions/",
+      "routing": "Requested routing to domestic turnkey/custom-quote team."
+    }
+  ],
+  "attachment": {
+    "name": "Plant-Monitor-US-RFQ.zip",
+    "bytes": 323779,
+    "sha256": "8e3b8b0af47dbf0d5fb9a754329bc3f780819da23e2029eebba90f761afb5e7f",
+    "verified_sent_attachment_count_per_message": 1
+  },
+  "quantity_fully_assembled": 5,
+  "requirements_requested": [
+    "Both bare-board fabrication and assembly in United States; facility city/state for each",
+    "Itemized NRE/tooling, fabrication, parts/attrition, stencil/assembly, X-ray inspection, depanelization, shipping, sales tax and delivered total",
+    "Lead time, quote validity, component availability, DFM changes and prototype discounts",
+    "Engineering approval before component, stackup, geometry or via-treatment substitutions"
+  ],
+  "budget_usd": {
+    "overall_project": 500,
+    "prior_spend": 10,
+    "target_new_delivered_quote": 490
+  },
+  "shipment": "Existing saved delivery address supplied privately in the emails; omitted from this repository record.",
+  "purchase_authorized": false,
+  "note": "The attached ZIP is preserved exactly as sent. Its README and vendor comparison were a pre-submission snapshot; this receipt supersedes their not-yet-submitted status."
+}
