@@ -1,0 +1,401 @@
+[
+  {
+    "name": "kicad_set_project",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Current project configuration:\n- Project directory: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor\n- Project file: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_pro\n- Resolved project: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_pro\n- PCB file: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_pcb\n- Schematic file: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_sch\n- Output directory: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/output\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\n- Server profile: full\n- Experimental tools: True"
+        }
+      ],
+      "structuredContent": {
+        "result": "Current project configuration:\n- Project directory: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor\n- Project file: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_pro\n- Resolved project: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_pro\n- PCB file: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_pcb\n- Schematic file: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/parasite.kicad_sch\n- Output directory: /Users/ctolleson/Documents/Codex/2026-10-21/se/work/plant-monitor-raytac/kicad-raytac-plant-monitor/output\n- KiCad CLI: /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli (found)\n- Server profile: full\n- Experimental tools: True"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "pcb_quality_gate",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"PCB quality gate: PASS\\n- PCB passes DRC, unconnected, and courtyard checks.\\n- DRC violations: 0\\n- Unconnected items: 0\\n- Courtyard issues: 0\",\n  \"summary\": \"PCB passes DRC, unconnected, and courtyard checks.\",\n  \"verdict\": \"PASS\",\n  \"severity\": \"info\",\n  \"failure_mode\": \"none\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"gate\": \"PCB\",\n      \"status\": \"PASS\",\n      \"details\": [\n        \"DRC violations: 0\",\n        \"Unconnected items: 0\",\n        \"Courtyard issues: 0\"\n      ]\n    }\n  ],\n  \"remediation\": \"\",\n  \"findings\": [],\n  \"next_action\": \"Proceed to the next gate.\",\n  \"metadata\": {\n    \"gate\": \"PCB\",\n    \"status\": \"PASS\",\n    \"details\": [\n      \"DRC violations: 0\",\n      \"Unconnected items: 0\",\n      \"Courtyard issues: 0\"\n    ]\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "PCB quality gate: PASS\n- PCB passes DRC, unconnected, and courtyard checks.\n- DRC violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0",
+        "summary": "PCB passes DRC, unconnected, and courtyard checks.",
+        "verdict": "PASS",
+        "severity": "info",
+        "failure_mode": "none",
+        "retryable": false,
+        "evidence": [
+          {
+            "gate": "PCB",
+            "status": "PASS",
+            "details": [
+              "DRC violations: 0",
+              "Unconnected items: 0",
+              "Courtyard issues: 0"
+            ]
+          }
+        ],
+        "remediation": "",
+        "findings": [],
+        "next_action": "Proceed to the next gate.",
+        "metadata": {
+          "gate": "PCB",
+          "status": "PASS",
+          "details": [
+            "DRC violations: 0",
+            "Unconnected items: 0",
+            "Courtyard issues: 0"
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "pcb_transfer_quality_gate",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"schema_version\": \"verdict.v1\",\n  \"text\": \"PCB transfer quality gate: FAIL\\n- Named schematic pad nets did not transfer cleanly to the PCB.\\n- Expected named pad nets: 133\\n- Matched pad nets on PCB: 93\\n- Transfer coverage: 69.9%\\n- Missing footprint refs on PCB: 0\\n- Pad-net mismatches: 40\\n- FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\\n- FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\\n- FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\\n- FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\\n- FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\\n- FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\\n- FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\\n- FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\\n- FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\\n- FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\\n- FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\\n- FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.\",\n  \"summary\": \"Named schematic pad nets did not transfer cleanly to the PCB.\",\n  \"verdict\": \"FAIL\",\n  \"severity\": \"error\",\n  \"failure_mode\": \"design\",\n  \"retryable\": false,\n  \"evidence\": [\n    {\n      \"gate\": \"PCB transfer\",\n      \"status\": \"FAIL\",\n      \"details\": [\n        \"Expected named pad nets: 133\",\n        \"Matched pad nets on PCB: 93\",\n        \"Transfer coverage: 69.9%\",\n        \"Missing footprint refs on PCB: 0\",\n        \"Pad-net mismatches: 40\",\n        \"FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\",\n        \"FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\",\n        \"FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\",\n        \"FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\",\n        \"FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\",\n        \"FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\",\n        \"FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\",\n        \"FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\",\n        \"FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\",\n        \"FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\",\n        \"FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\",\n        \"FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.\"\n      ]\n    }\n  ],\n  \"remediation\": \"Call pcb_sync_from_schematic and re-run this gate.\",\n  \"findings\": [\n    {\n      \"id\": \"966f096a129f\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"91c31c013348\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"d77b0fda7ff3\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"dd4f9d4e7ee3\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"bd0e4a8ce660\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"2856d5ec0c0f\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"fabd270fe225\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"460ae6c5a73a\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"88cd509dc2ac\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"b3da7071791d\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"07464bd8df12\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    },\n    {\n      \"id\": \"63815c175a28\",\n      \"severity\": \"error\",\n      \"location\": \"PCB transfer\",\n      \"description\": \"U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.\",\n      \"evidence\": [\n        {\n          \"gate\": \"PCB transfer\",\n          \"status\": \"FAIL\",\n          \"detail\": \"FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.\"\n        }\n      ],\n      \"remediation\": \"Run pcb_sync_from_schematic and re-run this gate.\",\n      \"retryable\": false,\n      \"failure_mode\": \"design\",\n      \"suggested_fix\": {\n        \"tool\": \"pcb_sync_from_schematic\",\n        \"args\": {}\n      },\n      \"metadata\": {}\n    }\n  ],\n  \"next_action\": \"Call pcb_sync_from_schematic and re-run this gate.\",\n  \"metadata\": {\n    \"gate\": \"PCB transfer\",\n    \"status\": \"FAIL\",\n    \"details\": [\n      \"Expected named pad nets: 133\",\n      \"Matched pad nets on PCB: 93\",\n      \"Transfer coverage: 69.9%\",\n      \"Missing footprint refs on PCB: 0\",\n      \"Pad-net mismatches: 40\",\n      \"FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\",\n      \"FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\",\n      \"FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\",\n      \"FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\",\n      \"FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\",\n      \"FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\",\n      \"FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\",\n      \"FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\",\n      \"FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\",\n      \"FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\",\n      \"FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\",\n      \"FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.\"\n    ]\n  }\n}"
+        }
+      ],
+      "structuredContent": {
+        "schema_version": "verdict.v1",
+        "text": "PCB transfer quality gate: FAIL\n- Named schematic pad nets did not transfer cleanly to the PCB.\n- Expected named pad nets: 133\n- Matched pad nets on PCB: 93\n- Transfer coverage: 69.9%\n- Missing footprint refs on PCB: 0\n- Pad-net mismatches: 40\n- FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\n- FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\n- FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\n- FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\n- FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\n- FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\n- FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\n- FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\n- FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\n- FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\n- FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\n- FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.",
+        "summary": "Named schematic pad nets did not transfer cleanly to the PCB.",
+        "verdict": "FAIL",
+        "severity": "error",
+        "failure_mode": "design",
+        "retryable": false,
+        "evidence": [
+          {
+            "gate": "PCB transfer",
+            "status": "FAIL",
+            "details": [
+              "Expected named pad nets: 133",
+              "Matched pad nets on PCB: 93",
+              "Transfer coverage: 69.9%",
+              "Missing footprint refs on PCB: 0",
+              "Pad-net mismatches: 40",
+              "FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.",
+              "FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.",
+              "FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.",
+              "FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.",
+              "FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.",
+              "FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.",
+              "FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.",
+              "FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.",
+              "FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.",
+              "FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.",
+              "FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.",
+              "FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net."
+            ]
+          }
+        ],
+        "remediation": "Call pcb_sync_from_schematic and re-run this gate.",
+        "findings": [
+          {
+            "id": "966f096a129f",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "91c31c013348",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "d77b0fda7ff3",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "dd4f9d4e7ee3",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "bd0e4a8ce660",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "2856d5ec0c0f",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "fabd270fe225",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "460ae6c5a73a",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "88cd509dc2ac",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "b3da7071791d",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "07464bd8df12",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          },
+          {
+            "id": "63815c175a28",
+            "severity": "error",
+            "location": "PCB transfer",
+            "description": "U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.",
+            "evidence": [
+              {
+                "gate": "PCB transfer",
+                "status": "FAIL",
+                "detail": "FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net."
+              }
+            ],
+            "remediation": "Run pcb_sync_from_schematic and re-run this gate.",
+            "retryable": false,
+            "failure_mode": "design",
+            "suggested_fix": {
+              "tool": "pcb_sync_from_schematic",
+              "args": {}
+            },
+            "metadata": {}
+          }
+        ],
+        "next_action": "Call pcb_sync_from_schematic and re-run this gate.",
+        "metadata": {
+          "gate": "PCB transfer",
+          "status": "FAIL",
+          "details": [
+            "Expected named pad nets: 133",
+            "Matched pad nets on PCB: 93",
+            "Transfer coverage: 69.9%",
+            "Missing footprint refs on PCB: 0",
+            "Pad-net mismatches: 40",
+            "FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.",
+            "FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.",
+            "FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.",
+            "FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.",
+            "FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.",
+            "FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.",
+            "FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.",
+            "FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.",
+            "FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.",
+            "FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.",
+            "FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.",
+            "FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net."
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "project_revalidate_after_edit",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Selective re-validation after edit: 4 change(s) impact 4 gate(s); 5 gate(s) preserved (no re-run needed).\n\nRe-ran impacted project gates (connectivity, pcb): FAIL\nSchematic connectivity quality gate: FAIL\n- Connectivity smells suggest the schematic is not ready for PCB or release work.\n- Pages analysed: 1\n- Top level: 63 symbol(s), 44 label(s), 104 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 2\n- Isolated footprint symbols: 0\n- Hierarchy contract mismatches: 0\n- Matched component contracts: 0\n- Component contract violations: 0\n- FAIL: Top level: unnamed single-pin group at (73.66, 63.5) -> U1:30\n- FAIL: Top level: unnamed single-pin group at (172.72, 71.12) -> J1:9\nPre-sync quality gate: FAIL\n- Schematic checks must pass before PCB sync to avoid transferring a stale or broken netlist.\n- Schematic connectivity quality gate: FAIL\n- Connectivity smells suggest the schematic is not ready for PCB or release work.\n- Pages analysed: 1\n- Top level: 63 symbol(s), 44 label(s), 104 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 2\n- Isolated footprint symbols: 0\nPCB quality gate: PASS\n- PCB passes DRC, unconnected, and courtyard checks.\n- DRC violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0\nPlacement quality gate: FAIL\n- Footprint placement still violates hard physical or intent-aware checks.\n- Footprints analysed: 36\n- Board frame: 30.00 x 126.40 mm\n- Density: 32.64%\n- Connector checks: 3\n- Decoupling pair checks: 2\n- RF keepout checks: 0\n- Power-tree refs checked: 3\n- Analog refs checked: 0\n- Digital refs checked: 0\n- Sensor-cluster refs checked: 0\n- Critical-net Manhattan proxy: 34.50 mm\n- Critical-net proxy density: 9.10 mm per 1000 mm^2\n- Thermal hotspot refs checked: 0\n- Thermal hotspot proximity: 0.0000\n- Placement score: 0/100\n- FAIL: Overlap refs: BT1/C1, BT1/C2, BT1/D1, BT1/J2, BT1/Q1, BT1/R1, BT1/R4, BT1/R6, BT1/R8, BT1/TP3, BT1/TP5, BT1/TP6, BT1/TP7, BT1/U2, C4/C5, J2/R8\n- FAIL: Outside-board refs: BT1, U1\n- FAIL: U1: nearest decoupling cap is 11.05 mm away (limit 6.00 mm).\n- WARN: Placement spans most of the board; clustering looks weak.\nPCB transfer quality gate: FAIL\n- Named schematic pad nets did not transfer cleanly to the PCB.\n- Expected named pad nets: 133\n- Matched pad nets on PCB: 93\n- Transfer coverage: 69.9%\n- Missing footprint refs on PCB: 0\n- Pad-net mismatches: 40\n- FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\n- FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\n- FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\n- FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\n- FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\n- FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\n- FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\n- FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\n- FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\n- FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\n- FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\n- FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.\n\nImpacted analysis categories to re-run with their own tools:\n- power: check_power_integrity / pdn_calculate_voltage_drop\n- signal_integrity: si_calculate_trace_impedance / si_analyze_high_speed_channel\n\nPreserved project gates (not re-run): dfm, manufacturing, schematic"
+        }
+      ],
+      "structuredContent": {
+        "result": "Selective re-validation after edit: 4 change(s) impact 4 gate(s); 5 gate(s) preserved (no re-run needed).\n\nRe-ran impacted project gates (connectivity, pcb): FAIL\nSchematic connectivity quality gate: FAIL\n- Connectivity smells suggest the schematic is not ready for PCB or release work.\n- Pages analysed: 1\n- Top level: 63 symbol(s), 44 label(s), 104 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 2\n- Isolated footprint symbols: 0\n- Hierarchy contract mismatches: 0\n- Matched component contracts: 0\n- Component contract violations: 0\n- FAIL: Top level: unnamed single-pin group at (73.66, 63.5) -> U1:30\n- FAIL: Top level: unnamed single-pin group at (172.72, 71.12) -> J1:9\nPre-sync quality gate: FAIL\n- Schematic checks must pass before PCB sync to avoid transferring a stale or broken netlist.\n- Schematic connectivity quality gate: FAIL\n- Connectivity smells suggest the schematic is not ready for PCB or release work.\n- Pages analysed: 1\n- Top level: 63 symbol(s), 44 label(s), 104 wire(s)\n- Dangling label groups: 0\n- Zero-wire pages: 0\n- Unnamed single-pin groups: 2\n- Isolated footprint symbols: 0\nPCB quality gate: PASS\n- PCB passes DRC, unconnected, and courtyard checks.\n- DRC violations: 0\n- Unconnected items: 0\n- Courtyard issues: 0\nPlacement quality gate: FAIL\n- Footprint placement still violates hard physical or intent-aware checks.\n- Footprints analysed: 36\n- Board frame: 30.00 x 126.40 mm\n- Density: 32.64%\n- Connector checks: 3\n- Decoupling pair checks: 2\n- RF keepout checks: 0\n- Power-tree refs checked: 3\n- Analog refs checked: 0\n- Digital refs checked: 0\n- Sensor-cluster refs checked: 0\n- Critical-net Manhattan proxy: 34.50 mm\n- Critical-net proxy density: 9.10 mm per 1000 mm^2\n- Thermal hotspot refs checked: 0\n- Thermal hotspot proximity: 0.0000\n- Placement score: 0/100\n- FAIL: Overlap refs: BT1/C1, BT1/C2, BT1/D1, BT1/J2, BT1/Q1, BT1/R1, BT1/R4, BT1/R6, BT1/R8, BT1/TP3, BT1/TP5, BT1/TP6, BT1/TP7, BT1/U2, C4/C5, J2/R8\n- FAIL: Outside-board refs: BT1, U1\n- FAIL: U1: nearest decoupling cap is 11.05 mm away (limit 6.00 mm).\n- WARN: Placement spans most of the board; clustering looks weak.\nPCB transfer quality gate: FAIL\n- Named schematic pad nets did not transfer cleanly to the PCB.\n- Expected named pad nets: 133\n- Matched pad nets on PCB: 93\n- Transfer coverage: 69.9%\n- Missing footprint refs on PCB: 0\n- Pad-net mismatches: 40\n- FAIL: J1.7: PCB has 'unconnected-(J1-KEY-Pad7)', expected no net.\n- FAIL: J1.8: PCB has 'unconnected-(J1-NC{slash}TDI-Pad8)', expected no net.\n- FAIL: U1.12: PCB has 'unconnected-(U1-P0.31-Pad12)', expected no net.\n- FAIL: U1.16: PCB has 'unconnected-(U1-P0.27-Pad16)', expected no net.\n- FAIL: U1.19: PCB has 'unconnected-(U1-P0.26-Pad19)', expected no net.\n- FAIL: U1.20: PCB has 'unconnected-(U1-P0.04-Pad20)', expected no net.\n- FAIL: U1.22: PCB has 'unconnected-(U1-P0.06-Pad22)', expected no net.\n- FAIL: U1.23: PCB has 'unconnected-(U1-P0.07-Pad23)', expected no net.\n- FAIL: U1.24: PCB has 'unconnected-(U1-P0.08-Pad24)', expected no net.\n- FAIL: U1.25: PCB has 'unconnected-(U1-P1.08-Pad25)', expected no net.\n- FAIL: U1.26: PCB has 'unconnected-(U1-P1.09-Pad26)', expected no net.\n- FAIL: U1.27: PCB has 'unconnected-(U1-P0.11-Pad27)', expected no net.\n\nImpacted analysis categories to re-run with their own tools:\n- power: check_power_integrity / pdn_calculate_voltage_drop\n- signal_integrity: si_calculate_trace_impedance / si_analyze_high_speed_channel\n\nPreserved project gates (not re-run): dfm, manufacturing, schematic"
+      },
+      "isError": false
+    }
+  }
+]

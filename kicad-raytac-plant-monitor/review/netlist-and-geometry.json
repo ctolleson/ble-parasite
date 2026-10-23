@@ -1,0 +1,306 @@
+{
+  "checked_at": "2026-10-22",
+  "native_netlist_pad_count": 133,
+  "pcb_named_pads": 133,
+  "matching_pad_nets": 133,
+  "mismatches": [],
+  "normalization": "KiCad {slash} escape normalized to /",
+  "intentional_no_connect_pads": 40,
+  "outline": [],
+  "min_trace_width_mm": 0.15,
+  "trace_segments": 239,
+  "via_count": 38,
+  "via_dimensions": [
+    [
+      0.6,
+      0.3
+    ]
+  ],
+  "all_vias_through": true,
+  "soil_endpoint_pad_layers": [
+    {
+      "pad": "1",
+      "layers": [
+        "F.Cu"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "ref": "C1",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "1n",
+      "mpn": "C0805C102J5GACTU",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R6",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "value": "1M",
+      "mpn": "RC0805FR-071ML",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R4",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "value": "10k",
+      "mpn": "RC0805FR-0710KL",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "Q1",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "value": "MMBT3906",
+      "mpn": "MMBT3906LT1G",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R1",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "value": "10k",
+      "mpn": "RC0805FR-0710KL",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP1",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "value": "SWDIO",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP2",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "value": "SWDCLK",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP5",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "value": "CPARA",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP6",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "value": "PWM",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R2",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "value": "1k",
+      "mpn": "RC0805FR-071KL",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C2",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "100n",
+      "mpn": "C0805C104K5RACTU",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "Y1",
+      "footprint": "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm",
+      "value": "32.768kHz",
+      "mpn": "STDMUA9-32.768K",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "D2",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "value": "LED",
+      "mpn": "AP2012SURCK",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C4",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "12p",
+      "mpn": "C0805C120J5GACTU",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C3",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "12p",
+      "mpn": "C0805C120J5GACTU",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R7",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "value": "10k",
+      "mpn": "RC0805FR-0710KL",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R8",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "value": "10k",
+      "mpn": "RC0805FR-0710KL",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U2",
+      "footprint": "kicad:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm",
+      "value": "SHTC3",
+      "mpn": "SHTC3-TR-2.5KS",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "D1",
+      "footprint": "Diode_SMD:D_MiniMELF",
+      "value": "LL4148",
+      "mpn": "LL4148",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "REF**",
+      "footprint": "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen",
+      "value": "OSHW-Symbol_6.7x6mm_SilkScreen",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP4",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "value": "RST",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "R10",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "value": "470",
+      "mpn": "RC0805FR-07470RL",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "Q4",
+      "footprint": "snapeda:TR8",
+      "value": "Q_Photo_NPN",
+      "mpn": "ALS-PT19-315C/L177/TR8",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "J3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "value": "NFC ANTENNA",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP9",
+      "footprint": "b-parasite:Soil_Electrode_Endpoint_Covered",
+      "value": "SOIL_ELECTRODE",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP7",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "value": "+3V0",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C5",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "100n",
+      "mpn": "C0805C104K5RACTU",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "RST1",
+      "footprint": "snapeda:SW_B3U-1000P",
+      "value": "B3U-1000P",
+      "mpn": "B3U-1000P",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "J2",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "value": "I2C 3V",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "G***",
+      "footprint": "b-parasite:circuit_drawing",
+      "value": "LOGO",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "J1",
+      "footprint": "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD",
+      "value": "Cortex SWD 10-pin",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "C6",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "value": "10u",
+      "mpn": "GRM21BR61C106KE15L",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "U1",
+      "footprint": "RF_Module:Raytac_MDBT50Q",
+      "value": "MDBT50Q-1MV2",
+      "mpn": "MDBT50Q-1MV2",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "SW1",
+      "footprint": "snapeda:SW_B3U-1000P",
+      "value": "B3U-1000P",
+      "mpn": "B3U-1000P",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "TP3",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "value": "GND",
+      "mpn": "",
+      "layer": "F.Cu"
+    },
+    {
+      "ref": "BT1",
+      "footprint": "b-parasite:BatteryHolder_Keystone_1060_NoBodySilk",
+      "value": "Battery_Cell",
+      "mpn": "1060",
+      "layer": "B.Cu"
+    }
+  ],
+  "source_sha256": {
+    "parasite.kicad_pcb": "35ad7de84f2d9267c1fbd0ca7b72f557796055d9c103e96e6aa49c3b1f144e3c",
+    "parasite.kicad_sch": "69725403cdc941b7f639199203f77c5fd0c84b557c6ffafcb7b47c1e9b4d67fa",
+    "parasite.kicad_pro": "3cb91a1c933b460f2d20b78a0af129a0715bdfcb18da25ae40b1a179d7648937"
+  },
+  "metadata_only_followup": "Corrected PCB title, date, revision and description to identify the module project; git diff confirms no electrical or geometric changes.",
+  "button_alignment": {
+    "positions_mm_deg": {
+      "RST1": [
+        65,
+        51,
+        -90
+      ],
+      "SW1": [
+        56,
+        51,
+        -90
+      ]
+    },
+    "pad_net_assignments_unchanged": true,
+    "description": "RST1 moved up 1.5 mm; local reset route and via moved to keep the via outside its SMT pad."
+  },
+  "model_refresh": "Restored library 3D models; footprint positions and pad geometry/nets verified unchanged.",
+  "sensor_model_followup": "Added Q4 local STEP and U2 official Sensirion STEP, with model rotations/offsets. Recursive PCB comparison excluding model nodes is identical to previous committed board; prior zero-violation DRC remains applicable."
+}
