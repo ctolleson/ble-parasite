@@ -540,7 +540,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../raytac-module.net",
+      "netlist": "../../raytac-final.net",
       "plot": "",
       "specctra_dsn": "parasite.dsn",
       "step": "",
