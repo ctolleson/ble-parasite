@@ -327,12 +327,6 @@
 		(path "/f6966a64-57dd-4970-b55c-e965818c0722")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -576,12 +570,6 @@
 		(path "/9898b674-75f1-4c71-8bf3-2dd81bc212d7")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -825,12 +813,6 @@
 		(path "/9ac3e04d-6555-4958-beb2-e427ce05b427")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1035,12 +1017,6 @@
 		(path "/ace0eadc-b0fb-4026-96bc-312fe6d4dbfb")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1339,6 +1315,17 @@
 			(uuid "088f77ba-fca9-42b3-876e-a6937267f957")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -1497,12 +1484,6 @@
 		(path "/47e58d8c-1270-4bf5-8bec-ea05cc25e113")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1577,6 +1558,17 @@
 			(uuid "182b2d54-931d-49d6-9f39-60a752623e36")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -1648,12 +1640,6 @@
 		(path "/aad1b7c6-ce6f-4424-9208-919f16011896")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1769,12 +1755,6 @@
 		(path "/62cf6b2b-49cd-4723-ace5-6a9ba1c468d2")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1890,12 +1870,6 @@
 		(path "/8a7266b3-eea1-419f-b578-4a9912ce42bc")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2011,12 +1985,6 @@
 		(path "/2e5f5e88-29ec-4fc8-ad47-5bc9cc719d48")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2219,12 +2187,6 @@
 		(path "/ed7c9000-f3cd-47c1-b996-514adcbfd6d4")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2481,12 +2443,6 @@
 		(path "/05f40fba-4f83-4bf5-9e73-4e35232eb7ea")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2561,6 +2517,17 @@
 			(uuid "22999e73-da32-43a5-9163-4b3a41614f25")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
@@ -2697,12 +2664,6 @@
 		(path "/3b3e3e96-37aa-4c30-9be2-0b3bdb815691")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2835,6 +2796,17 @@
 			(uuid "0f22151c-f260-4674-b486-4710a2c42a55")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
@@ -2980,12 +2952,6 @@
 		(path "/8532b5f9-4b52-4917-884b-45b28b755d9b")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3111,6 +3077,17 @@
 			(uuid "1e518c2a-4cb7-4599-a1fa-5b9f847da7d3")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -3282,12 +3259,6 @@
 		(path "/d0068886-9845-4002-9890-f9cda1c8530c")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3362,6 +3333,17 @@
 			(uuid "3fd54105-4b7e-4004-9801-76ec66108a22")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -3533,12 +3515,6 @@
 		(path "/df7a73ea-2304-4619-961b-c260f2d70cb7")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3782,12 +3758,6 @@
 		(path "/06157247-5683-46e3-a74d-1139758fa6f0")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4031,12 +4001,6 @@
 		(path "/4393f6e6-5b05-4569-ab44-e01a8e0c210f")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4228,12 +4192,6 @@
 		(path "/f29a21b0-90d3-4e35-ac96-7b2aec38f688")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1" "4" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4443,6 +4401,17 @@
 			(uuid "0a3cc030-c9dd-4d74-9d50-715ed2b361a2")
 		)
 		(embedded_fonts no)
+		(model "${KISYS3DMOD}/Sensor_Humidity.3dshapes/Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_MiniMELF"
 		(layer "F.Cu")
@@ -4540,12 +4509,6 @@
 		(path "/2c539896-9da8-4533-9256-93adc9d9243e")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4760,6 +4723,17 @@
 			(uuid "cc15f583-a41b-43af-ba94-a75455506a96")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
 		(locked yes)
@@ -4978,12 +4952,6 @@
 		(path "/6f2b55a1-746d-43a2-b9e4-ea8ab8572749")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5186,12 +5154,6 @@
 		(path "/1eee9d17-9d87-4086-9816-83794dbe86fc")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5354,12 +5316,6 @@
 		(path "/55749385-86d3-4e2e-b82a-cb06ae52e41b")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5551,12 +5507,6 @@
 		(path "/9821b5ed-9b03-4b85-a40d-58a92e17129b")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5714,6 +5664,17 @@
 			(uuid "9eafb861-9234-4a05-bd8c-c904ae082966")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "b-parasite:Soil_Electrode_Endpoint_Covered"
 		(layer "F.Cu")
@@ -5773,12 +5734,6 @@
 		(path "/3aa7bd8a-cf10-4d12-a0d6-0bab524a59bc")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5895,12 +5850,6 @@
 		(path "/46865e82-e739-4013-847e-5f30ad507003")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6103,12 +6052,6 @@
 		(path "/16ae4136-d891-435b-bf49-6264777e62a8")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6183,13 +6126,24 @@
 			(uuid "945e7bb8-b811-4565-97c0-bfde38feced6")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "snapeda:SW_B3U-1000P"
 		(layer "F.Cu")
 		(uuid "83441e49-e67f-4a2d-b185-3e8c95ee39b8")
 		(at 65 51 -90)
 		(property "Reference" "RST1"
-			(at 0.475 -2.335 270)
+			(at 0.475 -2.335 90)
 			(layer "F.SilkS")
 			(uuid "7f1f218d-380d-416f-9fbc-1b0ecb4e2f2b")
 			(effects
@@ -6200,7 +6154,7 @@
 			)
 		)
 		(property "Value" "B3U-1000P"
-			(at 4.92 2.265 270)
+			(at 4.92 2.265 90)
 			(layer "F.Fab")
 			(uuid "dba7bddb-9385-49b9-a7a1-927c14993313")
 			(effects
@@ -6211,7 +6165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "587c15c6-e86b-423b-8869-c2750fd830cd")
@@ -6222,7 +6176,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e44ae908-33c2-4e36-bb64-13d8282885e3")
@@ -6580,6 +6534,17 @@
 			(uuid "5b605039-d03a-414d-b38d-c62d6fe363f0")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -6647,12 +6612,6 @@
 		(path "/e1d1c8c3-5ffc-46a4-aabd-c0b3c61a677b")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6832,6 +6791,17 @@
 			(uuid "da310a86-8aac-4925-9fd4-e8e6d4c05ee3")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "b-parasite:circuit_drawing"
 		(layer "F.Cu")
@@ -8448,12 +8418,6 @@
 		(path "/70e5bcd1-79e0-449f-8fcb-85a789da469c")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "7" "9" "1" "3" "5" "10" "4" "2" "6" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8989,6 +8953,17 @@
 			(uuid "a9d034ae-d0cd-4455-8cdd-6e97652c4644")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical_SMD.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -9147,12 +9122,6 @@
 		(path "/22f594c7-37c4-49bc-8f82-35917f252cc4")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9227,6 +9196,17 @@
 			(uuid "ab6a65bc-25ee-4cbd-a884-091c2e6199b5")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "RF_Module:Raytac_MDBT50Q"
 		(layer "F.Cu")
@@ -9312,17 +9292,6 @@
 		(path "/ac5f8271-a9ab-4f81-a552-5cd236cddd73")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "51" "53" "11" "9" "20" "21" "13" "10" "14" "12" "52" "54" "34"
-					"35" "61" "50" "60" "56" "59" "57" "58" "25" "3" "4" "5" "6" "7" "8"
-					"28" "30" "1" "33" "2" "15" "55" "32" "31" "17" "18" "22" "24" "37"
-					"36" "39" "38" "41" "40" "42" "44" "43" "46" "45" "48" "49" "19" "16"
-					"47" "29" "27" "26" "23"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10171,6 +10140,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/Raytac_MDBT50Q.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "snapeda:SW_B3U-1000P"
 		(layer "F.Cu")
@@ -10334,12 +10314,6 @@
 		(path "/7296d4a4-3436-4dbe-be99-38f61262609e")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10563,6 +10537,17 @@
 			(uuid "348a413d-bbe7-4442-9ecc-9e425574582e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -10634,12 +10619,6 @@
 		(path "/124daa09-a8de-4043-b53a-8bdf2046d6b2")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -10788,12 +10767,6 @@
 		(path "/406d334e-339e-4629-a7a6-841dbe06928d")
 		(sheetname "/")
 		(sheetfile "parasite.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle

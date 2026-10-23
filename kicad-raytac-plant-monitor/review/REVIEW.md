@@ -34,3 +34,7 @@ Raw output is preserved in `mcp-gates.json`; it predates the final metadata-only
 ## Horizontal button alignment
 
 SW1 is at (56, 51) mm and RST1 at (65, 51) mm, both rotated -90°. RST1 moved up 1.5 mm; its local reset route and via were adjusted to avoid placing the via in the SMT pad. Native DRC was rerun: zero violations and zero unconnected items. All component pad-net assignments are unchanged. The front preview and source hash are refreshed; the earlier MCP gate capture remains historical evidence.
+
+## 3D preview
+
+Restored available KiCad library model assignments, including the Raytac module, connectors and Omron B3U-1000P buttons. `pcb-3d.png` shows SW1 and RST1 on the same horizontal board axis. Q4 and U2 have no assigned 3D body, so their pads remain visible in the preview. This is a model preview, not a fully populated assembly photograph. Verified all footprint positions and pad geometry/net assignments remained unchanged. DRC after the library refresh: zero violations and zero unconnected items.
