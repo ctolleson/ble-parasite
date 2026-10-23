@@ -30,3 +30,7 @@ Raw output is preserved in `mcp-gates.json`; it predates the final metadata-only
 - NFC requires an external antenna and its matching/tuning components. The integrated chip antenna is only for BLE.
 - Firmware GPIO assignments must follow the new schematic. Verify external LF crystal startup, sleep current, BLE performance, NFC operation and soil-sensor calibration on prototypes.
 - Human engineering review and hardware testing are still required. No production-readiness claim is made from ERC/DRC alone.
+
+## Horizontal button alignment
+
+SW1 is at (56, 51) mm and RST1 at (65, 51) mm, both rotated -90°. RST1 moved up 1.5 mm; its local reset route and via were adjusted to avoid placing the via in the SMT pad. Native DRC was rerun: zero violations and zero unconnected items. All component pad-net assignments are unchanged. The front preview and source hash are refreshed; the earlier MCP gate capture remains historical evidence.

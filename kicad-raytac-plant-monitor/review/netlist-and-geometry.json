@@ -280,9 +280,25 @@
     }
   ],
   "source_sha256": {
-    "parasite.kicad_pcb": "4bef40300dfbdad415b48e00e42d30e389e931aee71014d30a0afec5bef717f1",
+    "parasite.kicad_pcb": "e2c2e8beda1287986b2e92002c736d3c5793ce1d66a175ff00d70ee0abcb0c3a",
     "parasite.kicad_sch": "69725403cdc941b7f639199203f77c5fd0c84b557c6ffafcb7b47c1e9b4d67fa",
     "parasite.kicad_pro": "3cb91a1c933b460f2d20b78a0af129a0715bdfcb18da25ae40b1a179d7648937"
   },
-  "metadata_only_followup": "Corrected PCB title, date, revision and description to identify the module project; git diff confirms no electrical or geometric changes."
+  "metadata_only_followup": "Corrected PCB title, date, revision and description to identify the module project; git diff confirms no electrical or geometric changes.",
+  "button_alignment": {
+    "positions_mm_deg": {
+      "RST1": [
+        65,
+        51,
+        -90
+      ],
+      "SW1": [
+        56,
+        51,
+        -90
+      ]
+    },
+    "pad_net_assignments_unchanged": true,
+    "description": "RST1 moved up 1.5 mm; local reset route and via moved to keep the via outside its SMT pad."
+  }
 }
