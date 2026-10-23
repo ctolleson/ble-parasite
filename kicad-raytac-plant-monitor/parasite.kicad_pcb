@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "b-parasite - bare nRF52840")
-		(date "2026-10-21")
-		(rev "3.0-prototype")
+		(title "BLE Plant Monitor - Raytac MDBT50Q-1MV2 module")
+		(date "2026-10-22")
+		(rev "MODULE-B")
 		(company "rbaron.net")
-		(comment 1 "DRAFT - JLCPCB review; four layers, ENIG, filled/capped vias")
+		(comment 1 "PROTOTYPE - 0805 host passives; 30 mm straight-sided board; through vias")
 		(comment 2 "Derived from rbaron/b-parasite; hardware CC BY-SA 4.0")
 	)
 	(layers

@@ -280,8 +280,9 @@
     }
   ],
   "source_sha256": {
-    "parasite.kicad_pcb": "77aed02484090099c8d25ed9af992000a06c9ae64e55b60cc02ebfe7e7c0f454",
+    "parasite.kicad_pcb": "4bef40300dfbdad415b48e00e42d30e389e931aee71014d30a0afec5bef717f1",
     "parasite.kicad_sch": "69725403cdc941b7f639199203f77c5fd0c84b557c6ffafcb7b47c1e9b4d67fa",
     "parasite.kicad_pro": "3cb91a1c933b460f2d20b78a0af129a0715bdfcb18da25ae40b1a179d7648937"
-  }
+  },
+  "metadata_only_followup": "Corrected PCB title, date, revision and description to identify the module project; git diff confirms no electrical or geometric changes."
 }

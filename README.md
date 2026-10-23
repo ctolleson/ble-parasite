@@ -1,6 +1,18 @@
 [![b-parasite firmware build](https://github.com/rbaron/b-parasite/actions/workflows/b-parasite.yml/badge.svg?branch=main)](https://github.com/rbaron/b-parasite/actions/workflows/b-parasite.yml)
 
 # b-parasite
+
+## Plant monitor KiCad projects
+
+These are two independent hardware designs. Each has its own `.kicad_pro`, `.kicad_sch`, `.kicad_pcb`, and project libraries.
+
+| Design | KiCad project | Git branch |
+| --- | --- | --- |
+| **BLE module — Raytac MDBT50Q-1MV2** | [kicad-raytac-plant-monitor/parasite.kicad_pro](kicad-raytac-plant-monitor/parasite.kicad_pro) | `feature-raytac-module-plant-monitor` |
+| **Bare MCU — nRF52840-QIAA, AQFN-73** | [kicad-bare-nrf52840/parasite.kicad_pro](https://github.com/ctolleson/ble-parasite/blob/feature-nrf52840-bare-mcu-plant-monitor/kicad-bare-nrf52840/parasite.kicad_pro) | `feature-nrf52840-bare-mcu-plant-monitor` |
+
+The module revision uses 0805 ordinary passives and a 30 mm straight-sided PCB. The bare-MCU project is preserved independently on its branch and in its original checkout. Both use the historical filename `parasite`; identify them by their project directory. The module conversion did not replace the bare-MCU schematic or PCB. The upstream `kicad/` directory below is historical b-parasite reference hardware, not either customized project above.
+
 <p align="center">
   <img src="img/resized/b-parasite-2.0.0.jpg" width="512px" border="0" alt="PCB front and back photo" />
 </p>
