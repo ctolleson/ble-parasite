@@ -37,4 +37,8 @@ SW1 is at (56, 51) mm and RST1 at (65, 51) mm, both rotated -90°. RST1 moved up
 
 ## 3D preview
 
-Restored available KiCad library model assignments, including the Raytac module, connectors and Omron B3U-1000P buttons. `pcb-3d.png` shows SW1 and RST1 on the same horizontal board axis. Q4 and U2 have no assigned 3D body, so their pads remain visible in the preview. This is a model preview, not a fully populated assembly photograph. Verified all footprint positions and pad geometry/net assignments remained unchanged. DRC after the library refresh: zero violations and zero unconnected items.
+Restored available KiCad library model assignments, including the Raytac module, connectors and Omron B3U-1000P buttons. `pcb-3d.png` shows the full board; `pcb-3d-sensors.png` shows the component area and horizontally aligned SW1/RST1 buttons.
+
+Q4 now uses the existing project-local ALS-PT19-315C/L177/TR8 STEP model. U2 uses the official Sensirion SHTC3 STEP download. Both assignments are stored in the PCB and project-local footprint libraries. Model provenance and coordinate transforms are recorded in `../lib/models/README.md`.
+
+The rendered views were inspected for body placement and orientation. A recursive comparison of the entire PCB against the preceding commit, excluding only model nodes, is identical: footprint positions, pads, nets, routing, zones and outline are unchanged. The preceding native DRC result (zero violations and zero unconnected items) therefore remains applicable; DRC was not rerun for this model-only update. These are model previews, not assembly photographs.

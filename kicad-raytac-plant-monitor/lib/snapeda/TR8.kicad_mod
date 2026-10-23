@@ -164,4 +164,9 @@
 		(uuid "6e6e9682-a28b-4e92-a3c4-85903aa74363")
 	)
 	(embedded_fonts no)
+  (model "${KIPRJMOD}/lib/snapeda/TR8--3DModel-STEP-56544.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
 )

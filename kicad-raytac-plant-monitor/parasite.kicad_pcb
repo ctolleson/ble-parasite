@@ -4401,15 +4401,15 @@
 			(uuid "0a3cc030-c9dd-4d74-9d50-715ed2b361a2")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Sensor_Humidity.3dshapes/Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm.wrl"
+		(model "${KIPRJMOD}/lib/models/SHTC3.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -122.25 -17.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5439,6 +5439,17 @@
 			(uuid "632acde9-b7fd-4f04-8cb4-d2cbb06b3595")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/snapeda/TR8--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")

@@ -280,7 +280,7 @@
     }
   ],
   "source_sha256": {
-    "parasite.kicad_pcb": "7e9eff074a6d2b8e8755464a9e9d9f9e0dc37d9db95390381a8a9e79538b4d9e",
+    "parasite.kicad_pcb": "35ad7de84f2d9267c1fbd0ca7b72f557796055d9c103e96e6aa49c3b1f144e3c",
     "parasite.kicad_sch": "69725403cdc941b7f639199203f77c5fd0c84b557c6ffafcb7b47c1e9b4d67fa",
     "parasite.kicad_pro": "3cb91a1c933b460f2d20b78a0af129a0715bdfcb18da25ae40b1a179d7648937"
   },
@@ -301,5 +301,6 @@
     "pad_net_assignments_unchanged": true,
     "description": "RST1 moved up 1.5 mm; local reset route and via moved to keep the via outside its SMT pad."
   },
-  "model_refresh": "Restored library 3D models; footprint positions and pad geometry/nets verified unchanged."
+  "model_refresh": "Restored library 3D models; footprint positions and pad geometry/nets verified unchanged.",
+  "sensor_model_followup": "Added Q4 local STEP and U2 official Sensirion STEP, with model rotations/offsets. Recursive PCB comparison excluding model nodes is identical to previous committed board; prior zero-violation DRC remains applicable."
 }
