@@ -540,7 +540,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "output/netlist.net",
+      "netlist": "../../large-smt.net",
       "plot": "",
       "specctra_dsn": "parasite.dsn",
       "step": "",
