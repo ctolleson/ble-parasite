@@ -13,10 +13,10 @@ Independent KiCad project using Raytac MDBT50Q-1MV2 with its integrated chip ant
 - CR2032 supply; module VDD and VDDH share +3V0, REG0 bypassed. DCCH is unused. VBUS is grounded and USB data pins are unused, following Raytac's no-USB application circuit.
 - Module contains the 32 MHz crystal, RF matching and regulator inductors. External 32.768 kHz crystal retained.
 - All seven ordinary host resistors, all six capacitors and D2 use standard imperial **0805** (2.0 × 1.25 mm nominal bodies). The Raytac module, sensors, crystal, diode, transistor, switches and connectors retain their required packages. Values are preserved; 0805 manufacturer part numbers and electrical ratings are recorded in the schematic and PCB fields. Inventory has not been rechecked for this revision.
-- Rectangular **30.0 × 126.4 mm** board with straight, parallel vertical sides, replacing the earlier 49 mm-wide head. Components are above the soil limit; the CR2032 holder is on the back.
+- **30.0 × 126.4 mm** board with straight, parallel vertical sides and a 45° tapered bottom tip inspired by the original b-parasite. Components are above the soil limit; the CR2032 holder is on the back.
 - Four copper layers; 0.15 mm minimum signal width, 0.125 mm clearance, ordinary through vias with 0.60 mm copper / 0.30 mm drill. No blind/buried vias or microvias.
 - Antenna at the top board edge with an all-layer copper/tracks/vias keepout across the head. Keep metal, the battery, cables and enclosure hardware away from the antenna.
-- Soil probe electrode and surrounding ground remain covered by solder mask.
+- Soil probe electrode and surrounding ground remain covered by solder mask. A GND through via near the tip connects the front and back probe ground pours.
 
 ## Validation status
 

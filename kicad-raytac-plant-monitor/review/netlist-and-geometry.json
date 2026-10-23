@@ -6,10 +6,31 @@
   "mismatches": [],
   "normalization": "KiCad {slash} escape normalized to /",
   "intentional_no_connect_pads": 40,
-  "outline": [],
+  "outline": [
+    [
+      53,
+      27
+    ],
+    [
+      83,
+      27
+    ],
+    [
+      83,
+      138.4
+    ],
+    [
+      68,
+      153.4
+    ],
+    [
+      53,
+      138.4
+    ]
+  ],
   "min_trace_width_mm": 0.15,
   "trace_segments": 239,
-  "via_count": 38,
+  "via_count": 39,
   "via_dimensions": [
     [
       0.6,
@@ -280,7 +301,7 @@
     }
   ],
   "source_sha256": {
-    "parasite.kicad_pcb": "35ad7de84f2d9267c1fbd0ca7b72f557796055d9c103e96e6aa49c3b1f144e3c",
+    "parasite.kicad_pcb": "b9f3eed85213e70e89cbda00647b4d645f23706d290b13e0990653bab116008c",
     "parasite.kicad_sch": "69725403cdc941b7f639199203f77c5fd0c84b557c6ffafcb7b47c1e9b4d67fa",
     "parasite.kicad_pro": "3cb91a1c933b460f2d20b78a0af129a0715bdfcb18da25ae40b1a179d7648937"
   },
@@ -302,5 +323,19 @@
     "description": "RST1 moved up 1.5 mm; local reset route and via moved to keep the via outside its SMT pad."
   },
   "model_refresh": "Restored library 3D models; footprint positions and pad geometry/nets verified unchanged.",
-  "sensor_model_followup": "Added Q4 local STEP and U2 official Sensirion STEP, with model rotations/offsets. Recursive PCB comparison excluding model nodes is identical to previous committed board; prior zero-violation DRC remains applicable."
+  "sensor_model_followup": "Added Q4 local STEP and U2 official Sensirion STEP, with model rotations/offsets. Recursive PCB comparison excluding model nodes is identical to previous committed board; prior zero-violation DRC remains applicable.",
+  "pointed_probe": {
+    "via_position_mm": [
+      68,
+      150.5
+    ],
+    "via_net": "GND",
+    "via_diameter_drill_mm": [
+      0.6,
+      0.3
+    ],
+    "outer_ground_pours_connected": true,
+    "verification": "Native DRC zero violations/unconnected. Eight annulus points inside GND filled polygons on both F.Cu and B.Cu. All previous footprints, tracks and vias unchanged.",
+    "schematic_unchanged": true
+  }
 }

@@ -5,8 +5,8 @@
 - Schematic ERC: zero violations (`erc.json`).
 - PCB DRC: zero violations and zero unconnected items (`drc.json`), after copper refill and final schematic field synchronization.
 - Native schematic netlist comparison: all 133 named component pads match the PCB. This includes 40 intentional no-connect nets; KiCad's `{slash}` name escape is normalized to `/` for comparison. U1.30 is +3V0 and J1.9 is GND.
-- Rectangular 30.0 × 126.4 mm outline, x=53…83 and y=27…153.4 mm.
-- Minimum routed width 0.15 mm. All 38 vias are ordinary F.Cu–B.Cu through vias, 0.60 mm diameter / 0.30 mm drill. Four layers; no microvias, blind or buried vias required by this layout.
+- 30.0 × 126.4 mm outline, x=53…83 and y=27…153.4 mm, with vertical sides to y=138.4 mm and 45° tapers to the bottom point (68,153.4) mm.
+- Minimum routed width 0.15 mm. All 39 vias are ordinary F.Cu–B.Cu through vias, 0.60 mm diameter / 0.30 mm drill. Four layers; no microvias, blind or buried vias required by this layout.
 - Seven resistors, six capacitors and the LED have 0805 footprints. Required specialized packages remain unchanged.
 - The sensing electrode endpoint has only F.Cu and no solder-mask opening. CPARA and the surrounding probe ground remain covered.
 - Front copper and silkscreen plot visually reviewed. The schematic PDF is included for review; a few harmless legacy junction dots remain in unused sheet space.
@@ -21,7 +21,7 @@ Raw output is preserved in `mcp-gates.json`; it predates the final metadata-only
 - Placement heuristic flags battery-holder overlaps with front components. BT1 is on B.Cu; those components are on F.Cu. Native same-side courtyard checks pass. Its outside-board flags for U1/BT1 do not match their transformed physical body extents: U1 body x=62.75…73.25, y=27.25…42.75 mm; BT1 body lies about x=59.65…76.35, y=50.95…80.05 mm, inside the board.
 - C4/C5 and J2/R8 bounding-box overlap flags are not native courtyard intersections; DRC reports zero courtyard violations.
 - The decoupling heuristic uses module center distance (11.05 mm). C5's +3V0 pad is at (72,44.45), near module power pads (69.6,42.15) and (70.4,42.15), connected by short direct host power tracks. The module has internal decoupling; C5/C6 remain host bypass/bulk capacitors.
-- The top antenna keepout excludes copper, tracks and vias on all four copper layers. The MCP-generated rule area additionally names Edge.Cuts; this is a rule-area layer tag, not an extra outline segment. The native outline remains the four intended edges. Review antenna clearance in the final enclosure.
+- The top antenna keepout excludes copper, tracks and vias on all four copper layers. The MCP-generated rule area additionally names Edge.Cuts; this is a rule-area layer tag, not an extra outline segment. The native outline remains the five intended outline segments. Review antenna clearance in the final enclosure.
 
 ## Remaining release and prototype checks
 
@@ -42,3 +42,13 @@ Restored available KiCad library model assignments, including the Raytac module,
 Q4 now uses the existing project-local ALS-PT19-315C/L177/TR8 STEP model. U2 uses the official Sensirion SHTC3 STEP download. Both assignments are stored in the PCB and project-local footprint libraries. Model provenance and coordinate transforms are recorded in `../lib/models/README.md`.
 
 The rendered views were inspected for body placement and orientation. A recursive comparison of the entire PCB against the preceding commit, excluding only model nodes, is identical: footprint positions, pads, nets, routing, zones and outline are unchanged. The preceding native DRC result (zero violations and zero unconnected items) therefore remains applicable; DRC was not rerun for this model-only update. These are model previews, not assembly photographs.
+
+## Pointed probe and ground stitch
+
+Adapted the 45° bottom taper from [the original b-parasite PCB](https://github.com/rbaron/b-parasite/blob/main/kicad/parasite.kicad_pcb) to the wider 30 mm module board. Overall dimensions remain 30 × 126.4 mm. The new point is a straight-segment apex; the original uses a small rounded apex. No component placement or CPARA geometry was changed.
+
+Added GND through via UUID `688bcf76-8767-4168-a3b2-5cb2d8ada8df` at (68,150.5) mm, copper diameter 0.60 mm and drill 0.30 mm, F.Cu–B.Cu. After native zone refill, point-in-polygon checks at eight positions around its annulus confirm surrounding GND fill on both outer layers. The via copper has approximately 1.75 mm clearance to each sloped board edge. The probe remains covered by solder mask; no mask openings were added.
+
+All footprint definitions (including models, pad geometry and nets), existing tracks and existing vias compare identically with the pre-edit board. The schematic is unchanged. Native DRC and PCB quality gate pass with zero violations, zero unconnected items and zero courtyard issues. No new exclusions were added. `pointed-probe-gates.json` records the MCP checks; the same previously reviewed no-connect naming, wire-interior pin-join and placement heuristic findings persist. This is not an all-gates-pass or manufacturing-release claim.
+
+`pcb-3d.png`, `pcb-front.svg` and `pcb-front.png` are refreshed for this outline. The component-area close-up remains applicable because component placement and models did not change. Earlier manufacturing packages and quotations do not represent this revision.
