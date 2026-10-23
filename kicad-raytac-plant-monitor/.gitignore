@@ -1,0 +1,6 @@
+*.kicad_prl
+~*.lck
+*.kicad_pcb.lck
+output/
+.kicad-mcp/
+*-backups/

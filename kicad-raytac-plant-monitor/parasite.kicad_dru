@@ -1,0 +1,3 @@
+(version 1)
+# Prototype rules are defined by Board Setup constraints and netclasses.
+# MCU signal vias: 0.35 mm copper / 0.15 mm finished hole, filled and capped.
